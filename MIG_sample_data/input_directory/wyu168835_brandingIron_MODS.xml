@@ -1,0 +1,76 @@
+
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <nonSort>The</nonSort>
+    <title>
+      branding iron
+    </title>
+  </titleInfo>
+  <titleInfo type="alternative">
+    <title>Campus roundup</title>
+  </titleInfo>
+  <titleInfo type="alternative">
+    <title>Summer roundup</title>
+  </titleInfo>
+  <titleInfo type="alternative">
+    <title>Roundup</title>
+  </titleInfo>
+  <titleInfo type="alternative">
+    <title>Summer branding iron</title>
+    <titleInfo type="alternative">
+      <title>University of Wyoming branding iron</title>
+    </titleInfo>
+  </titleInfo>
+  <name type="corporate">
+    <namePart>
+      Associated Students of the University of Wyoming
+    </namePart>
+  </name>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="marcgt">newspaper</genre>
+  <originInfo eventType="publication">
+    <place>
+      <placeTerm authority="marccountry" type="code">wyu</placeTerm>
+    </place>
+    <place>
+      <placeTerm type="text">Laramie, WY</placeTerm>
+    </place>
+    <publisher>
+      Associated Students of the University of Wyoming
+    </publisher>
+    <dateIssued>1923-</dateIssued>
+    <dateIssued encoding="marc" point="start">1923</dateIssued>
+    <issuance>continuing</issuance>
+    <frequency>Frequency varies</frequency>
+  </originInfo>
+  <language>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form authority="marcform">print</form>
+    <extent>v. : ill.</extent>
+    <digitalOrigin>reformatted digital</digitalOrigin>
+  </physicalDescription>
+  <note>Not published during academic breaks</note>
+  <subject authority="lcsh">
+    <topic>University of Wyoming</topic>
+    <topic>Newspapers</topic>
+  </subject>
+  <subject authority="lcsh">
+    <topic>College student newspapers and periodicals</topic>
+    <topic>Wyoming</topic>
+  </subject>
+  <subject authority="lcsh">
+    <topic>Laramie (Wyo.)</topic>
+    <topic>Newspapers</topic>
+  </subject>
+  <relatedItem type="preceeding">
+    <titleInfo>
+      <title>Wyoming student</title>
+    </titleInfo>
+  </relatedItem>
+  <recordInfo>
+    <recordIdentifier>904243322</recordIdentifier>
+  </recordInfo>
+  <accessCondition type="use and reproduction" displayLabel="Standardized rights statement" xlink:href="http://rightsstatements.org/vocab/UND/1.0/">Copyright Undetermined</accessCondition>
+</mods>

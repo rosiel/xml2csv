@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.1" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+  <titleInfo>
+    <title>De symmetria partium in rectis formis humanorum</title>
+    <subTitle></subTitle>
+  </titleInfo>
+  <titleInfo type="alternative">
+    <title></title>
+    <subTitle></subTitle>
+  </titleInfo>
+  <titleInfo type="uniform">
+    <title></title>
+    <partNumber>Book 1-2. Latin</partNumber>
+    <subTitle></subTitle>
+  </titleInfo>
+  <name type="personal">
+    <namePart>Albrecht Dürer</namePart>
+    <namePart type="date"></namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart>Joachim Camerarius (1500-1574)</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Translator</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart>Helius Eobanus Hessus (1488-1540)</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Contributor</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart>Edward Clark Streeter (-1947)</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Former owner</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="gmgpc"></genre>
+  <originInfo>
+    <place>
+      <placeTerm type="code" authority="marccountry"></placeTerm>
+    </place>
+    <place>
+      <placeTerm type="text">Nuremberg (Germany)</placeTerm>
+    </place>
+    <publisher>Excudebatur ... In aedib. viduae Durerianae</publisher>
+    <dateIssued>1532</dateIssued>
+    <dateIssued encoding="marc"></dateIssued>
+    <issuance>monographic</issuance>
+    <copyrightDate></copyrightDate>
+    <edition></edition>
+  </originInfo>
+  <language>
+    <languageTerm authority="iso639-2b" type="code">Latin</languageTerm>
+  </language>
+  <language objectPart="translation">
+    <languageTerm authority="iso639-2b" type="code"></languageTerm>
+  </language>
+  <physicalDescription>
+    <form authority="marcform">print</form>
+    <extent>31 cm.</extent>
+  </physicalDescription>
+  <note>&lt;p&gt;Dürer's woodcut monogram signature (57 mm) on title page; woodcut illustrations in text.&lt;/p&gt;&#13;
+&lt;p&gt;Introductory letter by Christophe Coler.&lt;/p&gt;&#13;
+&lt;p&gt;Verses by Eobanus Hessus on leaf A6.&lt;/p&gt;&#13;
+&lt;p&gt;In Latin, translated from German, with Greek references; Fraktur script.&lt;/p&gt;&#13;
+&lt;p&gt;&lt;a href="http://catalog.nyam.org/cgi-bin/koha/opac-detail.pl?biblionumber=262680"&gt;See catalog record for additional notes.&lt;/a&gt;&lt;/p&gt;</note>
+  <note></note>
+  <note></note>
+  <note></note>
+  <note></note>
+  <note></note>
+  <note></note>
+  <note></note>
+  <note></note>
+  <note type="Height">31.8</note>
+  <note type="Width">20.6</note>
+  <note type="citation/reference">&lt;a href="http://catalog.nyam.org/cgi-bin/koha/opac-detail.pl?biblionumber=262680" target="_blank"&gt; Dürer, Albrecht, et al. &lt;em&gt;De symmetria partium in rectis formis humanorum&lt;/em&gt;. Nuremberg, 1532.</note>
+  <subject authority="lcsh">
+    <topic></topic>
+    <topic>Anatomy, Artistic</topic>
+    <topic>Anthropometry</topic>
+    <topic>Early works to 1800</topic>
+    <topic>Human figure in art</topic>
+    <topic>Medical illustration</topic>
+    <topic>Medicine</topic>
+    <topic>Proportion (Anthropometry)</topic>
+    <topic>Proportion (Art)</topic>
+    <topic>Wood-engraving—16th century</topic>
+    <geographic></geographic>
+    <temporal></temporal>
+    <hierarchicalGeographic>
+      <continent></continent>
+      <country></country>
+      <province></province>
+      <region></region>
+      <county></county>
+      <city></city>
+      <citySection></citySection>
+    </hierarchicalGeographic>
+    <cartographics>
+      <coordinates></coordinates>
+    </cartographics>
+  </subject>
+  <classification authority="lcc"></classification>
+  <relatedItem type="isReferencedBy">
+    <note>Choulant, J.L. Anatomic ill., p. 145</note>
+  </relatedItem>
+  <relatedItem type="isReferencedBy">
+    <note>Osler, W. Catalogue, 4757</note>
+  </relatedItem>
+  <relatedItem type="isReferencedBy">
+    <note>Adams, D-1044</note>
+  </relatedItem>
+  <relatedItem type="isReferencedBy">
+    <note>Meder, J. Dürer, XXIX (1532)</note>
+  </relatedItem>
+  <relatedItem type="isReferencedBy">
+    <note>Brunet, v. 2, column 914</note>
+  </relatedItem>
+  <identifier type="lccn"></identifier>
+  <recordInfo>
+    <recordContentSource authority="marcorg">ZCU</recordContentSource>
+    <recordCreationDate encoding="marc">951113</recordCreationDate>
+    <recordChangeDate encoding="iso8601">20160303150409.0</recordChangeDate>
+    <recordIdentifier source="OCoLC">ocm38310897 </recordIdentifier>
+    <languageOfCataloging>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </languageOfCataloging>
+  </recordInfo>
+  <tableOfContents></tableOfContents>
+  <abstract>Albrecht Dürer, printmaker and painter of the German Renaissance, was equally famous during his lifetime for contributions to the study of mathematics and proportion. In this text, Dürer treats the arithmetic and geometrical constructions of bodies, largely at rest.   Numerous woodcuts represent bodies male and female in various sizes and ages, and register their measurements. The ideas expressed in the De symmetria and the two complimentary volumes that followed, also on human proportion, were widely influential on artists and anatomists for centuries to come. This 1532 text in Latin contains the first two books of the results of this research, first published in German in 1528 as Vier Bücher von menschlicher Proportion (Four Books on Human Proportion.)   Dürer died shortly after receiving the first proofs of the German edition; the remaining publication details were completed by his friends. Our copy is bound in stamped pigskin, with a front panel illustrating Jacob’s ladder and a back panel depicting the baptism of Christ. The woodcut monogram Dürer developed in 1497 to protect his work from piracy is visible on the title page...&lt;a href="/Durer" class="purp" alt="Linked Read More text that goes to more information about De symmetria partium..."&gt;READ MORE&lt;/a&gt;</abstract>
+  <note type="statement of responsibility"></note>
+  <classification edition="21" authority="ddc"></classification>
+</mods>

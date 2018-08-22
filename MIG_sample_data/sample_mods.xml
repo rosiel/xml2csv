@@ -1,0 +1,1309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection>
+   <mods:mods xmlns:mods="http://www.loc.gov/mods/v3"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              version="3.6"
+              xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd http://www.ndltd.org/standards/metadata/etdms/1.0/ http://www.ndltd.org/standards/metadata/etdms/1.0/etdms.xsd">
+      <mods:titleInfo usage="primary">
+         <mods:title>Rapid thinning of the Laurentide Ice Sheet in coastal Maine, USA during late Heinrich Stadial 1</mods:title>
+         <mods:nonSort/>
+         <mods:subTitle/>
+      </mods:titleInfo>
+      <mods:name type="personal" usage="primary">
+         <mods:namePart type="family">Koester</mods:namePart>
+         <mods:namePart type="given">Alexandria Jo</mods:namePart>
+         <mods:displayForm>Koester, Alexandria Jo</mods:displayForm>
+         <mods:role>
+            <mods:roleTerm authority="marcrelator" type="text">Author</mods:roleTerm>
+            <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+         </mods:role>
+         <mods:nameIdentifier type="orcid"/>
+      </mods:name>
+      <mods:name type="personal">
+         <mods:namePart type="family">Shakun</mods:namePart>
+         <mods:namePart type="given">Jeremy D.</mods:namePart>
+         <mods:displayForm>Shakun, Jeremy D.</mods:displayForm>
+         <mods:role>
+            <mods:roleTerm authority="marcrelator" type="text">Thesis advisor</mods:roleTerm>
+            <mods:roleTerm authority="marcrelator" type="code">ths</mods:roleTerm>
+         </mods:role>
+      </mods:name>
+      <mods:typeOfResource>text</mods:typeOfResource>
+      <mods:genre authority="ndltd" type="work type">Electronic Thesis or Dissertation</mods:genre>
+      <mods:genre authority="dct" type="work type">Text</mods:genre>
+      <mods:genre authority="marcgt" type="work type" usage="primary">thesis</mods:genre>
+      <mods:originInfo>
+         <mods:publisher>Boston College</mods:publisher>
+         <mods:dateIssued>2017</mods:dateIssued>
+         <mods:dateIssued encoding="w3cdtf" keyDate="yes">2017</mods:dateIssued>
+         <mods:issuance>monographic</mods:issuance>
+      </mods:originInfo>
+      <mods:language>
+         <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+         <mods:languageTerm authority="iso639-2b" type="text">English</mods:languageTerm>
+      </mods:language>
+      <mods:physicalDescription>
+         <mods:form authority="marcform">electronic</mods:form>
+         <mods:internetMediaType>application/pdf</mods:internetMediaType>
+         <mods:digitalOrigin>born digital</mods:digitalOrigin>
+      </mods:physicalDescription>
+      <mods:abstract>Few data are available to infer the thinning rate of the Laurentide Ice Sheet (LIS) through the last deglaciation, despite its importance for constraining past ice sheet response to climate warming. We measured 31 cosmogenic 10Be exposure ages in samples collected on coastal mountainsides in Acadia National Park and from the slightly inland Pineo Ridge moraine complex, a ~100-km-long glaciomarine delta, to constrain the timing and rate of LIS thinning and subsequent retreat in coastal Maine. Samples collected along vertical transects in Acadia National Park have indistinguishable exposure ages over a 300 m range of elevation, suggesting that rapid, century-scale thinning occurred at 15.2 ± 0.7 ka, similar to the timing of abrupt thinning inferred from cosmogenic exposure ages at Mt. Katahdin in central Maine (Davis et al., 2015). This rapid ice sheet surface lowering, which likely occurred during the latter part of the cold Heinrich Stadial 1 event (19-14.6 ka), may have been due to enhanced ice-shelf melt and calving in the Gulf of Maine, perhaps related to regional oceanic warming associated with a weakened Atlantic Meridional Overturning Circulation at this time. The ice margin subsequently stabilized at the Pineo Ridge moraine complex until 14.5 ± 0.7 ka, near the onset of Bølling Interstadial warming. Our 10Be ages are substantially younger than marine radiocarbon constraints on LIS retreat in the coastal lowlands, suggesting that the deglacial marine reservoir effect in this area was ~1,200 14C years, perhaps also related to the sluggish Atlantic Meridional Overturning Circulation during Heinrich Stadial 1.</mods:abstract>
+      <mods:subject>
+         <mods:topic>Exposure dating</mods:topic>
+      </mods:subject>
+      <mods:subject>
+         <mods:topic>marine-terminating ice sheet</mods:topic>
+      </mods:subject>
+      <mods:subject>
+         <mods:topic>New England deglaciation</mods:topic>
+      </mods:subject>
+      <mods:accessCondition type="use and reproduction">Copyright is held by the author, with all rights reserved, unless otherwise noted.</mods:accessCondition>
+      <mods:extension>
+         <etdms:degree xmlns:etdms="http://www.ndltd.org/standards/metadata/etdms/1.0/">
+            <etdms:name>MS</etdms:name>
+            <etdms:level>Masters</etdms:level>
+            <etdms:discipline>Earth and Environmental Sciences</etdms:discipline>
+            <etdms:grantor>Boston College. Graduate School of Arts and Sciences</etdms:grantor>
+         </etdms:degree>
+      </mods:extension>
+      <mods:recordInfo>
+         <mods:recordContentSource authority="marcorg">MChB</mods:recordContentSource>
+         <mods:recordOrigin>Most grad thesis records are created by transforming ProQuest supplied xml and editing as needed.</mods:recordOrigin>
+         <mods:languageOfCataloging>
+            <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+            <mods:languageTerm authority="iso639-2b" type="text">English</mods:languageTerm>
+         </mods:languageOfCataloging>
+      </mods:recordInfo>
+      <mods:identifier type="hdl">http://hdl.handle.net/2345/bc-ir:107308</mods:identifier>
+   </mods:mods>
+   <mods>
+      <titleInfo>
+         <title>Bill Miner, Train Robber, 1906</title>
+      </titleInfo>
+      <name>
+         <namePart/>
+         <role>
+            <roleTerm type="text" authority="marcrelator">photographer</roleTerm>
+            <roleTerm type="code" authority="marcrelator">pht</roleTerm>
+         </role>
+      </name>
+      <language>
+         <languageTerm type="text">English</languageTerm>
+      </language>
+      <genre authority="gmgpc">Postcards</genre>
+      <identifier type="local">MSC130-2256</identifier>
+      <physicalDescription>
+         <extent>1 postcard : b&amp;w ; 9 x 14 cm.</extent>
+      </physicalDescription>
+      <abstract>A photograph of Bill Miner the train robber in 1906.</abstract>
+      <accessCondition type="use and reproduction">Images from the British Columbia Postcards Collection have been made available by Simon Fraser University Library   under a Creative Commons attribution, non-commercial license at http://creativecommons.org/licenses/by-nc/3.0/. A   full legal outline of the license can be viewed at: http://creativecommons.org/licenses/by-nc/3.0/legalcode &lt;BR&gt;&lt;BR&gt;We encourage the appropriate open use of images from this collection for educational and other not-for-profit   purposes. Attribution/citation should be provided as follows:  Image [insert image number here, eg. MSC130-2144-01]   courtesy of the British Columbia Postcards Collection, a digital initiative of Simon Fraser University Library.   [Please include the website url when images are used in an offline or print-based context]. &lt;BR&gt;&lt;BR&gt;Parties interested in using high-resolution versions of the images from the British Columbia Postcards   Collection for commercial purposes should contact Special Collections and Rare Books, SFU Library.</accessCondition>
+      <typeOfResource>still image</typeOfResource>
+      <identifier type="uuid">5fe693e4-1c81-47cf-aa17-b9cebdbcdadd</identifier>
+      <identifier type="uri" invalid="yes" displayLabel="Migrated From">http://content.lib.sfu.ca/cdm/ref/collection/bcp/id/7928</identifier>
+      <originInfo>
+         <publisher>Vernon News Limited, Vernon (B.C.)</publisher>
+         <dateIssued encoding="w3cdtf" keyDate="yes"/>
+      </originInfo>
+      <originInfo eventType="manufacture">
+         <publisher/>
+      </originInfo>
+      <originInfo eventType="publication">
+         <dateIssued encoding="w3cdtf">1906</dateIssued>
+      </originInfo>
+      <subject>
+         <topic>Criminals</topic>
+         <geographic/>
+         <cartographics>
+            <coordinates/>
+         </cartographics>
+      </subject>
+      <extension>
+         <CONTENTdmData>
+            <alias>bcp</alias>
+            <pointer>7928</pointer>
+            <dmGetItemInfo timestamp="2016-04-17 18:03:11"
+                           mimetype="application/json"
+                           source="http://content.lib.sfu.ca:81/dmwebservices/index.php?q=dmGetItemInfo/bcp/7928/json">{"title":"Bill Miner, Train Robber, 1906","subjec":"Vernon News Limited, Vernon (B.C.)","creato":{},"descri":{},"publis":"1906","contri":{},"date":{},"langua":"English","type":"Image","format":"image\/jpeg","identi":"MSC130-2256","source":"1 postcard : b&amp;w ; 9 x 14 cm.","relati":"A photograph of Bill Miner the train robber in 1906.","covera":{},"bookle":{},"rights":"Images from the British Columbia Postcards Collection have been made available by Simon Fraser University Library   under a Creative Commons attribution, non-commercial license at http:\/\/creativecommons.org\/licenses\/by-nc\/3.0\/. A   full legal outline of the license can be viewed at: http:\/\/creativecommons.org\/licenses\/by-nc\/3.0\/legalcode &lt;BR&gt;&lt;BR&gt;We encourage the appropriate open use of images from this collection for educational and other not-for-profit   purposes. Attribution\/citation should be provided as follows:  Image [insert image number here, eg. MSC130-2144-01]   courtesy of the British Columbia Postcards Collection, a digital initiative of Simon Fraser University Library.   [Please include the website url when images are used in an offline or print-based context]. &lt;BR&gt;&lt;BR&gt;Parties interested in using high-resolution versions of the images from the British Columbia Postcards   Collection for commercial purposes should contact Special Collections and Rare Books, SFU Library.","audien":"[Front[ Bill Miner, Train Robber, 1906. [Back] The Vernon News Limited, Vernon, B.C.; Post Card; Address; Canadian Postage","from":{},"to":{},"subjea":"Criminals","place":{},"geo":{},"fullrs":{},"find":"7929.cpd","dmaccess":{},"dmimage":{},"dmcreated":"2012-11-27","dmmodified":"2012-11-27","dmoclcno":{},"dmrecord":"7928","restrictionCode":"1","cdmfilesize":"339","cdmfilesizeformatted":"0.00 MB","cdmprintpdf":"0","cdmhasocr":"0","cdmisnewspaper":"0"}</dmGetItemInfo>
+            <dmGetCompoundObjectInfo timestamp="2016-04-17 18:03:11"
+                                     mimetype="text/xml"
+                                     source="http://content.lib.sfu.ca:81/dmwebservices/index.php?q=dmGetCompoundObjectInfo/bcp/7928/xml">﻿&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;cpd&gt;
+  &lt;type&gt;Document&lt;/type&gt;
+  &lt;page&gt;
+    &lt;pagetitle&gt;MSC130-2256-01&lt;/pagetitle&gt;
+    &lt;pagefile&gt;7927.jp2&lt;/pagefile&gt;
+    &lt;pageptr&gt;7926&lt;/pageptr&gt;
+  &lt;/page&gt;
+  &lt;page&gt;
+    &lt;pagetitle&gt;MSC130-2256-02&lt;/pagetitle&gt;
+    &lt;pagefile&gt;7928.jp2&lt;/pagefile&gt;
+    &lt;pageptr&gt;7927&lt;/pageptr&gt;
+  &lt;/page&gt;
+&lt;/cpd&gt;
+</dmGetCompoundObjectInfo>
+         </CONTENTdmData>
+         <to type="SFU custom metadata for the British Columbia Postcards Collection"/>
+         <from type="SFU custom metadata for the British Columbia Postcards Collection"/>
+         <on_front_and_back type="SFU custom metadata for the British Columbia Postcards Collection">[Front[ Bill Miner, Train Robber, 1906. [Back] The Vernon News Limited, Vernon, B.C.; Post Card; Address; Canadian Postage</on_front_and_back>
+         <handwritten_date type="SFU custom metadata for the British Columbia Postcards Collection"/>
+         <postmark type="SFU custom metadata for the British Columbia Postcards Collection"/>
+         <booklet_information type="SFU custom metadata for the British Columbia Postcards Collection"/>
+      </extension>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title>Page 2</title>
+      </titleInfo>
+      <part>
+        <extent unit="pages">
+            <start>0188</start>
+        </extent>
+        <detail type="page number">
+            <number>2</number>
+        </detail>
+      </part>
+      <relatedItem type="original">
+        <physicalDescription>
+            <form type="microfilm"/>
+        </physicalDescription>
+        <identifier type="reel number">33</identifier>
+        <identifier type="reel sequence number">0188</identifier>
+        <location>
+            <physicalLocation authority="marcorg" displayLabel="Source Repository">PCU</physicalLocation>
+        </location>
+      </relatedItem>
+      <identifier type="PID">guardian:19170728-002</identifier>
+      <note type="agencyResponsibleForReproduction"
+            displayLabel="Institution Responsible for Digitization">PCU</note>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title>MSC130-2256-01</title>
+      </titleInfo>
+      <name>
+         <namePart/>
+         <role>
+            <roleTerm type="text" authority="marcrelator">photographer</roleTerm>
+            <roleTerm type="code" authority="marcrelator">pht</roleTerm>
+         </role>
+      </name>
+      <language>
+         <languageTerm type="text"/>
+      </language>
+      <genre authority="gmgpc">Postcards</genre>
+      <identifier type="local"/>
+      <physicalDescription>
+         <extent/>
+      </physicalDescription>
+      <abstract/>
+      <accessCondition type="use and reproduction">Images from the British Columbia Postcards Collection have been made available by Simon Fraser University Library   under a Creative Commons attribution, non-commercial license at http://creativecommons.org/licenses/by-nc/3.0/. A   full legal outline of the license can be viewed at: http://creativecommons.org/licenses/by-nc/3.0/legalcode &lt;BR&gt;&lt;BR&gt;We encourage the appropriate open use of images from this collection for educational and other not-for-profit   purposes. Attribution/citation should be provided as follows:  Image [insert image number here, eg. MSC130-2144-01]   courtesy of the British Columbia Postcards Collection, a digital initiative of Simon Fraser University Library.   [Please include the website url when images are used in an offline or print-based context]. &lt;BR&gt;&lt;BR&gt;Parties interested in using high-resolution versions of the images from the British Columbia Postcards   Collection for commercial purposes should contact Special Collections and Rare Books, SFU Library.</accessCondition>
+      <typeOfResource>still image</typeOfResource>
+      <identifier type="uuid">fa40ca69-70ee-42bc-bd00-b7cbc20a240f</identifier>
+      <identifier type="uri" invalid="yes" displayLabel="Migrated From">http://content.lib.sfu.ca/cdm/ref/collection/bcp/id/7926</identifier>
+      <originInfo>
+         <publisher/>
+         <dateIssued encoding="w3cdtf" keyDate="yes"/>
+      </originInfo>
+      <originInfo eventType="manufacture">
+         <publisher/>
+      </originInfo>
+      <originInfo eventType="publication">
+         <dateIssued encoding="w3cdtf"/>
+      </originInfo>
+      <subject>
+         <topic/>
+         <geographic/>
+         <cartographics>
+            <coordinates/>
+         </cartographics>
+      </subject>
+      <extension>
+         <CONTENTdmData>
+            <alias>bcp</alias>
+            <pointer>7926</pointer>
+            <dmGetItemInfo timestamp="2016-04-17 18:03:14"
+                           mimetype="application/json"
+                           source="http://content.lib.sfu.ca:81/dmwebservices/index.php?q=dmGetItemInfo/bcp/7926/json">{"title":"MSC130-2256-01","subjec":{},"creato":{},"descri":{},"publis":{},"contri":{},"date":{},"langua":{},"type":{},"format":{},"identi":{},"source":{},"relati":{},"covera":{},"bookle":{},"rights":"Images from the British Columbia Postcards Collection have been made available by Simon Fraser University Library   under a Creative Commons attribution, non-commercial license at http:\/\/creativecommons.org\/licenses\/by-nc\/3.0\/. A   full legal outline of the license can be viewed at: http:\/\/creativecommons.org\/licenses\/by-nc\/3.0\/legalcode &lt;BR&gt;&lt;BR&gt;We encourage the appropriate open use of images from this collection for educational and other not-for-profit   purposes. Attribution\/citation should be provided as follows:  Image [insert image number here, eg. MSC130-2144-01]   courtesy of the British Columbia Postcards Collection, a digital initiative of Simon Fraser University Library.   [Please include the website url when images are used in an offline or print-based context]. &lt;BR&gt;&lt;BR&gt;Parties interested in using high-resolution versions of the images from the British Columbia Postcards   Collection for commercial purposes should contact Special Collections and Rare Books, SFU Library.","audien":{},"from":{},"to":{},"subjea":{},"place":{},"geo":{},"fullrs":{},"find":"7927.jp2","dmaccess":{},"dmimage":{},"dmcreated":"2012-11-27","dmmodified":"2012-11-27","dmoclcno":{},"dmrecord":"7926","restrictionCode":"1","cdmfilesize":"558838","cdmfilesizeformatted":"0.53 MB","cdmprintpdf":"0","cdmhasocr":"0","cdmisnewspaper":"0"}</dmGetItemInfo>
+            <GetParent timestamp="2016-04-17 18:03:14"
+                       mimetype="text/xml"
+                       source="http://content.lib.sfu.ca:81/dmwebservices/index.php?q=GetParent/bcp/7926/xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;parent&gt;7928&lt;/parent&gt;</GetParent>
+         </CONTENTdmData>
+         <to type="SFU custom metadata for the British Columbia Postcards Collection"/>
+         <from type="SFU custom metadata for the British Columbia Postcards Collection"/>
+         <on_front_and_back type="SFU custom metadata for the British Columbia Postcards Collection"/>
+         <handwritten_date type="SFU custom metadata for the British Columbia Postcards Collection"/>
+         <postmark type="SFU custom metadata for the British Columbia Postcards Collection"/>
+         <booklet_information type="SFU custom metadata for the British Columbia Postcards Collection"/>
+      </extension>
+   </mods>
+   <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         version="3.1"
+         xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+      <titleInfo>
+         <title>De symmetria partium in rectis formis humanorum</title>
+         <subTitle/>
+      </titleInfo>
+      <titleInfo type="alternative">
+         <title/>
+         <subTitle/>
+      </titleInfo>
+      <titleInfo type="uniform">
+         <title/>
+         <partNumber>Book 1-2. Latin</partNumber>
+         <subTitle/>
+      </titleInfo>
+      <name type="personal">
+         <namePart>Albrecht Dürer</namePart>
+         <namePart type="date"/>
+         <role>
+            <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart>Joachim Camerarius (1500-1574)</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">Translator</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart>Helius Eobanus Hessus (1488-1540)</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">Contributor</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart>Edward Clark Streeter (-1947)</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">Former owner</roleTerm>
+         </role>
+      </name>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="gmgpc"/>
+      <originInfo>
+         <place>
+            <placeTerm type="code" authority="marccountry"/>
+         </place>
+         <place>
+            <placeTerm type="text">Nuremberg (Germany)</placeTerm>
+         </place>
+         <publisher>Excudebatur ... In aedib. viduae Durerianae</publisher>
+         <dateIssued>1532</dateIssued>
+         <dateIssued encoding="marc"/>
+         <issuance>monographic</issuance>
+         <copyrightDate/>
+         <edition/>
+      </originInfo>
+      <language>
+         <languageTerm authority="iso639-2b" type="code">Latin</languageTerm>
+      </language>
+      <language objectPart="translation">
+         <languageTerm authority="iso639-2b" type="code"/>
+      </language>
+      <physicalDescription>
+         <form authority="marcform">print</form>
+         <extent>31 cm.</extent>
+      </physicalDescription>
+      <note>&lt;p&gt;Dürer's woodcut monogram signature (57 mm) on title page; woodcut illustrations in text.&lt;/p&gt;&#xD;
+&lt;p&gt;Introductory letter by Christophe Coler.&lt;/p&gt;&#xD;
+&lt;p&gt;Verses by Eobanus Hessus on leaf A6.&lt;/p&gt;&#xD;
+&lt;p&gt;In Latin, translated from German, with Greek references; Fraktur script.&lt;/p&gt;&#xD;
+&lt;p&gt;&lt;a href="http://catalog.nyam.org/cgi-bin/koha/opac-detail.pl?biblionumber=262680"&gt;See catalog record for additional notes.&lt;/a&gt;&lt;/p&gt;</note>
+      <note/>
+      <note/>
+      <note/>
+      <note/>
+      <note/>
+      <note/>
+      <note/>
+      <note/>
+      <note type="Height">31.8</note>
+      <note type="Width">20.6</note>
+      <note type="citation/reference">&lt;a href="http://catalog.nyam.org/cgi-bin/koha/opac-detail.pl?biblionumber=262680" target="_blank"&gt; Dürer, Albrecht, et al. &lt;em&gt;De symmetria partium in rectis formis humanorum&lt;/em&gt;. Nuremberg, 1532.</note>
+      <subject authority="lcsh">
+         <topic/>
+         <topic>Anatomy, Artistic</topic>
+         <topic>Anthropometry</topic>
+         <topic>Early works to 1800</topic>
+         <topic>Human figure in art</topic>
+         <topic>Medical illustration</topic>
+         <topic>Medicine</topic>
+         <topic>Proportion (Anthropometry)</topic>
+         <topic>Proportion (Art)</topic>
+         <topic>Wood-engraving—16th century</topic>
+         <geographic/>
+         <temporal/>
+         <hierarchicalGeographic>
+            <continent/>
+            <country/>
+            <province/>
+            <region/>
+            <county/>
+            <city/>
+            <citySection/>
+         </hierarchicalGeographic>
+         <cartographics>
+            <coordinates/>
+         </cartographics>
+      </subject>
+      <classification authority="lcc"/>
+      <relatedItem type="isReferencedBy">
+         <note>Choulant, J.L. Anatomic ill., p. 145</note>
+      </relatedItem>
+      <relatedItem type="isReferencedBy">
+         <note>Osler, W. Catalogue, 4757</note>
+      </relatedItem>
+      <relatedItem type="isReferencedBy">
+         <note>Adams, D-1044</note>
+      </relatedItem>
+      <relatedItem type="isReferencedBy">
+         <note>Meder, J. Dürer, XXIX (1532)</note>
+      </relatedItem>
+      <relatedItem type="isReferencedBy">
+         <note>Brunet, v. 2, column 914</note>
+      </relatedItem>
+      <identifier type="lccn"/>
+      <recordInfo>
+         <recordContentSource authority="marcorg">ZCU</recordContentSource>
+         <recordCreationDate encoding="marc">951113</recordCreationDate>
+         <recordChangeDate encoding="iso8601">20160303150409.0</recordChangeDate>
+         <recordIdentifier source="OCoLC">ocm38310897 </recordIdentifier>
+         <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+         </languageOfCataloging>
+      </recordInfo>
+      <tableOfContents/>
+      <abstract>Albrecht Dürer, printmaker and painter of the German Renaissance, was equally famous during his lifetime for contributions to the study of mathematics and proportion. In this text, Dürer treats the arithmetic and geometrical constructions of bodies, largely at rest.   Numerous woodcuts represent bodies male and female in various sizes and ages, and register their measurements. The ideas expressed in the De symmetria and the two complimentary volumes that followed, also on human proportion, were widely influential on artists and anatomists for centuries to come. This 1532 text in Latin contains the first two books of the results of this research, first published in German in 1528 as Vier Bücher von menschlicher Proportion (Four Books on Human Proportion.)   Dürer died shortly after receiving the first proofs of the German edition; the remaining publication details were completed by his friends. Our copy is bound in stamped pigskin, with a front panel illustrating Jacob’s ladder and a back panel depicting the baptism of Christ. The woodcut monogram Dürer developed in 1497 to protect his work from piracy is visible on the title page...&lt;a href="/Durer" class="purp" alt="Linked Read More text that goes to more information about De symmetria partium..."&gt;READ MORE&lt;/a&gt;</abstract>
+      <note type="statement of responsibility"/>
+      <classification edition="21" authority="ddc"/>
+   </mods>
+   <mods>
+      <relatedItem type="host">
+        <identifier type="lccn">cn 87080496</identifier>
+        <part>
+            <detail type="volume">
+                <number/>
+            </detail>
+            <detail type="issue">
+                <number/>
+            </detail>
+            <detail type="edition">
+                <number/>
+                <caption/>
+            </detail>
+        </part>
+      </relatedItem>
+      <titleInfo>
+        <nonSort>The</nonSort>
+        <title>Charlottetown Guardian</title>
+      </titleInfo>
+      <originInfo>
+        <dateIssued encoding="iso8601">1917-07-28T00:00:00.000Z</dateIssued>
+      </originInfo>
+      <identifier type="PID">guardian:19170728</identifier>
+      <note type="missing">missing page</note>
+   </mods>
+   <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         version="3.4"
+         xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+      <identifier type="local" displayLabel="PID">wyu81104:RollFlower</identifier>
+      <titleInfo>
+         <title>Rolling Flower</title>
+      </titleInfo>
+      <name type="personal" usage="primary">
+         <role>
+            <roleTerm type="text">creator</roleTerm>
+         </role>
+      </name>
+      <name type="corporate">
+         <role>
+            <roleTerm type="text">creator</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart>Surls, James</namePart>
+         <role>
+            <roleTerm type="text">Creator</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <role>
+            <roleTerm type="text">contributor</roleTerm>
+         </role>
+      </name>
+      <name type="corporate">
+         <role>
+            <roleTerm type="text">contributor</roleTerm>
+         </role>
+      </name>
+      <typeOfResource>still image</typeOfResource>
+      <genre authority="marcgt">picture</genre>
+      <originInfo>
+         <place>
+            <placeTerm type="text">Laramie, WY</placeTerm>
+         </place>
+         <dateCreated encoding="marc" point="start">2009</dateCreated>
+         <publisher>Coe Library, University of Wyoming</publisher>
+         <dateCreated>2009</dateCreated>
+         <issuance>monographic</issuance>
+      </originInfo>
+      <abstract type="Summary">Rolling Flower by James Surls. Scroll down for an interview with the Artist.</abstract>
+      <accessCondition type="use and reproduction">You may use the digital images and catalog records found on this website for private study, scholarship or research.</accessCondition>
+      <note>UW Libraries Commission 2009</note>
+      <subject>
+         <topic>Art objects, American</topic>
+         <geographic>Coe Library, Level 5, Laramie, Wyoming</geographic>
+      </subject>
+      <relatedItem type="series">
+         <titleInfo>
+            <title>Art in Coe</title>
+         </titleInfo>
+      </relatedItem>
+      <recordInfo>
+         <recordOrigin>Converted from MARCXML to MODS version 3.4 using MARC21slim2MODS3-4.xsl (Revision 1.94 2014/02/21)</recordOrigin>
+      </recordInfo>
+      <physicalDescription>
+         <digitalOrigin>born digital</digitalOrigin>
+      </physicalDescription>
+      <accessCondition type="useAndReproduction">You may use the digital images and catalog records found on this website for private study, scholarship or research.</accessCondition>
+      <location>
+        <url usage="primary display">http://hdl.handle.net/10176/wyu:81104</url>
+      </location>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title>Guardian</title>
+         <nonSort>The</nonSort>
+      </titleInfo>
+      <name type="personal">
+         <namePart type="given">B.D.</namePart>
+         <namePart type="family">Higgs</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">Editor</roleTerm>
+         </role>
+         <role>
+            <roleTerm authority="marcrelator" type="text">Managing Director</roleTerm>
+         </role>
+         <description>Editor from Dec. 16 1890 - Jan. 8 1894; Aug. 20 1895 - Feb. 16 1896. Managing Director from Feb. 5 1894 - Nov. 16 1896</description>
+      </name>
+      <name type="personal">
+         <namePart type="given">M.J.</namePart>
+         <namePart type="family">MacDonald</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">Editor</roleTerm>
+         </role>
+         <description>Editor from Feb. 5 1894 - Aug. 19 1895</description>
+      </name>
+      <name type="personal">
+         <namePart type="given">J.E.B.</namePart>
+         <namePart type="family">McCready</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">Editor</roleTerm>
+         </role>
+         <description>Editor from Feb. 17 1896 - Jan. 31 1908</description>
+      </name>
+      <name type="personal">
+         <namePart type="given">D.K.</namePart>
+         <namePart type="family">Currie</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">Editor</roleTerm>
+         </role>
+         <description>Editor from July 2 1912 - Jan. 30 1913</description>
+      </name>
+      <name type="personal">
+         <namePart type="given">J.R.</namePart>
+         <namePart type="family">Burnett</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">Editor</roleTerm>
+         </role>
+         <role>
+            <roleTerm authority="marcrelator" type="text">Managing Director</roleTerm>
+         </role>
+         <description>Editor from May 14 1914 - Feb. 15 1916; July 27 1918 - Sept. 20 1951. Managing director from Sept. 16 1930 - Sept. 20 1951</description>
+      </name>
+      <name type="personal">
+         <namePart type="given">Frank</namePart>
+         <namePart type="family">Walker</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">Associate Editor</roleTerm>
+         </role>
+         <role>
+            <roleTerm authority="marcrelator" type="text">Editor</roleTerm>
+         </role>
+         <description>Associate Editor from Sept. 21 1951 - Dec. 15 1954; Editor from Dec. 16 1954 - Nov. 5 1969</description>
+      </name>
+      <name type="personal">
+         <namePart type="given">Burton</namePart>
+         <namePart type="family">Lewis</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">Executive Editor</roleTerm>
+         </role>
+         <description>Executive editor from Sept. 26 1959 - Jan. 21 1965</description>
+      </name>
+      <name type="personal">
+         <namePart type="given">Ian A.</namePart>
+         <namePart type="family">Burnett</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">Associate Editor</roleTerm>
+         </role>
+         <role>
+            <roleTerm authority="marcrelator" type="text">Editor</roleTerm>
+         </role>
+         <role>
+            <roleTerm authority="marcrelator" type="text">Managing Director</roleTerm>
+         </role>
+         <role>
+            <roleTerm authority="marcrelator" type="text">General Manager</roleTerm>
+         </role>
+         <role>
+            <roleTerm authority="marcrelator" type="text">Publisher</roleTerm>
+         </role>
+         <role>
+            <roleTerm authority="marcrelator" type="text">President</roleTerm>
+         </role>
+         <description>Associate Editor from Sept. 21 1951 - June 15 1953.
+ Editor from June 16 1953 - Dec. 15 1954. 
+ Managing Director from June 16 1953 - Feb. 8 1954.
+ General Manager from Feb. 9 1954 - Dec. 15 1954; Dec. 16 1954 - Aug. 20 1959.     Publisher from July 23, 1956 - Aug. 20 1959. 
+ President from May 31 1946 - May 12 1948; Sept. 21 1951 - June 15 1953.</description>
+      </name>
+      <name type="personal">
+         <namePart type="given">Wallace</namePart>
+         <namePart type="family">Ward</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">Managing Editor</roleTerm>
+         </role>
+         <description>Managing Editor from Jan. 22 1965 - May 30 1970</description>
+      </name>
+      <name type="personal">
+         <namePart type="given">Walter</namePart>
+         <namePart type="family">MacIntyre</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">Managing Editor</roleTerm>
+         </role>
+         <description>Managing Editor from Jan. 3 1975 - Present</description>
+      </name>
+      <name type="personal">
+         <namePart type="given">J.P.</namePart>
+         <namePart type="family">Hood</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">Business Manager</roleTerm>
+         </role>
+         <role>
+            <roleTerm authority="marcrelator" type="text">Managing Director</roleTerm>
+         </role>
+         <role>
+            <roleTerm authority="marcrelator" type="text">President</roleTerm>
+         </role>
+         <description>Business Manager from Dec. 29 1891 - Mar. 9 1903; Managing Director from July 2 1912 - Jan. 30 1913. President from July 2 1912 - Jan. 30 1913</description>
+      </name>
+      <name type="personal">
+         <namePart type="given">W.J.</namePart>
+         <namePart type="family">Hancox</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">Publisher</roleTerm>
+         </role>
+         <description>Publisher from Sept. 26 1959 - Apr. 30 1979</description>
+      </name>
+      <name type="personal">
+         <namePart type="given">Stewart S.</namePart>
+         <namePart type="family">Vickerson</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">Publisher</roleTerm>
+         </role>
+         <description>Publisher from May 1 1979 - Present</description>
+      </name>
+      <name type="personal">
+         <namePart type="given">A.A.</namePart>
+         <namePart type="family">Bartlett</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">President</roleTerm>
+         </role>
+         <description>President from May 14 1914 - Feb. 15 1916; July 27 1918 - Dec. 14 1920</description>
+      </name>
+      <name type="personal">
+         <namePart type="given">Sir Charles</namePart>
+         <namePart type="family">Dalton</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">President</roleTerm>
+         </role>
+         <description>President from Dec. 24 1920 - May 21 1923</description>
+      </name>
+      <name type="personal">
+         <namePart type="given">W. Chester S.</namePart>
+         <namePart type="family">McLure</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">President</roleTerm>
+         </role>
+         <description>President from May 22 1923 - May 30 1946</description>
+      </name>
+      <name type="personal">
+         <namePart type="given">Gary</namePart>
+         <namePart type="family">MacDougall</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">Managing Editor</roleTerm>
+         </role>
+         <description>Current Managing Editor</description>
+      </name>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="marcgt">newspaper</genre>
+      <identifier type="issn">0832-2708</identifier>
+      <note type="prospectus">The Guardian, the successor to the Island Guardian, began publication in 1890 as a politically independent newspaper printing news and advertisements. Its editorials often discussed trade 
+and tariffs, and it supported temperance and the Scott Act. Local, national and international news coverage was excellent in the paper. Towards the end of the 1890s, headlines and line drawings illustrating the news stories began appearing in the Guardian. &lt;br/&gt;
+The tone of the newspaper changed during the first decade of the twentieth century; its news coverage became more sensational and its editorials offered less political commentary. Special 
+weekend issues were printed during the second half of this decade, featuring comic strips, housekeeping articles, popular songs, sermons, local history and Sunday School lessons. Photographs and line drawings appeared frequently during the final years of the decade.  &lt;br/&gt;
+Between 1910 and 1920, the Guardian started to support the Conservative party, the result of a company of Conservatives having purchased it in 1912. During World War I, both the Union Government and compulsion found support in the Guardian's editorial columns. Other editorial concerns of this time included fox farming, agriculture and the war effort. Comic strips and 
+photographs began to be featured regularly during this decade.  &lt;br/&gt;
+During the 1920s, the Guardian remained a Conservative newspaper, although the amount of political commentary in the paper decreased. News, fiction, anecdotes and advertisements continued to be published, along with an increasing number of special interest columns, some of them syndicated. The subjects of these columns included health, cars, ettiquette, recipes, fashion, and housekeeping. Sports reporting became a regular feature during this decade. Weekend issues of the Guardian were longer and contained more light reading.  &lt;br/&gt;
+During the 1930s, the Guardian's editorials did not very often deal with politics, although the paper did maintain its Conservative bias. Editorial concerns included the depression, the world political situation and education on P.E.I.. A women's page began during the 1930s and it featured articles on beauty, fashion and housekeeping, along with the Dorothy Dix advice column. A health column appeared throughout the decade, while columns on fox farming, girl guiding and photography were of shorter duration.  &lt;br/&gt;
+During the 1940s, the Guardian shed its Conservative bias, becoming politically nonpartisan. News coverage was excellent during the decade and editorial topics included World War II, product shortages, freight rates and P.E.I.'s welfare within Canada. Crossword puzzles appeared irregularly towards the end of the decade, and a number of local Island columns began to appear, including "Ellen's Diary," "Legends of P.E. Island," and "Old Charlottetown (And P.E.I.)."  &lt;br/&gt;
+In 1954, the Guardian became a Thomson newspaper. Local news coverage was expanded during the remainder of the decade, with national and international news coverage suffering. Also, fiction ceased to be printed during the 1950s. In the 1960s, only the front page featured national and international news stories. Editorials avoided controversy, commenting benignly on international affairs, national politics, and nuclear weapons.  &lt;br/&gt;
+During the 1970s, editorials in the Guardian occasionally discussed P.E.I, issues such as nonresident land ownership and the surfeit of civil servants. Also featured on the editorial page were syndicated news columns by John Harbron, Stewart MacLeod and Vincent Egan. Among the many other columns appearing during the 1970s were Walter O'Brien's "Bristol Notes" and Lorne Johnston's "Ole Salt." The women's page became a lifestyles page, featuring primarily human interest stories. Television listings and summer vacation supplements were also printed. The Guardian is still being published today, printing the same types of materials it published during the 1970s.  &lt;br/&gt;
+Throughout the years, a number of different editions of the Guardian have been published in addition to the daily. The Weekly Guardian was apparently published between 1887 and 1890, 
+and between 1892 and 1905. For some of these years, this edition may have been published as the Island Guardian (see also). The Semi-Weekly Guardian (see also) was published between 1892 and March 9, 1903. Between July 12, 1905 and November 15, 1906, the Tri-Weekly Guardian was published. Morning and evening editions of the Guardian were published between 1906 and 1921. Today, the Guardian is a morning daily.  &lt;br/&gt;
+The Guardian was published by Guardian Publishing Co. from Dec. 16, 1890 up until 1948. They were then taken over by Island Guardian Publishing Co. from Mar. 29, 1948 to Feb. 8, 1954. The newspaper was bought by Thomson Co. Ltd. on Feb. 9, 1954, and was owned by Thomson until Jan. 5th, 1979. On Jan. 6, 1979, Canadian Newspapers Co. Ltd. took over publication up until Sept. 29, 1984. On Oct. 1, 1984, County Newspapers Ltd. became the newspaper's publisher. Thomson Co. Ltd. took over publication of the newspaper once again on Oct. 2, 1984. In October of 1996, Southam Newspapers took over publication, and the newspaper changed ownership again in 2000 when Canwest Global took over. Transcontinental Media took over publication of the newspaper in August of 2002, and is the publisher of The Guardian today. &lt;br/&gt;</note>
+      <originInfo>
+         <publisher>Transcontinental Media</publisher>
+         <place>
+            <placeTerm type="text">Charlottetown, PE, Canada</placeTerm>
+         </place>
+         <dateIssued point="start">1890-12-17T00:00:00.000Z</dateIssued>
+         <frequency authority="marcfrequency">Daily</frequency>
+         <issuance>continuing</issuance>
+         <dateIssued>1890-12-17T00:00:00.000Z</dateIssued>
+      </originInfo>
+      <subject>
+         <topic>Newspapers</topic>
+      </subject>
+      <subject>
+         <geographic>Charlottetown (P.E.I.)</geographic>
+      </subject>
+      <relatedItem type="preceding">
+         <titleInfo>
+            <title>Daily Guardian</title>
+         </titleInfo>
+         <originInfo>
+            <publisher>Guardian Publishing Co.</publisher>
+            <place>
+               <placeTerm type="text">Charlottetown, PE, Canada</placeTerm>
+            </place>
+            <issuance>continuing</issuance>
+            <dateIssued point="start">18901216</dateIssued>
+            <dateIssued point="end">18910108</dateIssued>
+            <frequency authority="marcfrequency">Daily</frequency>
+         </originInfo>
+         <identifier type="issn">0832-2708</identifier>
+      </relatedItem>
+      <relatedItem type="preceding">
+         <titleInfo>
+            <title>Morning Guardian</title>
+         </titleInfo>
+         <originInfo>
+            <publisher>Guardian Publishing Co.</publisher>
+            <place>
+               <placeTerm type="text">Charlottetown, PE, Canada</placeTerm>
+            </place>
+            <issuance>continuing</issuance>
+            <dateIssued point="start">18910128</dateIssued>
+            <dateIssued point="end">19040923</dateIssued>
+            <frequency authority="marcfrequency">Daily</frequency>
+         </originInfo>
+         <identifier type="issn">0832-2708</identifier>
+      </relatedItem>
+      <relatedItem type="preceding">
+         <titleInfo>
+            <title>Charlottetown Guardian</title>
+         </titleInfo>
+         <originInfo>
+            <publisher>Guardian Publishing Co.</publisher>
+            <place>
+               <placeTerm type="text">Charlottetown, PE, Canada</placeTerm>
+            </place>
+            <issuance>continuing</issuance>
+            <dateIssued point="start">19040924</dateIssued>
+            <dateIssued point="end">19451109</dateIssued>
+            <frequency authority="marcfrequency">Daily</frequency>
+         </originInfo>
+         <identifier type="issn">0832-2708</identifier>
+      </relatedItem>
+      <relatedItem type="preceding">
+         <titleInfo>
+            <title>Guardian of the Gulf</title>
+         </titleInfo>
+         <originInfo>
+            <publisher>Island Guardian Publishing Co.</publisher>
+            <place>
+               <placeTerm type="text">Charlottetown, PE, Canada</placeTerm>
+            </place>
+            <issuance>continuing</issuance>
+            <dateIssued point="start">19451110</dateIssued>
+            <dateIssued point="end">19550917</dateIssued>
+            <frequency authority="marcfrequency">Daily</frequency>
+         </originInfo>
+         <identifier type="issn">0832-2708</identifier>
+      </relatedItem>
+      <note type="credit">Information drawn from &lt;a href="http://islandpines.roblib.upei.ca/opac/en-CA/skin/roblib/xml/rdetail.xml?r=209752" target="_blank"&gt; A Checklist and historical directory of Prince Edward Island newspapers 1787-1986&lt;/a&gt;, compiled by Heather Boylan and made  available courtesy of the &lt;a href="http://www.gov.pe.ca/archives/" target="_blank"&gt;Public Archives and Records Office of Prince  Edward Island&lt;/a&gt;.</note>
+      <subject>
+         <hierarchicalGeographic>
+            <continent>North America</continent>
+            <country>Canada</country>
+            <province>Prince Edward Island</province>
+            <county>Queens</county>
+            <city>Charlottetown</city>
+         </hierarchicalGeographic>
+         <cartographics>
+            <coordinates>46.2371154, -63.1239164</coordinates>
+         </cartographics>
+      </subject>
+      <note type="status">loaded</note>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title>1910 Grand Parade</title>
+      </titleInfo>
+      <typeOfResource>still image</typeOfResource>
+      <genre authority="lctgm">postcards</genre>
+      <language>
+         <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+      </language>
+      <abstract>Black and white photograph of a number of horse carriages on a country road with crowds around them.</abstract>
+      <identifier type="local">PEIP1-0012</identifier>
+      <physicalDescription>
+         <form authority="marcform">nonprojected graphic</form>
+         <extent>1 postcard</extent>
+      </physicalDescription>
+      <subject>
+         <hierarchicalGeographic>
+            <continent>North America</continent>
+            <country>Canada</country>
+            <province>PE</province>
+            <county>Queens</county>
+            <city>Charlottetown</city>
+         </hierarchicalGeographic>
+         <cartographics>
+            <coordinates>46.240278, -63.134722</coordinates>
+         </cartographics>
+      </subject>
+   </mods>
+   <mods:mods xmlns:mods="http://www.loc.gov/mods/v3"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd">
+        <mods:titleInfo>
+            <mods:title>Ômi Province: Lake Biwa, Ishiyama Temple from the series Famous Places in the Sixty-odd Provinces, woodblock print, ink and color on paper</mods:title>
+        </mods:titleInfo>
+        <mods:language>
+            <mods:languageTerm type="code" authority="iso639-2b">zxx</mods:languageTerm>
+            <mods:languageTerm type="text">Not applicable</mods:languageTerm>
+        </mods:language>
+        <mods:typeOfResource>still image</mods:typeOfResource>
+        <mods:originInfo>
+            <mods:dateCreated>circa 1853</mods:dateCreated>
+            <mods:dateCreated point="start">1848</mods:dateCreated>
+            <mods:dateCreated point="end">1858</mods:dateCreated>
+        </mods:originInfo>
+        <mods:name type="personal" authority="oclc_naf">
+            <mods:role>
+                <mods:roleTerm type="text" authority="marcrelator">creator</mods:roleTerm>
+                <mods:roleTerm type="code" authority="marcrelator">cre</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="family">Andō</mods:namePart>
+            <mods:namePart type="given">Hiroshige</mods:namePart>
+            <mods:namePart type="date">1797-1858</mods:namePart>
+            <mods:displayForm>Andō, Hiroshige, 1797-1858</mods:displayForm>
+        </mods:name>
+        <mods:physicalDescription>
+            <mods:note displayLabel="Physical Characteristics and Technical Requirements note">image/tiff</mods:note>
+            <mods:extent>1 file</mods:extent>
+            <mods:note displayLabel="Material Specific Details note">reformatted digital</mods:note>
+            <mods:note displayLabel="General Physical Description note">25 cm X 36.5 cm</mods:note>
+        </mods:physicalDescription>
+        <mods:accessCondition type="useAndReproduction" displayLabel="Conditions Governing Use note">These materials are made available for use in research, teaching and private study, pursuant to U.S. Copyright Law. The user must assume full responsibility for any use of the materials, including but not limited to, infringement of copyright and publication rights of reproduced materials. Any materials used for academic research or otherwise should be fully credited with the source. The original artists may retain copyright to the materials.</mods:accessCondition>
+        <mods:relatedItem type="host">
+            <mods:titleInfo>
+                <mods:title>Japanese prints collection</mods:title>
+            </mods:titleInfo>
+            <mods:originInfo>
+                <mods:dateCreated>circa 1765-1964 (bulk 1780-1860)</mods:dateCreated>
+                <mods:dateCreated point="start">1765</mods:dateCreated>
+                <mods:dateCreated point="end">1964</mods:dateCreated>
+            </mods:originInfo>
+            <mods:identifier type="local">MS.2013.043</mods:identifier>
+            <mods:location>
+                <mods:url>http://hdl.handle.net/2345/3820</mods:url>
+            </mods:location>
+        </mods:relatedItem>
+        <mods:note displayLabel="Digital object made available by ">Archives and Manuscripts Department, 140 Commonwealth Avenue, Chestnut Hill, MA, 02467, United States, (http://www.bc.edu/burns)</mods:note>
+    </mods:mods>
+   <mods>
+      <titleInfo>
+         <title>Evaluation of transmission infrared spectroscopy and digital and optical refractometers to identify low immunoglobulin G concentrations in alpaca serum.</title>
+      </titleInfo>
+      <abstract>This study aimed to evaluate the digital Brix and optical serum total protein (STP) refractometers for measuring concentrations of serum immunoglobulin G (IgG) in alpacas and compare them to IgG concentrations measured by the reference method of radial immunodiffusion (RID) assay. The appropriate cutoff point for Brix and STP refractometers and the transmission infrared (TIR) spectroscopy method was determined for low IgG concentrations (&lt; 10 g/L). Serum samples were collected from alpacas (N = 169) and tested by both refractometers. The correlation between Brix % and STP was high [correlation coefficient (r) = 0.99]. However, the correlation coefficients between Brix % and STP with serum RID-IgG concentrations were only 0.56 and 0.55, respectively. Twenty-one (12.4%) of 169 alpaca serum samples had IgG concentrations of &lt; 10 g/L. Using receiver operator characteristic curve (ROC) analysis, the optimal cutoff points for the TIR assay, digital Brix, and optical STP refractometers for assessing low IgG (RID &lt; 10 g/L) were 13 g/L, 8.8%, and 50 g/L, respectively. The TIR assay showed higher sensitivity (Se = 95.2%) and specificity (Sp = 96.8%) than either the digital Brix (Se = 90.5% and Sp = 65.5%) or optical STP (Se = 81% and Sp = 73.7%) refractometers for assessing alpacas with low IgG. In conclusion, the Brix and STP refractometers lack accuracy in measuring alpaca IgG concentrations, but may be useful for screening animals for low serum IgG. However, the TIR assay with a cutoff point of 13 g/L was more appropriate for identifying low IgG than either refractometer. Another study that focuses on neonatal crias is recommended in order to evaluate the usefulness of these assays for field diagnosing of failure of transfer of passive immunity (FTPI).</abstract>
+      <name type="personal">
+         <namePart type="family">Elsohaby</namePart>
+         <namePart type="given">Ibrahim</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="family">Burns</namePart>
+         <namePart type="given">Jennifer J</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="family">Riley</namePart>
+         <namePart type="given">Christopher B</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="family">McClure</namePart>
+         <namePart type="given">J Trenton</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+         </role>
+      </name>
+      <originInfo>
+         <dateIssued encoding="iso8601">2017-07</dateIssued>
+      </originInfo>
+      <identifier type="issn">1928-9022</identifier>
+      <part>
+         <detail type="issue">
+            <number>3</number>
+         </detail>
+         <detail type="volume">
+            <number>81</number>
+         </detail>
+         <extent unit="page">
+            <list>217-222</list>
+            <start>217</start>
+            <end>222</end>
+         </extent>
+         <date>2017</date>
+      </part>
+      <language>
+         <languageTerm>eng</languageTerm>
+      </language>
+      <identifier type="pmc">PMC5508383</identifier>
+      <identifier type="accession">28725112</identifier>
+      <relatedItem type="host">
+         <titleInfo>
+            <title>Canadian Journal of Veterinary Research = Revue Canadienne de Recherche Veterinaire</title>
+         </titleInfo>
+         <titleInfo type="abbreviated">
+            <title>Can J Vet Res</title>
+         </titleInfo>
+         <originInfo>
+            <issuance>continuing</issuance>
+            <dateIssued keyDate="yes">2017</dateIssued>
+         </originInfo>
+         <identifier type="issn">1928-9022</identifier>
+         <identifier type="issn">0830-9000</identifier>
+      </relatedItem>
+      <genre>Journal Article</genre>
+      <note type="type of work">journal article</note>
+      <extension displayLabel="CommentsAndCorrections">
+         <default:CommentsCorrectionsList xmlns:default="http://www.ncbi.nlm.nih.gov">
+            <default:CommentsCorrections RefType="Cites">
+               <default:RefSource>J Dairy Sci. 2014;97(6):3838-44</default:RefSource>
+               <default:PMID Version="1">24704239</default:PMID>
+            </default:CommentsCorrections>
+            <default:CommentsCorrections RefType="Cites">
+               <default:RefSource>Vet Clin North Am Food Anim Pract. 1994 Jul;10(2):209-27</default:RefSource>
+               <default:PMID Version="1">7953955</default:PMID>
+            </default:CommentsCorrections>
+            <default:CommentsCorrections RefType="Cites">
+               <default:RefSource>J Am Vet Med Assoc. 1997 Nov 1;211(9):1165-6</default:RefSource>
+               <default:PMID Version="1">9364234</default:PMID>
+            </default:CommentsCorrections>
+            <default:CommentsCorrections RefType="Cites">
+               <default:RefSource>Vet Clin North Am Food Anim Pract. 2009 Jul;25(2):353-66</default:RefSource>
+               <default:PMID Version="1">19460645</default:PMID>
+            </default:CommentsCorrections>
+            <default:CommentsCorrections RefType="Cites">
+               <default:RefSource>J Vet Intern Med. 2015 Mar-Apr;29(2):721-6</default:RefSource>
+               <default:PMID Version="1">25818225</default:PMID>
+            </default:CommentsCorrections>
+            <default:CommentsCorrections RefType="Cites">
+               <default:RefSource>J Vet Intern Med. 2007 May-Jun;21(3):519-25</default:RefSource>
+               <default:PMID Version="1">17552461</default:PMID>
+            </default:CommentsCorrections>
+            <default:CommentsCorrections RefType="Cites">
+               <default:RefSource>J Vet Diagn Invest. 2013 Jan;25(1):91-8</default:RefSource>
+               <default:PMID Version="1">23345272</default:PMID>
+            </default:CommentsCorrections>
+            <default:CommentsCorrections RefType="Cites">
+               <default:RefSource>ScientificWorldJournal. 2015;2015:752724</default:RefSource>
+               <default:PMID Version="1">25767825</default:PMID>
+            </default:CommentsCorrections>
+            <default:CommentsCorrections RefType="Cites">
+               <default:RefSource>Vet J. 2016 May;211:82-7</default:RefSource>
+               <default:PMID Version="1">26993533</default:PMID>
+            </default:CommentsCorrections>
+            <default:CommentsCorrections RefType="Cites">
+               <default:RefSource>Vet Clin Pathol. 2006 Sep;35(3):339-40</default:RefSource>
+               <default:PMID Version="1">16967422</default:PMID>
+            </default:CommentsCorrections>
+            <default:CommentsCorrections RefType="Cites">
+               <default:RefSource>J Vet Med B Infect Dis Vet Public Health. 2001 Oct;48(8):561-8</default:RefSource>
+               <default:PMID Version="1">11708675</default:PMID>
+            </default:CommentsCorrections>
+            <default:CommentsCorrections RefType="Cites">
+               <default:RefSource>Am J Vet Res. 2000 Jul;61(7):738-41</default:RefSource>
+               <default:PMID Version="1">10895892</default:PMID>
+            </default:CommentsCorrections>
+            <default:CommentsCorrections RefType="Cites">
+               <default:RefSource>J Am Vet Med Assoc. 2000 Feb 15;216(4):559-63</default:RefSource>
+               <default:PMID Version="1">10687013</default:PMID>
+            </default:CommentsCorrections>
+            <default:CommentsCorrections RefType="Cites">
+               <default:RefSource>J Am Vet Med Assoc. 1995 May 1;206(9):1374-80</default:RefSource>
+               <default:PMID Version="1">7775252</default:PMID>
+            </default:CommentsCorrections>
+            <default:CommentsCorrections RefType="Cites">
+               <default:RefSource>J Vet Intern Med. 2014 Mar-Apr;28(2):639-45</default:RefSource>
+               <default:PMID Version="1">24417433</default:PMID>
+            </default:CommentsCorrections>
+            <default:CommentsCorrections RefType="Cites">
+               <default:RefSource>Clin Chem. 1974;20(1):61-9</default:RefSource>
+               <default:PMID Version="1">4203461</default:PMID>
+            </default:CommentsCorrections>
+            <default:CommentsCorrections RefType="Cites">
+               <default:RefSource>J Vet Intern Med. 2007 Jul-Aug;21(4):828-34</default:RefSource>
+               <default:PMID Version="1">17708406</default:PMID>
+            </default:CommentsCorrections>
+            <default:CommentsCorrections RefType="Cites">
+               <default:RefSource>Am J Vet Res. 1987 Oct;48(10):1472-6</default:RefSource>
+               <default:PMID Version="1">3674556</default:PMID>
+            </default:CommentsCorrections>
+            <default:CommentsCorrections RefType="Cites">
+               <default:RefSource>Aust Vet J. 2015 Jan-Feb;93(1-2):26-30</default:RefSource>
+               <default:PMID Version="1">25622705</default:PMID>
+            </default:CommentsCorrections>
+            <default:CommentsCorrections RefType="Cites">
+               <default:RefSource>J Vet Diagn Invest. 1995 Oct;7(4):515-9</default:RefSource>
+               <default:PMID Version="1">8580175</default:PMID>
+            </default:CommentsCorrections>
+            <default:CommentsCorrections RefType="Cites">
+               <default:RefSource>J Am Vet Med Assoc. 2006 Jul 1;229(1):111-5</default:RefSource>
+               <default:PMID Version="1">16817725</default:PMID>
+            </default:CommentsCorrections>
+         </default:CommentsCorrectionsList>
+      </extension>
+      <recordInfo>
+         <recordOrigin>PubMed</recordOrigin>
+         <recordCreationDate>2017-07-24T17:03:35Z</recordCreationDate>
+      </recordInfo>
+      <note type="date issued">2017 Jul </note>
+      <note type="status">imported</note>
+      <identifier type="u1">jmcclure</identifier>
+      <identifier type="u2">Health Management</identifier>
+      <typeOfResource>text</typeOfResource>
+      <identifier type="pmid">28725112</identifier>
+      <identifier type="pmcid">PMC5508383</identifier>
+   </mods>
+   <mods>
+      <identifier type="local" displayLabel="PID">wyu71880:WYO1914</identifier>
+      <titleInfo>
+         <title>Wyo senior class of 1914</title>
+      </titleInfo>
+      <titleInfo type="alternative">
+         <title>Wyo yearbook</title>
+      </titleInfo>
+      <part>
+         <detail type="volume">
+            <number>06</number>
+         </detail>
+      </part>
+      <name type="corporate">
+         <namePart>University of Wyoming</namePart>
+         <namePart>Junior Class</namePart>
+      </name>
+      <typeOfResource>text</typeOfResource>
+      <originInfo>
+         <place>
+            <placeTerm type="text">Laramie, WY</placeTerm>
+         </place>
+         <publisher>University of Wyoming</publisher>
+         <dateIssued keyDate="yes">1914</dateIssued>
+         <issuance>continuing</issuance>
+         <copyrightDate>1914</copyrightDate>
+      </originInfo>
+      <language>
+         <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+      </language>
+      <physicalDescription>
+         <form authority="marcform">print</form>
+         <digitalOrigin>reformatted digital</digitalOrigin>
+      </physicalDescription>
+      <note type="statement of responsibility">Junior Class, University of Wyoming</note>
+      <subject authority="lcsh">
+         <name type="corporate">
+            <namePart>University of Wyoming</namePart>
+         </name>
+         <topic>Students -- Periodicals -- Yearbooks</topic>
+      </subject>
+      <accessCondition xmlns:xlink="http://www.w3.org/1999/xlink"
+                       displayLabel="Standardized rights statement"
+                       type="use and reproduction"
+                       xlink:href="http://rightsstatements.org/page/InC/1.0/">In Copyright</accessCondition>
+      <location>
+         <url usage="primary display">http://hdl.handle.net/10176/wyu:71880</url>
+      </location>
+   </mods>
+   <mods>
+      <name type="personal">
+         <role>
+            <roleTerm authority="local" type="text">author</roleTerm>
+         </role>
+         <namePart type="given">Michael J.</namePart>
+         <namePart type="family">Cowper</namePart>
+         <affiliation>Chemistry</affiliation>
+      </name>
+      <name type="personal">
+         <role>
+            <roleTerm authority="local" type="text">Thesis advisor</roleTerm>
+         </role>
+         <namePart type="given">Alaa</namePart>
+         <namePart type="family">Abd-El-Aziz</namePart>
+      </name>
+      <name type="personal">
+         <role>
+            <roleTerm authority="local" type="text">Thesis advisor</roleTerm>
+         </role>
+         <namePart type="given">Rabin</namePart>
+         <namePart type="family">Bissessur</namePart>
+      </name>
+      <name type="personal">
+         <role>
+            <roleTerm authority="local" type="text">Supervisory Committee Member</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <role>
+            <roleTerm authority="local" type="text">Examination Committee Member</roleTerm>
+         </role>
+         <namePart type="given">Alaa</namePart>
+         <namePart type="family">Abd-El-Aziz</namePart>
+      </name>
+      <identifier type="u1">abdelaziz</identifier>
+      <identifier type="u1">rabissessur</identifier>
+      <identifier type="u2">Chemistry</identifier>
+      <typeOfResource>text</typeOfResource>
+      <genre>Dissertation/Thesis</genre>
+      <titleInfo>
+         <title>Synthesis and characterization of terpyridinebased coordination polymers</title>
+      </titleInfo>
+      <originInfo>
+         <publisher>University of Prince Edward Island</publisher>
+         <place>
+            <placeTerm type="text">Charlottetown, PE</placeTerm>
+         </place>
+         <dateIssued keyDate="yes">2017</dateIssued>
+         <issuance>monographic</issuance>
+      </originInfo>
+      <language>
+         <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+      </language>
+      <physicalDescription>
+         <form authority="marcform">electronic</form>
+         <extent>108</extent>
+         <internetMediaType>application/pdf</internetMediaType>
+      </physicalDescription>
+      <extension>
+         <etd:degree xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0">
+            <etd:name>Master of Science</etd:name>
+            <etd:level>Master</etd:level>
+            <etd:discipline>Faculty of Science. Molecular and Macromolecular Sciences.</etd:discipline>
+            <etd:grantor>University of Prince Edward Island</etd:grantor>
+         </etd:degree>
+      </extension>
+      <identifier type="lac">TC-PCU-20848</identifier>
+      <accessCondition type="use and reproduction">author</accessCondition>
+      <physicalDescription authority="local">PUBLISHED</physicalDescription>
+      <name type="personal">
+         <role>
+            <roleTerm authority="local" type="text">Examination Committee Member</roleTerm>
+         </role>
+         <namePart type="given">Rabin</namePart>
+         <namePart type="family">Bissessur</namePart>
+      </name>
+      <name type="personal">
+         <role>
+            <roleTerm authority="local" type="text">Examination Committee Member</roleTerm>
+         </role>
+         <namePart type="given">Nola</namePart>
+         <namePart type="family">Etkin</namePart>
+      </name>
+      <name type="personal">
+         <role>
+            <roleTerm authority="local" type="text">Examination Committee Member</roleTerm>
+         </role>
+         <namePart type="given">Brian</namePart>
+         <namePart type="family">Wagner</namePart>
+      </name>
+      <name type="personal">
+         <role>
+            <roleTerm authority="local" type="text">Examination Committee Member</roleTerm>
+         </role>
+         <namePart type="given">Ali</namePart>
+         <namePart type="family">Ahmadi</namePart>
+      </name>
+      <name type="personal">
+         <role>
+            <roleTerm authority="local" type="text">Examination Committee Member</roleTerm>
+         </role>
+         <namePart type="given">Amy</namePart>
+         <namePart type="family">Hsiao</namePart>
+      </name>
+      <abstract>Utilizing a radical-nucleophilic aromatic substitution reaction, a novel bisterpyridine&#xD;
+compound containing a high degree of conjugation was synthesized. This&#xD;
+compound was then used along with a series of transition metal compounds to create a&#xD;
+series of coordination polymers. The metals used in this series were iron, resulting in a&#xD;
+deep purple compound; nickel, resulting in a pale yellow compound; zinc, resulting in a&#xD;
+slightly pink, off white compound; cobalt, resulting in a vibrant turquoise compound;&#xD;
+copper, resulting in a dark pastel green compound; and ruthenium, resulting in a dark red&#xD;
+compound.&#xD;
+The iron coordination polymer was characterized using NMR spectroscopy, and&#xD;
+was estimated to possess a molecular weight just under 40,000 g/mol using viscometric&#xD;
+analysis. Conductivity measurements were performed on the iron polymer, the results of&#xD;
+which unfortunately showed no conductivity. The thermal properties of the iron&#xD;
+coordination polymer were also examined, and using TGA it was found to undergo two&#xD;
+major decompositions at approximately 460 °C and 485 °C losing 11.27% and 55.04%&#xD;
+mass respectively. It was also observed to undergo a glass transition at -37.86 °C.&#xD;
+The full polymer series was examined using NMR spectroscopy, and several of&#xD;
+the compounds were also examined using EPR spectroscopy. Several of the polymers&#xD;
+were investigated using fluorescence spectroscopy, and the zinc polymer displayed an&#xD;
+unexpected fluorescence enhancement of nearly five times over the uncoordinated&#xD;
+monomer. Quantum yield experiments determined that this polymer has a quantum yield&#xD;
+of 0.33%.</abstract>
+      <location>
+         <url>http://www.islandscholar.ca/islandora/object/ir:20848/datastream/PDF/download/citation.pdf</url>
+      </location>
+   </mods>
+   <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         version="3.4"
+         xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+      <titleInfo>
+         <title>Maisie Adams T1 [Tape One]</title>
+      </titleInfo>
+      <name>
+         <namePart>Thompson, Reg "Dutch"</namePart>
+         <role>
+            <roleTerm type="text">creator</roleTerm>
+         </role>
+      </name>
+      <name>
+         <namePart>Adams (Lamont), Maisie</namePart>
+      </name>
+      <typeOfResource>sound recording-nonmusical</typeOfResource>
+      <genre authority="dct">sound</genre>
+      <subject>
+         <cartographics>
+            <coordinates>46.514697,-63.517327</coordinates>
+         </cartographics>
+         <hierarchicalGeographic>
+            <continent>North America</continent>
+            <country>Canada</country>
+            <province>Prince Edward Island</province>
+            <county>Queens</county>
+            <region/>
+            <city>French River</city>
+            <area>Lot 21</area>
+            <citySection/>
+         </hierarchicalGeographic>
+         <geographic>French River, PE</geographic>
+      </subject>
+      <note>This interview is with Maisie Adams (nee Lamont) of French River and Summerside, P.E.I. In this interview Maisie talks about running the lighthouse in French River, storms and drownings, ships in the harbour, family, rum running, foxes, The Great Depression, stores in French River, WWI, the Spanish Flu, and a story about a bank robbery.</note>
+      <originInfo>
+         <dateOther>1997-04-11</dateOther>
+      </originInfo>
+      <physicalDescription>
+         <note>01:03:40</note>
+      </physicalDescription>
+      <identifier type="local">ivoices:ivoices20100622acass002</identifier>
+      <accessCondition>All content on this site is made available for personal research and private study only. Any other reuse, reproduction, or re-purposing may require the permission of the rightsholder(s); please contact the UPEI Library for more information on permissions/clearances.</accessCondition>
+   </mods>
+   <mods>
+      <identifier type="local" displayLabel="PID">wyu168835:brandingIron</identifier>
+      <titleInfo>
+         <nonSort>The</nonSort>
+         <title>
+      branding iron
+    </title>
+      </titleInfo>
+      <titleInfo type="alternative">
+         <title>Campus roundup</title>
+      </titleInfo>
+      <titleInfo type="alternative">
+         <title>Summer roundup</title>
+      </titleInfo>
+      <titleInfo type="alternative">
+         <title>Roundup</title>
+      </titleInfo>
+      <titleInfo type="alternative">
+         <title>Summer branding iron</title>
+         <titleInfo type="alternative">
+            <title>University of Wyoming branding iron</title>
+         </titleInfo>
+      </titleInfo>
+      <name type="corporate">
+         <namePart>
+      Associated Students of the University of Wyoming
+    </namePart>
+      </name>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="marcgt">newspaper</genre>
+      <originInfo eventType="publication">
+         <place>
+            <placeTerm authority="marccountry" type="code">wyu</placeTerm>
+         </place>
+         <place>
+            <placeTerm type="text">Laramie, WY</placeTerm>
+         </place>
+         <publisher>
+      Associated Students of the University of Wyoming
+    </publisher>
+         <dateIssued>1923-</dateIssued>
+         <dateIssued encoding="marc" point="start">1923</dateIssued>
+         <issuance>continuing</issuance>
+         <frequency>Frequency varies</frequency>
+      </originInfo>
+      <language>
+         <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+      </language>
+      <physicalDescription>
+         <form authority="marcform">print</form>
+         <extent>v. : ill.</extent>
+         <digitalOrigin>reformatted digital</digitalOrigin>
+      </physicalDescription>
+      <note>Not published during academic breaks</note>
+      <subject authority="lcsh">
+         <topic>University of Wyoming</topic>
+         <topic>Newspapers</topic>
+      </subject>
+      <subject authority="lcsh">
+         <topic>College student newspapers and periodicals</topic>
+         <topic>Wyoming</topic>
+      </subject>
+      <subject authority="lcsh">
+         <topic>Laramie (Wyo.)</topic>
+         <topic>Newspapers</topic>
+      </subject>
+      <relatedItem type="preceeding">
+         <titleInfo>
+            <title>Wyoming student</title>
+         </titleInfo>
+      </relatedItem>
+      <recordInfo>
+         <recordIdentifier>904243322</recordIdentifier>
+      </recordInfo>
+      <accessCondition xmlns:xlink="http://www.w3.org/1999/xlink"
+                       type="use and reproduction"
+                       displayLabel="Standardized rights statement"
+                       xlink:href="http://rightsstatements.org/vocab/UND/1.0/">Copyright Undetermined</accessCondition>
+   </mods>
+</modsCollection>

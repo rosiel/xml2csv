@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:default="http://www.ncbi.nlm.nih.gov" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <titleInfo>
+    <title>Evaluation of transmission infrared spectroscopy and digital and optical refractometers to identify low immunoglobulin G concentrations in alpaca serum.</title>
+  </titleInfo>
+  <abstract>This study aimed to evaluate the digital Brix and optical serum total protein (STP) refractometers for measuring concentrations of serum immunoglobulin G (IgG) in alpacas and compare them to IgG concentrations measured by the reference method of radial immunodiffusion (RID) assay. The appropriate cutoff point for Brix and STP refractometers and the transmission infrared (TIR) spectroscopy method was determined for low IgG concentrations (&lt; 10 g/L). Serum samples were collected from alpacas (N = 169) and tested by both refractometers. The correlation between Brix % and STP was high [correlation coefficient (r) = 0.99]. However, the correlation coefficients between Brix % and STP with serum RID-IgG concentrations were only 0.56 and 0.55, respectively. Twenty-one (12.4%) of 169 alpaca serum samples had IgG concentrations of &lt; 10 g/L. Using receiver operator characteristic curve (ROC) analysis, the optimal cutoff points for the TIR assay, digital Brix, and optical STP refractometers for assessing low IgG (RID &lt; 10 g/L) were 13 g/L, 8.8%, and 50 g/L, respectively. The TIR assay showed higher sensitivity (Se = 95.2%) and specificity (Sp = 96.8%) than either the digital Brix (Se = 90.5% and Sp = 65.5%) or optical STP (Se = 81% and Sp = 73.7%) refractometers for assessing alpacas with low IgG. In conclusion, the Brix and STP refractometers lack accuracy in measuring alpaca IgG concentrations, but may be useful for screening animals for low serum IgG. However, the TIR assay with a cutoff point of 13 g/L was more appropriate for identifying low IgG than either refractometer. Another study that focuses on neonatal crias is recommended in order to evaluate the usefulness of these assays for field diagnosing of failure of transfer of passive immunity (FTPI).</abstract>
+  <name type="personal">
+    <namePart type="family">Elsohaby</namePart>
+    <namePart type="given">Ibrahim</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text">author</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Burns</namePart>
+    <namePart type="given">Jennifer J</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text">author</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Riley</namePart>
+    <namePart type="given">Christopher B</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text">author</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">McClure</namePart>
+    <namePart type="given">J Trenton</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text">author</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <dateIssued encoding="iso8601">2017-07</dateIssued>
+  </originInfo>
+  <identifier type="issn">1928-9022</identifier>
+  <part>
+    <detail type="issue">
+      <number>3</number>
+    </detail>
+    <detail type="volume">
+      <number>81</number>
+    </detail>
+    <extent unit="page">
+      <list>217-222</list>
+      <start>217</start>
+      <end>222</end>
+    </extent>
+    <date>2017</date>
+  </part>
+  <language>
+    <languageTerm>eng</languageTerm>
+  </language>
+  <identifier type="pmc">PMC5508383</identifier>
+  <identifier type="accession">28725112</identifier>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Canadian Journal of Veterinary Research = Revue Canadienne de Recherche Veterinaire</title>
+    </titleInfo>
+    <titleInfo type="abbreviated">
+      <title>Can J Vet Res</title>
+    </titleInfo>
+    <originInfo>
+      <issuance>continuing</issuance>
+      <dateIssued keyDate="yes">2017</dateIssued>
+    </originInfo>
+    <identifier type="issn">1928-9022</identifier>
+    <identifier type="issn">0830-9000</identifier>
+  </relatedItem>
+  <genre>Journal Article</genre>
+  <note type="type of work">journal article</note>
+  <extension displayLabel="CommentsAndCorrections">
+    <default:CommentsCorrectionsList xmlns="http://www.ncbi.nlm.nih.gov">
+      <default:CommentsCorrections RefType="Cites">
+        <default:RefSource>J Dairy Sci. 2014;97(6):3838-44</default:RefSource>
+        <default:PMID Version="1">24704239</default:PMID>
+      </default:CommentsCorrections>
+      <default:CommentsCorrections RefType="Cites">
+        <default:RefSource>Vet Clin North Am Food Anim Pract. 1994 Jul;10(2):209-27</default:RefSource>
+        <default:PMID Version="1">7953955</default:PMID>
+      </default:CommentsCorrections>
+      <default:CommentsCorrections RefType="Cites">
+        <default:RefSource>J Am Vet Med Assoc. 1997 Nov 1;211(9):1165-6</default:RefSource>
+        <default:PMID Version="1">9364234</default:PMID>
+      </default:CommentsCorrections>
+      <default:CommentsCorrections RefType="Cites">
+        <default:RefSource>Vet Clin North Am Food Anim Pract. 2009 Jul;25(2):353-66</default:RefSource>
+        <default:PMID Version="1">19460645</default:PMID>
+      </default:CommentsCorrections>
+      <default:CommentsCorrections RefType="Cites">
+        <default:RefSource>J Vet Intern Med. 2015 Mar-Apr;29(2):721-6</default:RefSource>
+        <default:PMID Version="1">25818225</default:PMID>
+      </default:CommentsCorrections>
+      <default:CommentsCorrections RefType="Cites">
+        <default:RefSource>J Vet Intern Med. 2007 May-Jun;21(3):519-25</default:RefSource>
+        <default:PMID Version="1">17552461</default:PMID>
+      </default:CommentsCorrections>
+      <default:CommentsCorrections RefType="Cites">
+        <default:RefSource>J Vet Diagn Invest. 2013 Jan;25(1):91-8</default:RefSource>
+        <default:PMID Version="1">23345272</default:PMID>
+      </default:CommentsCorrections>
+      <default:CommentsCorrections RefType="Cites">
+        <default:RefSource>ScientificWorldJournal. 2015;2015:752724</default:RefSource>
+        <default:PMID Version="1">25767825</default:PMID>
+      </default:CommentsCorrections>
+      <default:CommentsCorrections RefType="Cites">
+        <default:RefSource>Vet J. 2016 May;211:82-7</default:RefSource>
+        <default:PMID Version="1">26993533</default:PMID>
+      </default:CommentsCorrections>
+      <default:CommentsCorrections RefType="Cites">
+        <default:RefSource>Vet Clin Pathol. 2006 Sep;35(3):339-40</default:RefSource>
+        <default:PMID Version="1">16967422</default:PMID>
+      </default:CommentsCorrections>
+      <default:CommentsCorrections RefType="Cites">
+        <default:RefSource>J Vet Med B Infect Dis Vet Public Health. 2001 Oct;48(8):561-8</default:RefSource>
+        <default:PMID Version="1">11708675</default:PMID>
+      </default:CommentsCorrections>
+      <default:CommentsCorrections RefType="Cites">
+        <default:RefSource>Am J Vet Res. 2000 Jul;61(7):738-41</default:RefSource>
+        <default:PMID Version="1">10895892</default:PMID>
+      </default:CommentsCorrections>
+      <default:CommentsCorrections RefType="Cites">
+        <default:RefSource>J Am Vet Med Assoc. 2000 Feb 15;216(4):559-63</default:RefSource>
+        <default:PMID Version="1">10687013</default:PMID>
+      </default:CommentsCorrections>
+      <default:CommentsCorrections RefType="Cites">
+        <default:RefSource>J Am Vet Med Assoc. 1995 May 1;206(9):1374-80</default:RefSource>
+        <default:PMID Version="1">7775252</default:PMID>
+      </default:CommentsCorrections>
+      <default:CommentsCorrections RefType="Cites">
+        <default:RefSource>J Vet Intern Med. 2014 Mar-Apr;28(2):639-45</default:RefSource>
+        <default:PMID Version="1">24417433</default:PMID>
+      </default:CommentsCorrections>
+      <default:CommentsCorrections RefType="Cites">
+        <default:RefSource>Clin Chem. 1974;20(1):61-9</default:RefSource>
+        <default:PMID Version="1">4203461</default:PMID>
+      </default:CommentsCorrections>
+      <default:CommentsCorrections RefType="Cites">
+        <default:RefSource>J Vet Intern Med. 2007 Jul-Aug;21(4):828-34</default:RefSource>
+        <default:PMID Version="1">17708406</default:PMID>
+      </default:CommentsCorrections>
+      <default:CommentsCorrections RefType="Cites">
+        <default:RefSource>Am J Vet Res. 1987 Oct;48(10):1472-6</default:RefSource>
+        <default:PMID Version="1">3674556</default:PMID>
+      </default:CommentsCorrections>
+      <default:CommentsCorrections RefType="Cites">
+        <default:RefSource>Aust Vet J. 2015 Jan-Feb;93(1-2):26-30</default:RefSource>
+        <default:PMID Version="1">25622705</default:PMID>
+      </default:CommentsCorrections>
+      <default:CommentsCorrections RefType="Cites">
+        <default:RefSource>J Vet Diagn Invest. 1995 Oct;7(4):515-9</default:RefSource>
+        <default:PMID Version="1">8580175</default:PMID>
+      </default:CommentsCorrections>
+      <default:CommentsCorrections RefType="Cites">
+        <default:RefSource>J Am Vet Med Assoc. 2006 Jul 1;229(1):111-5</default:RefSource>
+        <default:PMID Version="1">16817725</default:PMID>
+      </default:CommentsCorrections>
+    </default:CommentsCorrectionsList>
+  </extension>
+  <recordInfo>
+    <recordOrigin>PubMed</recordOrigin>
+    <recordCreationDate>2017-07-24T17:03:35Z</recordCreationDate>
+  </recordInfo>
+  <note type="date issued">2017 Jul </note>
+  <note type="status">imported</note>
+  <identifier type="u1">jmcclure</identifier>
+  <identifier type="u2">Health Management</identifier>
+  <typeOfResource>text</typeOfResource>
+  <identifier type="pmid">28725112</identifier>
+  <identifier type="pmcid">PMC5508383</identifier>
+</mods>

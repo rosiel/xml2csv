@@ -1,0 +1,27 @@
+
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <relatedItem type="host">
+        <identifier type="lccn">cn 87080496</identifier>
+        <part>
+            <detail type="volume">
+                <number></number>
+            </detail>
+            <detail type="issue">
+                <number></number>
+            </detail>
+            <detail type="edition">
+                <number></number>
+                <caption></caption>
+            </detail>
+        </part>
+    </relatedItem>
+    <titleInfo>
+        <nonSort>The</nonSort>
+        <title>Charlottetown Guardian</title>
+    </titleInfo>
+    <originInfo>
+        <dateIssued encoding="iso8601">1917-07-28T00:00:00.000Z</dateIssued>
+    </originInfo>
+    <identifier type="PID">guardian:19170728</identifier>
+    <note type="missing">missing page</note>
+</mods>

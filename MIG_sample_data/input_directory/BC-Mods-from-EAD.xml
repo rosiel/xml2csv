@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- MODS segment of a METS file derived from EAD -->
+
+<mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+    <xmlData><mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd" xmlns:ns2="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <mods:titleInfo>
+            <mods:title>Ômi Province: Lake Biwa, Ishiyama Temple from the series Famous Places in the Sixty-odd Provinces, woodblock print, ink and color on paper</mods:title>
+        </mods:titleInfo>
+        <mods:language>
+            <mods:languageTerm type="code" authority="iso639-2b">zxx</mods:languageTerm>
+            <mods:languageTerm type="text">Not applicable</mods:languageTerm>
+        </mods:language>
+        <mods:typeOfResource>still image</mods:typeOfResource>
+        <mods:originInfo>
+            <mods:dateCreated>circa 1853</mods:dateCreated>
+            <mods:dateCreated point="start">1848</mods:dateCreated>
+            <mods:dateCreated point="end">1858</mods:dateCreated>
+        </mods:originInfo>
+        <mods:name type="personal" authority="oclc_naf">
+            <mods:role>
+                <mods:roleTerm type="text" authority="marcrelator">creator</mods:roleTerm>
+                <mods:roleTerm type="code" authority="marcrelator">cre</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="family">Andō</mods:namePart>
+            <mods:namePart type="given">Hiroshige</mods:namePart>
+            <mods:namePart type="date">1797-1858</mods:namePart>
+            <mods:displayForm>Andō, Hiroshige, 1797-1858</mods:displayForm>
+        </mods:name>
+        <mods:physicalDescription>
+            <mods:note displayLabel="Physical Characteristics and Technical Requirements note">image/tiff</mods:note>
+            <mods:extent>1 file</mods:extent>
+            <mods:note displayLabel="Material Specific Details note">reformatted digital</mods:note>
+            <mods:note displayLabel="General Physical Description note">25 cm X 36.5 cm</mods:note>
+        </mods:physicalDescription>
+        <mods:accessCondition type="useAndReproduction" displayLabel="Conditions Governing Use note">These materials are made available for use in research, teaching and private study, pursuant to U.S. Copyright Law. The user must assume full responsibility for any use of the materials, including but not limited to, infringement of copyright and publication rights of reproduced materials. Any materials used for academic research or otherwise should be fully credited with the source. The original artists may retain copyright to the materials.</mods:accessCondition>
+        <mods:relatedItem type="host">
+            <mods:titleInfo>
+                <mods:title>Japanese prints collection</mods:title>
+            </mods:titleInfo>
+            <mods:originInfo>
+                <mods:dateCreated>circa 1765-1964 (bulk 1780-1860)</mods:dateCreated>
+                <mods:dateCreated point="start">1765</mods:dateCreated>
+                <mods:dateCreated point="end">1964</mods:dateCreated>
+            </mods:originInfo>
+            <mods:identifier type="local">MS.2013.043</mods:identifier>
+            <mods:location>
+                <mods:url>http://hdl.handle.net/2345/3820</mods:url>
+            </mods:location>
+        </mods:relatedItem>
+        <mods:note displayLabel="Digital object made available by ">Archives and Manuscripts Department, 140 Commonwealth Avenue, Chestnut Hill, MA, 02467, United States, (http://www.bc.edu/burns)</mods:note>
+    </mods:mods>
+    </xmlData>
+</mdWrap>

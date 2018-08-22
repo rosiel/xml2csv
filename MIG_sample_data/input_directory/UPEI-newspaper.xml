@@ -1,0 +1,288 @@
+
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Guardian</title>
+    <nonSort>The</nonSort>
+  </titleInfo>
+  <name type="personal">
+    <namePart type="given">B.D.</namePart>
+    <namePart type="family">Higgs</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Editor</roleTerm>
+    </role>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Managing Director</roleTerm>
+    </role>
+    <description>Editor from Dec. 16 1890 - Jan. 8 1894; Aug. 20 1895 - Feb. 16 1896. Managing Director from Feb. 5 1894 - Nov. 16 1896</description>
+  </name>
+  <name type="personal">
+    <namePart type="given">M.J.</namePart>
+    <namePart type="family">MacDonald</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Editor</roleTerm>
+    </role>
+    <description>Editor from Feb. 5 1894 - Aug. 19 1895</description>
+  </name>
+  <name type="personal">
+    <namePart type="given">J.E.B.</namePart>
+    <namePart type="family">McCready</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Editor</roleTerm>
+    </role>
+    <description>Editor from Feb. 17 1896 - Jan. 31 1908</description>
+  </name>
+  <name type="personal">
+    <namePart type="given">D.K.</namePart>
+    <namePart type="family">Currie</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Editor</roleTerm>
+    </role>
+    <description>Editor from July 2 1912 - Jan. 30 1913</description>
+  </name>
+  <name type="personal">
+    <namePart type="given">J.R.</namePart>
+    <namePart type="family">Burnett</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Editor</roleTerm>
+    </role>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Managing Director</roleTerm>
+    </role>
+    <description>Editor from May 14 1914 - Feb. 15 1916; July 27 1918 - Sept. 20 1951. Managing director from Sept. 16 1930 - Sept. 20 1951</description>
+  </name>
+  <name type="personal">
+    <namePart type="given">Frank</namePart>
+    <namePart type="family">Walker</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Associate Editor</roleTerm>
+    </role>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Editor</roleTerm>
+    </role>
+    <description>Associate Editor from Sept. 21 1951 - Dec. 15 1954; Editor from Dec. 16 1954 - Nov. 5 1969</description>
+  </name>
+  <name type="personal">
+    <namePart type="given">Burton</namePart>
+    <namePart type="family">Lewis</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Executive Editor</roleTerm>
+    </role>
+    <description>Executive editor from Sept. 26 1959 - Jan. 21 1965</description>
+  </name>
+  <name type="personal">
+    <namePart type="given">Ian A.</namePart>
+    <namePart type="family">Burnett</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Associate Editor</roleTerm>
+    </role>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Editor</roleTerm>
+    </role>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Managing Director</roleTerm>
+    </role>
+    <role>
+      <roleTerm authority="marcrelator" type="text">General Manager</roleTerm>
+    </role>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Publisher</roleTerm>
+    </role>
+    <role>
+      <roleTerm authority="marcrelator" type="text">President</roleTerm>
+    </role>
+    <description>Associate Editor from Sept. 21 1951 - June 15 1953.
+ Editor from June 16 1953 - Dec. 15 1954. 
+ Managing Director from June 16 1953 - Feb. 8 1954.
+ General Manager from Feb. 9 1954 - Dec. 15 1954; Dec. 16 1954 - Aug. 20 1959.     Publisher from July 23, 1956 - Aug. 20 1959. 
+ President from May 31 1946 - May 12 1948; Sept. 21 1951 - June 15 1953.</description>
+  </name>
+  <name type="personal">
+    <namePart type="given">Wallace</namePart>
+    <namePart type="family">Ward</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Managing Editor</roleTerm>
+    </role>
+    <description>Managing Editor from Jan. 22 1965 - May 30 1970</description>
+  </name>
+  <name type="personal">
+    <namePart type="given">Walter</namePart>
+    <namePart type="family">MacIntyre</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Managing Editor</roleTerm>
+    </role>
+    <description>Managing Editor from Jan. 3 1975 - Present</description>
+  </name>
+  <name type="personal">
+    <namePart type="given">J.P.</namePart>
+    <namePart type="family">Hood</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Business Manager</roleTerm>
+    </role>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Managing Director</roleTerm>
+    </role>
+    <role>
+      <roleTerm authority="marcrelator" type="text">President</roleTerm>
+    </role>
+    <description>Business Manager from Dec. 29 1891 - Mar. 9 1903; Managing Director from July 2 1912 - Jan. 30 1913. President from July 2 1912 - Jan. 30 1913</description>
+  </name>
+  <name type="personal">
+    <namePart type="given">W.J.</namePart>
+    <namePart type="family">Hancox</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Publisher</roleTerm>
+    </role>
+    <description>Publisher from Sept. 26 1959 - Apr. 30 1979</description>
+  </name>
+  <name type="personal">
+    <namePart type="given">Stewart S.</namePart>
+    <namePart type="family">Vickerson</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Publisher</roleTerm>
+    </role>
+    <description>Publisher from May 1 1979 - Present</description>
+  </name>
+  <name type="personal">
+    <namePart type="given">A.A.</namePart>
+    <namePart type="family">Bartlett</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text">President</roleTerm>
+    </role>
+    <description>President from May 14 1914 - Feb. 15 1916; July 27 1918 - Dec. 14 1920</description>
+  </name>
+  <name type="personal">
+    <namePart type="given">Sir Charles</namePart>
+    <namePart type="family">Dalton</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text">President</roleTerm>
+    </role>
+    <description>President from Dec. 24 1920 - May 21 1923</description>
+  </name>
+  <name type="personal">
+    <namePart type="given">W. Chester S.</namePart>
+    <namePart type="family">McLure</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text">President</roleTerm>
+    </role>
+    <description>President from May 22 1923 - May 30 1946</description>
+  </name>
+  <name type="personal">
+    <namePart type="given">Gary</namePart>
+    <namePart type="family">MacDougall</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Managing Editor</roleTerm>
+    </role>
+    <description>Current Managing Editor</description>
+  </name>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="marcgt">newspaper</genre>
+  <identifier type="issn">0832-2708</identifier>
+  <note type="prospectus">The Guardian, the successor to the Island Guardian, began publication in 1890 as a politically independent newspaper printing news and advertisements. Its editorials often discussed trade 
+and tariffs, and it supported temperance and the Scott Act. Local, national and international news coverage was excellent in the paper. Towards the end of the 1890s, headlines and line drawings illustrating the news stories began appearing in the Guardian. &lt;br/&gt;
+The tone of the newspaper changed during the first decade of the twentieth century; its news coverage became more sensational and its editorials offered less political commentary. Special 
+weekend issues were printed during the second half of this decade, featuring comic strips, housekeeping articles, popular songs, sermons, local history and Sunday School lessons. Photographs and line drawings appeared frequently during the final years of the decade.  &lt;br/&gt;
+Between 1910 and 1920, the Guardian started to support the Conservative party, the result of a company of Conservatives having purchased it in 1912. During World War I, both the Union Government and compulsion found support in the Guardian&apos;s editorial columns. Other editorial concerns of this time included fox farming, agriculture and the war effort. Comic strips and 
+photographs began to be featured regularly during this decade.  &lt;br/&gt;
+During the 1920s, the Guardian remained a Conservative newspaper, although the amount of political commentary in the paper decreased. News, fiction, anecdotes and advertisements continued to be published, along with an increasing number of special interest columns, some of them syndicated. The subjects of these columns included health, cars, ettiquette, recipes, fashion, and housekeeping. Sports reporting became a regular feature during this decade. Weekend issues of the Guardian were longer and contained more light reading.  &lt;br/&gt;
+During the 1930s, the Guardian&apos;s editorials did not very often deal with politics, although the paper did maintain its Conservative bias. Editorial concerns included the depression, the world political situation and education on P.E.I.. A women&apos;s page began during the 1930s and it featured articles on beauty, fashion and housekeeping, along with the Dorothy Dix advice column. A health column appeared throughout the decade, while columns on fox farming, girl guiding and photography were of shorter duration.  &lt;br/&gt;
+During the 1940s, the Guardian shed its Conservative bias, becoming politically nonpartisan. News coverage was excellent during the decade and editorial topics included World War II, product shortages, freight rates and P.E.I.&apos;s welfare within Canada. Crossword puzzles appeared irregularly towards the end of the decade, and a number of local Island columns began to appear, including &quot;Ellen&apos;s Diary,&quot; &quot;Legends of P.E. Island,&quot; and &quot;Old Charlottetown (And P.E.I.).&quot;  &lt;br/&gt;
+In 1954, the Guardian became a Thomson newspaper. Local news coverage was expanded during the remainder of the decade, with national and international news coverage suffering. Also, fiction ceased to be printed during the 1950s. In the 1960s, only the front page featured national and international news stories. Editorials avoided controversy, commenting benignly on international affairs, national politics, and nuclear weapons.  &lt;br/&gt;
+During the 1970s, editorials in the Guardian occasionally discussed P.E.I, issues such as nonresident land ownership and the surfeit of civil servants. Also featured on the editorial page were syndicated news columns by John Harbron, Stewart MacLeod and Vincent Egan. Among the many other columns appearing during the 1970s were Walter O&apos;Brien&apos;s &quot;Bristol Notes&quot; and Lorne Johnston&apos;s &quot;Ole Salt.&quot; The women&apos;s page became a lifestyles page, featuring primarily human interest stories. Television listings and summer vacation supplements were also printed. The Guardian is still being published today, printing the same types of materials it published during the 1970s.  &lt;br/&gt;
+Throughout the years, a number of different editions of the Guardian have been published in addition to the daily. The Weekly Guardian was apparently published between 1887 and 1890, 
+and between 1892 and 1905. For some of these years, this edition may have been published as the Island Guardian (see also). The Semi-Weekly Guardian (see also) was published between 1892 and March 9, 1903. Between July 12, 1905 and November 15, 1906, the Tri-Weekly Guardian was published. Morning and evening editions of the Guardian were published between 1906 and 1921. Today, the Guardian is a morning daily.  &lt;br/&gt;
+The Guardian was published by Guardian Publishing Co. from Dec. 16, 1890 up until 1948. They were then taken over by Island Guardian Publishing Co. from Mar. 29, 1948 to Feb. 8, 1954. The newspaper was bought by Thomson Co. Ltd. on Feb. 9, 1954, and was owned by Thomson until Jan. 5th, 1979. On Jan. 6, 1979, Canadian Newspapers Co. Ltd. took over publication up until Sept. 29, 1984. On Oct. 1, 1984, County Newspapers Ltd. became the newspaper&apos;s publisher. Thomson Co. Ltd. took over publication of the newspaper once again on Oct. 2, 1984. In October of 1996, Southam Newspapers took over publication, and the newspaper changed ownership again in 2000 when Canwest Global took over. Transcontinental Media took over publication of the newspaper in August of 2002, and is the publisher of The Guardian today. &lt;br/&gt;</note>
+  <originInfo>
+    <publisher>Transcontinental Media</publisher>
+    <place>
+      <placeTerm type="text">Charlottetown, PE, Canada</placeTerm>
+    </place>
+    <dateIssued point="start">1890-12-17T00:00:00.000Z</dateIssued>
+    <frequency authority="marcfrequency">Daily</frequency>
+    <issuance>continuing</issuance>
+    <dateIssued>1890-12-17T00:00:00.000Z</dateIssued>
+  </originInfo>
+  <subject>
+    <topic>Newspapers</topic>
+  </subject>
+  <subject>
+    <geographic>Charlottetown (P.E.I.)</geographic>
+  </subject>
+  <relatedItem type="preceding">
+    <titleInfo>
+      <title>Daily Guardian</title>
+    </titleInfo>
+    <originInfo>
+      <publisher>Guardian Publishing Co.</publisher>
+      <place>
+        <placeTerm type="text">Charlottetown, PE, Canada</placeTerm>
+      </place>
+      <issuance>continuing</issuance>
+      <dateIssued point="start">18901216</dateIssued>
+      <dateIssued point="end">18910108</dateIssued>
+      <frequency authority="marcfrequency">Daily</frequency>
+    </originInfo>
+    <identifier type="issn">0832-2708</identifier>
+  </relatedItem>
+  <relatedItem type="preceding">
+    <titleInfo>
+      <title>Morning Guardian</title>
+    </titleInfo>
+    <originInfo>
+      <publisher>Guardian Publishing Co.</publisher>
+      <place>
+        <placeTerm type="text">Charlottetown, PE, Canada</placeTerm>
+      </place>
+      <issuance>continuing</issuance>
+      <dateIssued point="start">18910128</dateIssued>
+      <dateIssued point="end">19040923</dateIssued>
+      <frequency authority="marcfrequency">Daily</frequency>
+    </originInfo>
+    <identifier type="issn">0832-2708</identifier>
+  </relatedItem>
+  <relatedItem type="preceding">
+    <titleInfo>
+      <title>Charlottetown Guardian</title>
+    </titleInfo>
+    <originInfo>
+      <publisher>Guardian Publishing Co.</publisher>
+      <place>
+        <placeTerm type="text">Charlottetown, PE, Canada</placeTerm>
+      </place>
+      <issuance>continuing</issuance>
+      <dateIssued point="start">19040924</dateIssued>
+      <dateIssued point="end">19451109</dateIssued>
+      <frequency authority="marcfrequency">Daily</frequency>
+    </originInfo>
+    <identifier type="issn">0832-2708</identifier>
+  </relatedItem>
+  <relatedItem type="preceding">
+    <titleInfo>
+      <title>Guardian of the Gulf</title>
+    </titleInfo>
+    <originInfo>
+      <publisher>Island Guardian Publishing Co.</publisher>
+      <place>
+        <placeTerm type="text">Charlottetown, PE, Canada</placeTerm>
+      </place>
+      <issuance>continuing</issuance>
+      <dateIssued point="start">19451110</dateIssued>
+      <dateIssued point="end">19550917</dateIssued>
+      <frequency authority="marcfrequency">Daily</frequency>
+    </originInfo>
+    <identifier type="issn">0832-2708</identifier>
+  </relatedItem>
+  <note type="credit">Information drawn from &lt;a href=&quot;http://islandpines.roblib.upei.ca/opac/en-CA/skin/roblib/xml/rdetail.xml?r=209752&quot; target=&quot;_blank&quot;&gt; A Checklist and historical directory of Prince Edward Island newspapers 1787-1986&lt;/a&gt;, compiled by Heather Boylan and made  available courtesy of the &lt;a href=&quot;http://www.gov.pe.ca/archives/&quot; target=&quot;_blank&quot;&gt;Public Archives and Records Office of Prince  Edward Island&lt;/a&gt;.</note>
+  <subject>
+    <hierarchicalGeographic>
+      <continent>North America</continent>
+      <country>Canada</country>
+      <province>Prince Edward Island</province>
+      <county>Queens</county>
+      <city>Charlottetown</city>
+    </hierarchicalGeographic>
+    <cartographics>
+      <coordinates>46.2371154, -63.1239164</coordinates>
+    </cartographics>
+  </subject>
+  <note type="status">loaded</note>
+</mods>
