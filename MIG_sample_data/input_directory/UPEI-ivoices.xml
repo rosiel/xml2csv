@@ -1,0 +1,42 @@
+
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+  <titleInfo>
+    <title>Maisie Adams T1 [Tape One]</title>
+  </titleInfo>
+  <name>
+    <namePart>Thompson, Reg &quot;Dutch&quot;</namePart>
+    <role>
+      <roleTerm type="text">creator</roleTerm>
+    </role>
+  </name>
+  <name>
+    <namePart>Adams (Lamont), Maisie</namePart>
+  </name>
+  <typeOfResource>sound recording-nonmusical</typeOfResource>
+  <genre authority="dct">sound</genre>
+  <subject>
+    <cartographics>
+      <coordinates>46.514697,-63.517327</coordinates>
+    </cartographics>
+    <hierarchicalGeographic>
+      <continent>North America</continent>
+      <country>Canada</country>
+      <province>Prince Edward Island</province>
+      <county>Queens</county>
+      <region></region>
+      <city>French River</city>
+      <area>Lot 21</area>
+      <citySection></citySection>
+    </hierarchicalGeographic>
+    <geographic>French River, PE</geographic>
+  </subject>
+  <note>This interview is with Maisie Adams (nee Lamont) of French River and Summerside, P.E.I. In this interview Maisie talks about running the lighthouse in French River, storms and drownings, ships in the harbour, family, rum running, foxes, The Great Depression, stores in French River, WWI, the Spanish Flu, and a story about a bank robbery.</note>
+  <originInfo>
+    <dateOther>1997-04-11</dateOther>
+  </originInfo>
+  <physicalDescription>
+    <note>01:03:40</note>
+  </physicalDescription>
+  <identifier type="local">ivoices:ivoices20100622acass002</identifier>
+  <accessCondition>All content on this site is made available for personal research and private study only. Any other reuse, reproduction, or re-purposing may require the permission of the rightsholder(s); please contact the UPEI Library for more information on permissions/clearances.</accessCondition>
+</mods>

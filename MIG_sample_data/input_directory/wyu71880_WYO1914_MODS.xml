@@ -1,0 +1,46 @@
+
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Wyo senior class of 1914</title>
+  </titleInfo>
+  <titleInfo type="alternative">
+    <title>Wyo yearbook</title>
+  </titleInfo>
+  <part>
+    <detail type="volume">
+      <number>06</number>
+    </detail>
+  </part>
+  <name type="corporate">
+    <namePart>University of Wyoming</namePart>
+    <namePart>Junior Class</namePart>
+  </name>
+  <typeOfResource>text</typeOfResource>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Laramie, WY</placeTerm>
+    </place>
+    <publisher>University of Wyoming</publisher>
+    <dateIssued keyDate="yes">1914</dateIssued>
+    <issuance>continuing</issuance>
+    <copyrightDate>1914</copyrightDate>
+  </originInfo>
+  <language>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form authority="marcform">print</form>
+    <digitalOrigin>reformatted digital</digitalOrigin>
+  </physicalDescription>
+  <note type="statement of responsibility">Junior Class, University of Wyoming</note>
+  <subject authority="lcsh">
+    <name type="corporate">
+      <namePart>University of Wyoming</namePart>
+    </name>
+    <topic>Students -- Periodicals -- Yearbooks</topic>
+  </subject>
+  <accessCondition displayLabel="Standardized rights statement" type="use and reproduction" xlink:href="http://rightsstatements.org/page/InC/1.0/">In Copyright</accessCondition>
+  <location>
+    <url usage="primary display">http://hdl.handle.net/10176/wyu:71880</url>
+  </location>
+</mods>

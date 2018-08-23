@@ -1,0 +1,29 @@
+
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>1910 Grand Parade</title>
+  </titleInfo>
+  <typeOfResource>still image</typeOfResource>
+  <genre authority="lctgm">postcards</genre>
+  <language>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+  </language>
+  <abstract>Black and white photograph of a number of horse carriages on a country road with crowds around them.</abstract>
+  <identifier type="local">PEIP1-0012</identifier>
+  <physicalDescription>
+    <form authority="marcform">nonprojected graphic</form>
+    <extent>1 postcard</extent>
+  </physicalDescription>
+  <subject>
+    <hierarchicalGeographic>
+      <continent>North America</continent>
+      <country>Canada</country>
+      <province>PE</province>
+      <county>Queens</county>
+      <city>Charlottetown</city>
+    </hierarchicalGeographic>
+    <cartographics>
+      <coordinates>46.240278, -63.134722</coordinates>
+    </cartographics>
+  </subject>
+</mods>

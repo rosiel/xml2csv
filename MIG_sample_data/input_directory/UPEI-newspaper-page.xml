@@ -1,0 +1,26 @@
+
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<titleInfo>
+<title>Page 2</title>
+</titleInfo>
+    <part>
+        <extent unit="pages">
+            <start>0188</start>
+        </extent>
+        <detail type="page number">
+            <number>2</number>
+        </detail>
+    </part>
+    <relatedItem type="original">
+        <physicalDescription>
+            <form type="microfilm"></form>
+        </physicalDescription>
+        <identifier type="reel number">33</identifier>
+        <identifier type="reel sequence number">0188</identifier>
+        <location>
+            <physicalLocation authority="marcorg" displayLabel="Source Repository">PCU</physicalLocation>
+        </location>
+    </relatedItem>
+    <identifier type="PID">guardian:19170728-002</identifier>
+    <note type="agencyResponsibleForReproduction" displayLabel="Institution Responsible for Digitization">PCU</note>
+</mods>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <name type="personal">
+    <role>
+      <roleTerm authority="local" type="text">author</roleTerm>
+    </role>
+    <namePart type="given">Michael J.</namePart>
+    <namePart type="family">Cowper</namePart>
+    <affiliation>Chemistry</affiliation>
+  </name>
+  <name type="personal">
+    <role>
+      <roleTerm authority="local" type="text">Thesis advisor</roleTerm>
+    </role>
+    <namePart type="given">Alaa</namePart>
+    <namePart type="family">Abd-El-Aziz</namePart>
+  </name>
+  <name type="personal">
+    <role>
+      <roleTerm authority="local" type="text">Thesis advisor</roleTerm>
+    </role>
+    <namePart type="given">Rabin</namePart>
+    <namePart type="family">Bissessur</namePart>
+  </name>
+  <name type="personal">
+    <role>
+      <roleTerm authority="local" type="text">Supervisory Committee Member</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <role>
+      <roleTerm authority="local" type="text">Examination Committee Member</roleTerm>
+    </role>
+    <namePart type="given">Alaa</namePart>
+    <namePart type="family">Abd-El-Aziz</namePart>
+  </name>
+  <identifier type="u1">abdelaziz</identifier>
+  <identifier type="u1">rabissessur</identifier>
+  <identifier type="u2">Chemistry</identifier>
+  <typeOfResource>text</typeOfResource>
+  <genre>Dissertation/Thesis</genre>
+  <titleInfo>
+    <title>Synthesis and characterization of terpyridinebased coordination polymers</title>
+  </titleInfo>
+  <originInfo>
+    <publisher>University of Prince Edward Island</publisher>
+    <place>
+      <placeTerm type="text">Charlottetown, PE</placeTerm>
+    </place>
+    <dateIssued keyDate="yes">2017</dateIssued>
+    <issuance>monographic</issuance>
+  </originInfo>
+  <language>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form authority="marcform">electronic</form>
+    <extent>108</extent>
+    <internetMediaType>application/pdf</internetMediaType>
+  </physicalDescription>
+  <extension>
+    <etd:degree>
+      <etd:name>Master of Science</etd:name>
+      <etd:level>Master</etd:level>
+      <etd:discipline>Faculty of Science. Molecular and Macromolecular Sciences.</etd:discipline>
+      <etd:grantor>University of Prince Edward Island</etd:grantor>
+    </etd:degree>
+  </extension>
+  <identifier type="lac">TC-PCU-20848</identifier>
+  <accessCondition type="use and reproduction">author</accessCondition>
+  <physicalDescription authority="local">PUBLISHED</physicalDescription>
+  <name type="personal">
+    <role>
+      <roleTerm authority="local" type="text">Examination Committee Member</roleTerm>
+    </role>
+    <namePart type="given">Rabin</namePart>
+    <namePart type="family">Bissessur</namePart>
+  </name>
+  <name type="personal">
+    <role>
+      <roleTerm authority="local" type="text">Examination Committee Member</roleTerm>
+    </role>
+    <namePart type="given">Nola</namePart>
+    <namePart type="family">Etkin</namePart>
+  </name>
+  <name type="personal">
+    <role>
+      <roleTerm authority="local" type="text">Examination Committee Member</roleTerm>
+    </role>
+    <namePart type="given">Brian</namePart>
+    <namePart type="family">Wagner</namePart>
+  </name>
+  <name type="personal">
+    <role>
+      <roleTerm authority="local" type="text">Examination Committee Member</roleTerm>
+    </role>
+    <namePart type="given">Ali</namePart>
+    <namePart type="family">Ahmadi</namePart>
+  </name>
+  <name type="personal">
+    <role>
+      <roleTerm authority="local" type="text">Examination Committee Member</roleTerm>
+    </role>
+    <namePart type="given">Amy</namePart>
+    <namePart type="family">Hsiao</namePart>
+  </name>
+  <abstract>Utilizing a radical-nucleophilic aromatic substitution reaction, a novel bisterpyridine&#13;
+compound containing a high degree of conjugation was synthesized. This&#13;
+compound was then used along with a series of transition metal compounds to create a&#13;
+series of coordination polymers. The metals used in this series were iron, resulting in a&#13;
+deep purple compound; nickel, resulting in a pale yellow compound; zinc, resulting in a&#13;
+slightly pink, off white compound; cobalt, resulting in a vibrant turquoise compound;&#13;
+copper, resulting in a dark pastel green compound; and ruthenium, resulting in a dark red&#13;
+compound.&#13;
+The iron coordination polymer was characterized using NMR spectroscopy, and&#13;
+was estimated to possess a molecular weight just under 40,000 g/mol using viscometric&#13;
+analysis. Conductivity measurements were performed on the iron polymer, the results of&#13;
+which unfortunately showed no conductivity. The thermal properties of the iron&#13;
+coordination polymer were also examined, and using TGA it was found to undergo two&#13;
+major decompositions at approximately 460 °C and 485 °C losing 11.27% and 55.04%&#13;
+mass respectively. It was also observed to undergo a glass transition at -37.86 °C.&#13;
+The full polymer series was examined using NMR spectroscopy, and several of&#13;
+the compounds were also examined using EPR spectroscopy. Several of the polymers&#13;
+were investigated using fluorescence spectroscopy, and the zinc polymer displayed an&#13;
+unexpected fluorescence enhancement of nearly five times over the uncoordinated&#13;
+monomer. Quantum yield experiments determined that this polymer has a quantum yield&#13;
+of 0.33%.</abstract>
+  <location>
+    <url>http://www.islandscholar.ca/islandora/object/ir:20848/datastream/PDF/download/citation.pdf</url>
+  </location>
+</mods>
