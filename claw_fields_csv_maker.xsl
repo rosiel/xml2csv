@@ -29,10 +29,7 @@
         <!-- Cell value for Title -->
         <xsl:text>&quot;</xsl:text>
         <xsl:for-each select="titleInfo[not(@type)]">
-            <xsl:value-of select="normalize-space(.)"/>
-            <xsl:if test="position()!=last()">
-                <xsl:text>||</xsl:text>
-            </xsl:if>
+            <xsl:call-template name="cell"/>
         </xsl:for-each>
         <xsl:text>&quot;,</xsl:text>
         
@@ -54,10 +51,7 @@
         <!-- Cell value for Alternative Title -->
         <xsl:text>&quot;</xsl:text>
         <xsl:for-each select="titleInfo[@type='alternative' or @type='abbreviated' or @type='uniform']">
-            <xsl:value-of select="normalize-space(.)"/>
-            <xsl:if test="position()!=last()">
-                <xsl:text>||</xsl:text>
-            </xsl:if>
+            <xsl:call-template name="cell"/>
         </xsl:for-each>
         <xsl:text>&quot;,</xsl:text>
         
@@ -73,7 +67,7 @@
         
         <!-- Cell value for Agent (with Role of "Author") -->
         <xsl:text>&quot;</xsl:text>
-<!--        <xsl:for-each select="name[role/roleTerm eq lower-case('author') or 'aut']">
+        <!--        <xsl:for-each select="name[role/roleTerm eq lower-case('author') or 'aut']">
             <xsl:call-template name="agent"/>
             <xsl:if test="position()!=last()">
                 <xsl:text>||</xsl:text>
@@ -83,7 +77,7 @@
         
         <!-- Cell value for Agent (with Role of "Contributor") -->
         <xsl:text>&quot;</xsl:text>
-
+        
         <xsl:text>&quot;,</xsl:text>
         
         <!-- Cell value for Agent (with various Role values) -->
@@ -94,86 +88,69 @@
         <!-- Cell value for Identifier -->
         <xsl:text>&quot;</xsl:text>
         <xsl:for-each select="identifier">
-            <xsl:value-of select="normalize-space(.)"/>
-            <xsl:if test="position()!=last()">
-                <xsl:text>||</xsl:text>
-            </xsl:if>
+            <xsl:call-template name="cell"/>
         </xsl:for-each>
         <xsl:text>&quot;,</xsl:text>
         
         <!-- Cell value for Rights [multi-valued field] -->
         <xsl:text>&quot;</xsl:text>
         <xsl:for-each select="accessCondition">
-            <xsl:value-of select="normalize-space(.)"/>
-            <xsl:if test="position()!=last()">
-                <xsl:text>||</xsl:text>
-            </xsl:if>
+            <xsl:call-template name="cell"/>
         </xsl:for-each>
         <xsl:text>&quot;,</xsl:text>
         
         <!-- Cell value for Date] -->
         <xsl:text>&quot;</xsl:text>
         <xsl:for-each select="originInfo/dateOther">
-            <xsl:value-of select="normalize-space(.)"/>
-            <xsl:if test="position()!=last()">
-                <xsl:text>||</xsl:text>
-            </xsl:if>
+            <xsl:call-template name="cell"/>
         </xsl:for-each>
         <xsl:text>&quot;,</xsl:text>
         
         <!-- Cell value for Date Issued] -->
         <xsl:text>&quot;</xsl:text>
         <xsl:for-each select="originInfo/dateIssued">
-            <xsl:value-of select="normalize-space(.)"/>
-            <xsl:if test="position()!=last()">
-                <xsl:text>||</xsl:text>
-            </xsl:if>
+            <xsl:call-template name="cell"/>
         </xsl:for-each>
         <xsl:text>&quot;,</xsl:text>
         
         <!-- Cell value for Date Created] -->
         <xsl:text>&quot;</xsl:text>
         <xsl:for-each select="originInfo/dateCreated">
-            <xsl:value-of select="normalize-space(.)"/>
-            <xsl:if test="position()!=last()">
-                <xsl:text>||</xsl:text>
-            </xsl:if>
+            <xsl:call-template name="cell"/>
         </xsl:for-each>
         <xsl:text>&quot;,</xsl:text>
         
         <!-- Cell value for dc:format] -->
         <xsl:text>&quot;</xsl:text>
         <xsl:for-each select="physicalDescription/extent">
-            <xsl:value-of select="normalize-space(.)"/>
-            <xsl:if test="position()!=last()">
-                <xsl:text>||</xsl:text>
-            </xsl:if>
+            <xsl:call-template name="cell"/>
         </xsl:for-each>
         <xsl:text>&quot;,</xsl:text>
         
         <!-- Cell value for dc:typeOfResource] -->
         <xsl:text>&quot;</xsl:text>
         <xsl:for-each select="typeOfResource">
-            <xsl:value-of select="normalize-space(.)"/>
-            <xsl:if test="position()!=last()">
-                <xsl:text>||</xsl:text>
-            </xsl:if>
+            <xsl:call-template name="cell"/>
         </xsl:for-each>
         <xsl:text>&quot;,</xsl:text>
         
         <!-- Cell value for Mime Type] -->
         <xsl:text>&quot;</xsl:text>
         <xsl:for-each select="physicalDescription/internetMediaType">
-            <xsl:value-of select="normalize-space(.)"/>
-            <xsl:if test="position()!=last()">
-                <xsl:text>||</xsl:text>
-            </xsl:if>
+            <xsl:call-template name="cell"/>
         </xsl:for-each>
         <xsl:text>&quot;</xsl:text>
         
         <!-- New line for next record -->
         <xsl:text>&#xa;</xsl:text>
-
+        
+    </xsl:template>
+    
+    <xsl:template name="cell">
+        <xsl:value-of select="normalize-space(.)"/>
+        <xsl:if test="position()!=last()">
+            <xsl:text>||</xsl:text>
+        </xsl:if>
     </xsl:template>
     
     <xsl:template name="agent">
@@ -190,7 +167,9 @@
             </xsl:when>
             
         </xsl:choose>
-        
+        <xsl:if test="position()!=last()">
+            <xsl:text>||</xsl:text>
+        </xsl:if>
     </xsl:template>
     
 </xsl:stylesheet>
