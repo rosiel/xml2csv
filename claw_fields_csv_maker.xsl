@@ -171,38 +171,9 @@
         </xsl:for-each>
         <xsl:text>&quot;</xsl:text>
         
-        <!-- New line -->
+        <!-- New line for next record -->
         <xsl:text>&#xa;</xsl:text>
-        
-        <!--<xsl:variable name="record" select="."/>--><!-- Stores the entire MODS record as a variable -->
-        <!--<xsl:for-each select="$fieldList//field">
 
-            
-            <xsl:variable name="value">
-                <xsl:choose>
-                    <xsl:when test="not(contains(xpath, 'displayLabel'))">
-                        <xsl:for-each select="$elementMatch">
-                            <xsl:call-template name="cell"/>
-                        </xsl:for-each>
-                    </xsl:when>
-                    <xsl:when test="$labelMatch">
-                        <xsl:for-each select="$labelMatch">
-                            <xsl:call-template name="cell"/>
-                        </xsl:for-each>
-                    </xsl:when>
-                </xsl:choose>
-            </xsl:variable>
-            
-            <xsl:choose>
-                <xsl:when test="contains($value, ',')">
-                    <xsl:value-of select="concat('&quot;', $value, '&quot;')"/>
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:value-of select="$value"/>
-                </xsl:otherwise>
-            </xsl:choose>
-            
-        </xsl:for-each>-->
     </xsl:template>
     
     <xsl:template name="agent">
