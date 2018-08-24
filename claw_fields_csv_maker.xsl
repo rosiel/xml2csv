@@ -61,12 +61,9 @@
         <xsl:value-of select="$partition"/>
         
         <!-- Cell value for Agent (with Role of "Author") -->
-        <!--        <xsl:for-each select="name[role/roleTerm eq lower-case('author') or 'aut']">
+        <xsl:for-each select="name[role/roleTerm='aut']|name[role/roleTerm=lower-case('author')]">
             <xsl:call-template name="agent"/>
-            <xsl:if test="position()!=last()">
-                <xsl:text>||</xsl:text>
-            </xsl:if>
-        </xsl:for-each>-->
+        </xsl:for-each>
         <xsl:value-of select="$partition"/>
         
         <!-- Cell value for Agent (with Role of "Contributor") -->
@@ -149,7 +146,9 @@
                     </xsl:for-each>
                 </xsl:if>
             </xsl:when>
-            
+            <xsl:otherwise>
+                <xsl:value-of select="normalize-space(.)"/>
+            </xsl:otherwise>
         </xsl:choose>
         <xsl:if test="position()!=last()">
             <xsl:text>||</xsl:text>
