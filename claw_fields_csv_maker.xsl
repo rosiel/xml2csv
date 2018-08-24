@@ -6,6 +6,7 @@
     
     <xsl:output method="text"/>
     
+    <xsl:variable name="partition" select="'&quot;,&quot;'"/>
     <xsl:template match="/">
         <xsl:call-template name="headerRow"/>
         <xsl:apply-templates select="modsCollection/mods"/>
@@ -31,10 +32,9 @@
         <xsl:for-each select="titleInfo[not(@type)]">
             <xsl:call-template name="cell"/>
         </xsl:for-each>
-        <xsl:text>&quot;,</xsl:text>
+        <xsl:value-of select="$partition"/>
         
         <!-- Cell value for Title (in a different language) -->
-        <xsl:text>&quot;</xsl:text>
         <xsl:for-each select="titleInfo[@type='translated']">
             <xsl:value-of select="normalize-space(.)"/>
             <xsl:if test="@xml:lang">
@@ -46,96 +46,80 @@
                 <xsl:text>||</xsl:text>
             </xsl:if>
         </xsl:for-each>
-        <xsl:text>&quot;,</xsl:text>
+        <xsl:value-of select="$partition"/>
         
         <!-- Cell value for Alternative Title -->
-        <xsl:text>&quot;</xsl:text>
         <xsl:for-each select="titleInfo[@type='alternative' or @type='abbreviated' or @type='uniform']">
             <xsl:call-template name="cell"/>
         </xsl:for-each>
-        <xsl:text>&quot;,</xsl:text>
+        <xsl:value-of select="$partition"/>
         
         <!-- Cell value for Agent (with fields "Linked Agent" and "Role") -->
-        <xsl:text>&quot;</xsl:text>
         <xsl:for-each select="name[not(role/roleTerm)]">
             <xsl:call-template name="agent"/>
-            <xsl:if test="position()!=last()">
-                <xsl:text>||</xsl:text>
-            </xsl:if>
         </xsl:for-each>
-        <xsl:text>&quot;,</xsl:text>
+        <xsl:value-of select="$partition"/>
         
         <!-- Cell value for Agent (with Role of "Author") -->
-        <xsl:text>&quot;</xsl:text>
         <!--        <xsl:for-each select="name[role/roleTerm eq lower-case('author') or 'aut']">
             <xsl:call-template name="agent"/>
             <xsl:if test="position()!=last()">
                 <xsl:text>||</xsl:text>
             </xsl:if>
         </xsl:for-each>-->
-        <xsl:text>&quot;,</xsl:text>
+        <xsl:value-of select="$partition"/>
         
         <!-- Cell value for Agent (with Role of "Contributor") -->
-        <xsl:text>&quot;</xsl:text>
         
-        <xsl:text>&quot;,</xsl:text>
+        <xsl:value-of select="$partition"/>
         
         <!-- Cell value for Agent (with various Role values) -->
-        <xsl:text>&quot;</xsl:text>
-        
-        <xsl:text>&quot;,</xsl:text>
+       
+        <xsl:value-of select="$partition"/>
         
         <!-- Cell value for Identifier -->
-        <xsl:text>&quot;</xsl:text>
         <xsl:for-each select="identifier">
             <xsl:call-template name="cell"/>
         </xsl:for-each>
-        <xsl:text>&quot;,</xsl:text>
+        <xsl:value-of select="$partition"/>
         
         <!-- Cell value for Rights [multi-valued field] -->
-        <xsl:text>&quot;</xsl:text>
         <xsl:for-each select="accessCondition">
             <xsl:call-template name="cell"/>
         </xsl:for-each>
-        <xsl:text>&quot;,</xsl:text>
+        <xsl:value-of select="$partition"/>
         
         <!-- Cell value for Date] -->
-        <xsl:text>&quot;</xsl:text>
         <xsl:for-each select="originInfo/dateOther">
             <xsl:call-template name="cell"/>
         </xsl:for-each>
-        <xsl:text>&quot;,</xsl:text>
+        <xsl:value-of select="$partition"/>
         
         <!-- Cell value for Date Issued] -->
-        <xsl:text>&quot;</xsl:text>
         <xsl:for-each select="originInfo/dateIssued">
             <xsl:call-template name="cell"/>
         </xsl:for-each>
-        <xsl:text>&quot;,</xsl:text>
+        <xsl:value-of select="$partition"/>
         
         <!-- Cell value for Date Created] -->
-        <xsl:text>&quot;</xsl:text>
         <xsl:for-each select="originInfo/dateCreated">
             <xsl:call-template name="cell"/>
         </xsl:for-each>
-        <xsl:text>&quot;,</xsl:text>
+        <xsl:value-of select="$partition"/>
         
         <!-- Cell value for dc:format] -->
-        <xsl:text>&quot;</xsl:text>
         <xsl:for-each select="physicalDescription/extent">
             <xsl:call-template name="cell"/>
         </xsl:for-each>
-        <xsl:text>&quot;,</xsl:text>
+        <xsl:value-of select="$partition"/>
         
         <!-- Cell value for dc:typeOfResource] -->
-        <xsl:text>&quot;</xsl:text>
         <xsl:for-each select="typeOfResource">
             <xsl:call-template name="cell"/>
         </xsl:for-each>
-        <xsl:text>&quot;,</xsl:text>
+        <xsl:value-of select="$partition"/>
         
         <!-- Cell value for Mime Type] -->
-        <xsl:text>&quot;</xsl:text>
         <xsl:for-each select="physicalDescription/internetMediaType">
             <xsl:call-template name="cell"/>
         </xsl:for-each>
