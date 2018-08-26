@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<modsCollection>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3"
               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
               version="3.6"
@@ -76,166 +76,6 @@
       </mods:recordInfo>
       <mods:identifier type="hdl">http://hdl.handle.net/2345/bc-ir:107308</mods:identifier>
    </mods:mods>
-   <mods>
-      <titleInfo>
-         <title>Bill Miner, Train Robber, 1906</title>
-      </titleInfo>
-      <name>
-         <namePart/>
-         <role>
-            <roleTerm type="text" authority="marcrelator">photographer</roleTerm>
-            <roleTerm type="code" authority="marcrelator">pht</roleTerm>
-         </role>
-      </name>
-      <language>
-         <languageTerm type="text">English</languageTerm>
-      </language>
-      <genre authority="gmgpc">Postcards</genre>
-      <identifier type="local">MSC130-2256</identifier>
-      <physicalDescription>
-         <extent>1 postcard : b&amp;w ; 9 x 14 cm.</extent>
-      </physicalDescription>
-      <abstract>A photograph of Bill Miner the train robber in 1906.</abstract>
-      <accessCondition type="use and reproduction">Images from the British Columbia Postcards Collection have been made available by Simon Fraser University Library   under a Creative Commons attribution, non-commercial license at http://creativecommons.org/licenses/by-nc/3.0/. A   full legal outline of the license can be viewed at: http://creativecommons.org/licenses/by-nc/3.0/legalcode &lt;BR&gt;&lt;BR&gt;We encourage the appropriate open use of images from this collection for educational and other not-for-profit   purposes. Attribution/citation should be provided as follows:  Image [insert image number here, eg. MSC130-2144-01]   courtesy of the British Columbia Postcards Collection, a digital initiative of Simon Fraser University Library.   [Please include the website url when images are used in an offline or print-based context]. &lt;BR&gt;&lt;BR&gt;Parties interested in using high-resolution versions of the images from the British Columbia Postcards   Collection for commercial purposes should contact Special Collections and Rare Books, SFU Library.</accessCondition>
-      <typeOfResource>still image</typeOfResource>
-      <identifier type="uuid">5fe693e4-1c81-47cf-aa17-b9cebdbcdadd</identifier>
-      <identifier type="uri" invalid="yes" displayLabel="Migrated From">http://content.lib.sfu.ca/cdm/ref/collection/bcp/id/7928</identifier>
-      <originInfo>
-         <publisher>Vernon News Limited, Vernon (B.C.)</publisher>
-         <dateIssued encoding="w3cdtf" keyDate="yes"/>
-      </originInfo>
-      <originInfo eventType="manufacture">
-         <publisher/>
-      </originInfo>
-      <originInfo eventType="publication">
-         <dateIssued encoding="w3cdtf">1906</dateIssued>
-      </originInfo>
-      <subject>
-         <topic>Criminals</topic>
-         <geographic/>
-         <cartographics>
-            <coordinates/>
-         </cartographics>
-      </subject>
-      <extension>
-         <CONTENTdmData>
-            <alias>bcp</alias>
-            <pointer>7928</pointer>
-            <dmGetItemInfo timestamp="2016-04-17 18:03:11"
-                           mimetype="application/json"
-                           source="http://content.lib.sfu.ca:81/dmwebservices/index.php?q=dmGetItemInfo/bcp/7928/json">{"title":"Bill Miner, Train Robber, 1906","subjec":"Vernon News Limited, Vernon (B.C.)","creato":{},"descri":{},"publis":"1906","contri":{},"date":{},"langua":"English","type":"Image","format":"image\/jpeg","identi":"MSC130-2256","source":"1 postcard : b&amp;w ; 9 x 14 cm.","relati":"A photograph of Bill Miner the train robber in 1906.","covera":{},"bookle":{},"rights":"Images from the British Columbia Postcards Collection have been made available by Simon Fraser University Library   under a Creative Commons attribution, non-commercial license at http:\/\/creativecommons.org\/licenses\/by-nc\/3.0\/. A   full legal outline of the license can be viewed at: http:\/\/creativecommons.org\/licenses\/by-nc\/3.0\/legalcode &lt;BR&gt;&lt;BR&gt;We encourage the appropriate open use of images from this collection for educational and other not-for-profit   purposes. Attribution\/citation should be provided as follows:  Image [insert image number here, eg. MSC130-2144-01]   courtesy of the British Columbia Postcards Collection, a digital initiative of Simon Fraser University Library.   [Please include the website url when images are used in an offline or print-based context]. &lt;BR&gt;&lt;BR&gt;Parties interested in using high-resolution versions of the images from the British Columbia Postcards   Collection for commercial purposes should contact Special Collections and Rare Books, SFU Library.","audien":"[Front[ Bill Miner, Train Robber, 1906. [Back] The Vernon News Limited, Vernon, B.C.; Post Card; Address; Canadian Postage","from":{},"to":{},"subjea":"Criminals","place":{},"geo":{},"fullrs":{},"find":"7929.cpd","dmaccess":{},"dmimage":{},"dmcreated":"2012-11-27","dmmodified":"2012-11-27","dmoclcno":{},"dmrecord":"7928","restrictionCode":"1","cdmfilesize":"339","cdmfilesizeformatted":"0.00 MB","cdmprintpdf":"0","cdmhasocr":"0","cdmisnewspaper":"0"}</dmGetItemInfo>
-            <dmGetCompoundObjectInfo timestamp="2016-04-17 18:03:11"
-                                     mimetype="text/xml"
-                                     source="http://content.lib.sfu.ca:81/dmwebservices/index.php?q=dmGetCompoundObjectInfo/bcp/7928/xml">﻿&lt;?xml version="1.0" encoding="utf-8"?&gt;
-&lt;cpd&gt;
-  &lt;type&gt;Document&lt;/type&gt;
-  &lt;page&gt;
-    &lt;pagetitle&gt;MSC130-2256-01&lt;/pagetitle&gt;
-    &lt;pagefile&gt;7927.jp2&lt;/pagefile&gt;
-    &lt;pageptr&gt;7926&lt;/pageptr&gt;
-  &lt;/page&gt;
-  &lt;page&gt;
-    &lt;pagetitle&gt;MSC130-2256-02&lt;/pagetitle&gt;
-    &lt;pagefile&gt;7928.jp2&lt;/pagefile&gt;
-    &lt;pageptr&gt;7927&lt;/pageptr&gt;
-  &lt;/page&gt;
-&lt;/cpd&gt;
-</dmGetCompoundObjectInfo>
-         </CONTENTdmData>
-         <to type="SFU custom metadata for the British Columbia Postcards Collection"/>
-         <from type="SFU custom metadata for the British Columbia Postcards Collection"/>
-         <on_front_and_back type="SFU custom metadata for the British Columbia Postcards Collection">[Front[ Bill Miner, Train Robber, 1906. [Back] The Vernon News Limited, Vernon, B.C.; Post Card; Address; Canadian Postage</on_front_and_back>
-         <handwritten_date type="SFU custom metadata for the British Columbia Postcards Collection"/>
-         <postmark type="SFU custom metadata for the British Columbia Postcards Collection"/>
-         <booklet_information type="SFU custom metadata for the British Columbia Postcards Collection"/>
-      </extension>
-   </mods>
-   <mods>
-      <titleInfo>
-         <title>Page 2</title>
-      </titleInfo>
-      <part>
-        <extent unit="pages">
-            <start>0188</start>
-        </extent>
-        <detail type="page number">
-            <number>2</number>
-        </detail>
-      </part>
-      <relatedItem type="original">
-        <physicalDescription>
-            <form type="microfilm"/>
-        </physicalDescription>
-        <identifier type="reel number">33</identifier>
-        <identifier type="reel sequence number">0188</identifier>
-        <location>
-            <physicalLocation authority="marcorg" displayLabel="Source Repository">PCU</physicalLocation>
-        </location>
-      </relatedItem>
-      <identifier type="PID">guardian:19170728-002</identifier>
-      <note type="agencyResponsibleForReproduction"
-            displayLabel="Institution Responsible for Digitization">PCU</note>
-   </mods>
-   <mods>
-      <titleInfo>
-         <title>MSC130-2256-01</title>
-      </titleInfo>
-      <name>
-         <namePart/>
-         <role>
-            <roleTerm type="text" authority="marcrelator">photographer</roleTerm>
-            <roleTerm type="code" authority="marcrelator">pht</roleTerm>
-         </role>
-      </name>
-      <language>
-         <languageTerm type="text"/>
-      </language>
-      <genre authority="gmgpc">Postcards</genre>
-      <identifier type="local"/>
-      <physicalDescription>
-         <extent/>
-      </physicalDescription>
-      <abstract/>
-      <accessCondition type="use and reproduction">Images from the British Columbia Postcards Collection have been made available by Simon Fraser University Library   under a Creative Commons attribution, non-commercial license at http://creativecommons.org/licenses/by-nc/3.0/. A   full legal outline of the license can be viewed at: http://creativecommons.org/licenses/by-nc/3.0/legalcode &lt;BR&gt;&lt;BR&gt;We encourage the appropriate open use of images from this collection for educational and other not-for-profit   purposes. Attribution/citation should be provided as follows:  Image [insert image number here, eg. MSC130-2144-01]   courtesy of the British Columbia Postcards Collection, a digital initiative of Simon Fraser University Library.   [Please include the website url when images are used in an offline or print-based context]. &lt;BR&gt;&lt;BR&gt;Parties interested in using high-resolution versions of the images from the British Columbia Postcards   Collection for commercial purposes should contact Special Collections and Rare Books, SFU Library.</accessCondition>
-      <typeOfResource>still image</typeOfResource>
-      <identifier type="uuid">fa40ca69-70ee-42bc-bd00-b7cbc20a240f</identifier>
-      <identifier type="uri" invalid="yes" displayLabel="Migrated From">http://content.lib.sfu.ca/cdm/ref/collection/bcp/id/7926</identifier>
-      <originInfo>
-         <publisher/>
-         <dateIssued encoding="w3cdtf" keyDate="yes"/>
-      </originInfo>
-      <originInfo eventType="manufacture">
-         <publisher/>
-      </originInfo>
-      <originInfo eventType="publication">
-         <dateIssued encoding="w3cdtf"/>
-      </originInfo>
-      <subject>
-         <topic/>
-         <geographic/>
-         <cartographics>
-            <coordinates/>
-         </cartographics>
-      </subject>
-      <extension>
-         <CONTENTdmData>
-            <alias>bcp</alias>
-            <pointer>7926</pointer>
-            <dmGetItemInfo timestamp="2016-04-17 18:03:14"
-                           mimetype="application/json"
-                           source="http://content.lib.sfu.ca:81/dmwebservices/index.php?q=dmGetItemInfo/bcp/7926/json">{"title":"MSC130-2256-01","subjec":{},"creato":{},"descri":{},"publis":{},"contri":{},"date":{},"langua":{},"type":{},"format":{},"identi":{},"source":{},"relati":{},"covera":{},"bookle":{},"rights":"Images from the British Columbia Postcards Collection have been made available by Simon Fraser University Library   under a Creative Commons attribution, non-commercial license at http:\/\/creativecommons.org\/licenses\/by-nc\/3.0\/. A   full legal outline of the license can be viewed at: http:\/\/creativecommons.org\/licenses\/by-nc\/3.0\/legalcode &lt;BR&gt;&lt;BR&gt;We encourage the appropriate open use of images from this collection for educational and other not-for-profit   purposes. Attribution\/citation should be provided as follows:  Image [insert image number here, eg. MSC130-2144-01]   courtesy of the British Columbia Postcards Collection, a digital initiative of Simon Fraser University Library.   [Please include the website url when images are used in an offline or print-based context]. &lt;BR&gt;&lt;BR&gt;Parties interested in using high-resolution versions of the images from the British Columbia Postcards   Collection for commercial purposes should contact Special Collections and Rare Books, SFU Library.","audien":{},"from":{},"to":{},"subjea":{},"place":{},"geo":{},"fullrs":{},"find":"7927.jp2","dmaccess":{},"dmimage":{},"dmcreated":"2012-11-27","dmmodified":"2012-11-27","dmoclcno":{},"dmrecord":"7926","restrictionCode":"1","cdmfilesize":"558838","cdmfilesizeformatted":"0.53 MB","cdmprintpdf":"0","cdmhasocr":"0","cdmisnewspaper":"0"}</dmGetItemInfo>
-            <GetParent timestamp="2016-04-17 18:03:14"
-                       mimetype="text/xml"
-                       source="http://content.lib.sfu.ca:81/dmwebservices/index.php?q=GetParent/bcp/7926/xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;parent&gt;7928&lt;/parent&gt;</GetParent>
-         </CONTENTdmData>
-         <to type="SFU custom metadata for the British Columbia Postcards Collection"/>
-         <from type="SFU custom metadata for the British Columbia Postcards Collection"/>
-         <on_front_and_back type="SFU custom metadata for the British Columbia Postcards Collection"/>
-         <handwritten_date type="SFU custom metadata for the British Columbia Postcards Collection"/>
-         <postmark type="SFU custom metadata for the British Columbia Postcards Collection"/>
-         <booklet_information type="SFU custom metadata for the British Columbia Postcards Collection"/>
-      </extension>
-   </mods>
    <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          version="3.1"
          xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
@@ -375,99 +215,6 @@
       <abstract>Albrecht Dürer, printmaker and painter of the German Renaissance, was equally famous during his lifetime for contributions to the study of mathematics and proportion. In this text, Dürer treats the arithmetic and geometrical constructions of bodies, largely at rest.   Numerous woodcuts represent bodies male and female in various sizes and ages, and register their measurements. The ideas expressed in the De symmetria and the two complimentary volumes that followed, also on human proportion, were widely influential on artists and anatomists for centuries to come. This 1532 text in Latin contains the first two books of the results of this research, first published in German in 1528 as Vier Bücher von menschlicher Proportion (Four Books on Human Proportion.)   Dürer died shortly after receiving the first proofs of the German edition; the remaining publication details were completed by his friends. Our copy is bound in stamped pigskin, with a front panel illustrating Jacob’s ladder and a back panel depicting the baptism of Christ. The woodcut monogram Dürer developed in 1497 to protect his work from piracy is visible on the title page...&lt;a href="/Durer" class="purp" alt="Linked Read More text that goes to more information about De symmetria partium..."&gt;READ MORE&lt;/a&gt;</abstract>
       <note type="statement of responsibility"/>
       <classification edition="21" authority="ddc"/>
-   </mods>
-   <mods>
-      <relatedItem type="host">
-        <identifier type="lccn">cn 87080496</identifier>
-        <part>
-            <detail type="volume">
-                <number/>
-            </detail>
-            <detail type="issue">
-                <number/>
-            </detail>
-            <detail type="edition">
-                <number/>
-                <caption/>
-            </detail>
-        </part>
-      </relatedItem>
-      <titleInfo>
-        <nonSort>The</nonSort>
-        <title>Charlottetown Guardian</title>
-      </titleInfo>
-      <originInfo>
-        <dateIssued encoding="iso8601">1917-07-28T00:00:00.000Z</dateIssued>
-      </originInfo>
-      <identifier type="PID">guardian:19170728</identifier>
-      <note type="missing">missing page</note>
-   </mods>
-   <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         version="3.4"
-         xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-      <identifier type="local" displayLabel="PID">wyu81104:RollFlower</identifier>
-      <titleInfo>
-         <title>Rolling Flower</title>
-      </titleInfo>
-      <name type="personal" usage="primary">
-         <role>
-            <roleTerm type="text">creator</roleTerm>
-         </role>
-      </name>
-      <name type="corporate">
-         <role>
-            <roleTerm type="text">creator</roleTerm>
-         </role>
-      </name>
-      <name type="personal">
-         <namePart>Surls, James</namePart>
-         <role>
-            <roleTerm type="text">Creator</roleTerm>
-         </role>
-      </name>
-      <name type="personal">
-         <role>
-            <roleTerm type="text">contributor</roleTerm>
-         </role>
-      </name>
-      <name type="corporate">
-         <role>
-            <roleTerm type="text">contributor</roleTerm>
-         </role>
-      </name>
-      <typeOfResource>still image</typeOfResource>
-      <genre authority="marcgt">picture</genre>
-      <originInfo>
-         <place>
-            <placeTerm type="text">Laramie, WY</placeTerm>
-         </place>
-         <dateCreated encoding="marc" point="start">2009</dateCreated>
-         <publisher>Coe Library, University of Wyoming</publisher>
-         <dateCreated>2009</dateCreated>
-         <issuance>monographic</issuance>
-      </originInfo>
-      <abstract type="Summary">Rolling Flower by James Surls. Scroll down for an interview with the Artist.</abstract>
-      <accessCondition type="use and reproduction">You may use the digital images and catalog records found on this website for private study, scholarship or research.</accessCondition>
-      <note>UW Libraries Commission 2009</note>
-      <subject>
-         <topic>Art objects, American</topic>
-         <geographic>Coe Library, Level 5, Laramie, Wyoming</geographic>
-      </subject>
-      <relatedItem type="series">
-         <titleInfo>
-            <title>Art in Coe</title>
-         </titleInfo>
-      </relatedItem>
-      <recordInfo>
-         <recordOrigin>Converted from MARCXML to MODS version 3.4 using MARC21slim2MODS3-4.xsl (Revision 1.94 2014/02/21)</recordOrigin>
-      </recordInfo>
-      <physicalDescription>
-         <digitalOrigin>born digital</digitalOrigin>
-      </physicalDescription>
-      <accessCondition type="useAndReproduction">You may use the digital images and catalog records found on this website for private study, scholarship or research.</accessCondition>
-      <location>
-        <url usage="primary display">http://hdl.handle.net/10176/wyu:81104</url>
-      </location>
    </mods>
    <mods>
       <titleInfo>
@@ -757,32 +504,422 @@ The Guardian was published by Guardian Publishing Co. from Dec. 16, 1890 up unti
       <note type="status">loaded</note>
    </mods>
    <mods>
+      <identifier type="local" displayLabel="PID">wyu168835:brandingIron</identifier>
       <titleInfo>
-         <title>1910 Grand Parade</title>
+         <nonSort>The</nonSort>
+         <title>
+      branding iron
+    </title>
       </titleInfo>
-      <typeOfResource>still image</typeOfResource>
-      <genre authority="lctgm">postcards</genre>
+      <titleInfo type="alternative">
+         <title>Campus roundup</title>
+      </titleInfo>
+      <titleInfo type="alternative">
+         <title>Summer roundup</title>
+      </titleInfo>
+      <titleInfo type="alternative">
+         <title>Roundup</title>
+      </titleInfo>
+      <titleInfo type="alternative">
+         <title>Summer branding iron</title>
+         <titleInfo type="alternative">
+            <title>University of Wyoming branding iron</title>
+         </titleInfo>
+      </titleInfo>
+      <name type="corporate">
+         <namePart>
+      Associated Students of the University of Wyoming
+    </namePart>
+      </name>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="marcgt">newspaper</genre>
+      <originInfo eventType="publication">
+         <place>
+            <placeTerm authority="marccountry" type="code">wyu</placeTerm>
+         </place>
+         <place>
+            <placeTerm type="text">Laramie, WY</placeTerm>
+         </place>
+         <publisher>
+      Associated Students of the University of Wyoming
+    </publisher>
+         <dateIssued>1923-</dateIssued>
+         <dateIssued encoding="marc" point="start">1923</dateIssued>
+         <issuance>continuing</issuance>
+         <frequency>Frequency varies</frequency>
+      </originInfo>
       <language>
          <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
       </language>
-      <abstract>Black and white photograph of a number of horse carriages on a country road with crowds around them.</abstract>
-      <identifier type="local">PEIP1-0012</identifier>
       <physicalDescription>
-         <form authority="marcform">nonprojected graphic</form>
-         <extent>1 postcard</extent>
+         <form authority="marcform">print</form>
+         <extent>v. : ill.</extent>
+         <digitalOrigin>reformatted digital</digitalOrigin>
       </physicalDescription>
+      <note>Not published during academic breaks</note>
+      <subject authority="lcsh">
+         <topic>University of Wyoming</topic>
+         <topic>Newspapers</topic>
+      </subject>
+      <subject authority="lcsh">
+         <topic>College student newspapers and periodicals</topic>
+         <topic>Wyoming</topic>
+      </subject>
+      <subject authority="lcsh">
+         <topic>Laramie (Wyo.)</topic>
+         <topic>Newspapers</topic>
+      </subject>
+      <relatedItem type="preceeding">
+         <titleInfo>
+            <title>Wyoming student</title>
+         </titleInfo>
+      </relatedItem>
+      <recordInfo>
+         <recordIdentifier>904243322</recordIdentifier>
+      </recordInfo>
+      <accessCondition xmlns:xlink="http://www.w3.org/1999/xlink"
+                       type="use and reproduction"
+                       displayLabel="Standardized rights statement"
+                       xlink:href="http://rightsstatements.org/vocab/UND/1.0/">Copyright Undetermined</accessCondition>
+   </mods>
+   <mods>
+      <identifier type="local" displayLabel="PID">wyu71880:WYO1914</identifier>
+      <titleInfo>
+         <title>Wyo senior class of 1914</title>
+      </titleInfo>
+      <titleInfo type="alternative">
+         <title>Wyo yearbook</title>
+      </titleInfo>
+      <part>
+         <detail type="volume">
+            <number>06</number>
+         </detail>
+      </part>
+      <name type="corporate">
+         <namePart>University of Wyoming</namePart>
+         <namePart>Junior Class</namePart>
+      </name>
+      <typeOfResource>text</typeOfResource>
+      <originInfo>
+         <place>
+            <placeTerm type="text">Laramie, WY</placeTerm>
+         </place>
+         <publisher>University of Wyoming</publisher>
+         <dateIssued keyDate="yes">1914</dateIssued>
+         <issuance>continuing</issuance>
+         <copyrightDate>1914</copyrightDate>
+      </originInfo>
+      <language>
+         <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+      </language>
+      <physicalDescription>
+         <form authority="marcform">print</form>
+         <digitalOrigin>reformatted digital</digitalOrigin>
+      </physicalDescription>
+      <note type="statement of responsibility">Junior Class, University of Wyoming</note>
+      <subject authority="lcsh">
+         <name type="corporate">
+            <namePart>University of Wyoming</namePart>
+         </name>
+         <topic>Students -- Periodicals -- Yearbooks</topic>
+      </subject>
+      <accessCondition xmlns:xlink="http://www.w3.org/1999/xlink"
+                       displayLabel="Standardized rights statement"
+                       type="use and reproduction"
+                       xlink:href="http://rightsstatements.org/page/InC/1.0/">In Copyright</accessCondition>
+      <location>
+         <url usage="primary display">http://hdl.handle.net/10176/wyu:71880</url>
+      </location>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title>Page 2</title>
+      </titleInfo>
+      <part>
+        <extent unit="pages">
+            <start>0188</start>
+        </extent>
+        <detail type="page number">
+            <number>2</number>
+        </detail>
+      </part>
+      <relatedItem type="original">
+        <physicalDescription>
+            <form type="microfilm"/>
+        </physicalDescription>
+        <identifier type="reel number">33</identifier>
+        <identifier type="reel sequence number">0188</identifier>
+        <location>
+            <physicalLocation authority="marcorg" displayLabel="Source Repository">PCU</physicalLocation>
+        </location>
+      </relatedItem>
+      <identifier type="PID">guardian:19170728-002</identifier>
+      <note type="agencyResponsibleForReproduction"
+            displayLabel="Institution Responsible for Digitization">PCU</note>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title>MSC130-2256-01</title>
+      </titleInfo>
+      <name>
+         <namePart/>
+         <role>
+            <roleTerm type="text" authority="marcrelator">photographer</roleTerm>
+            <roleTerm type="code" authority="marcrelator">pht</roleTerm>
+         </role>
+      </name>
+      <language>
+         <languageTerm type="text"/>
+      </language>
+      <genre authority="gmgpc">Postcards</genre>
+      <identifier type="local"/>
+      <physicalDescription>
+         <extent/>
+      </physicalDescription>
+      <abstract/>
+      <accessCondition type="use and reproduction">Images from the British Columbia Postcards Collection have been made available by Simon Fraser University Library   under a Creative Commons attribution, non-commercial license at http://creativecommons.org/licenses/by-nc/3.0/. A   full legal outline of the license can be viewed at: http://creativecommons.org/licenses/by-nc/3.0/legalcode &lt;BR&gt;&lt;BR&gt;We encourage the appropriate open use of images from this collection for educational and other not-for-profit   purposes. Attribution/citation should be provided as follows:  Image [insert image number here, eg. MSC130-2144-01]   courtesy of the British Columbia Postcards Collection, a digital initiative of Simon Fraser University Library.   [Please include the website url when images are used in an offline or print-based context]. &lt;BR&gt;&lt;BR&gt;Parties interested in using high-resolution versions of the images from the British Columbia Postcards   Collection for commercial purposes should contact Special Collections and Rare Books, SFU Library.</accessCondition>
+      <typeOfResource>still image</typeOfResource>
+      <identifier type="uuid">fa40ca69-70ee-42bc-bd00-b7cbc20a240f</identifier>
+      <identifier type="uri" invalid="yes" displayLabel="Migrated From">http://content.lib.sfu.ca/cdm/ref/collection/bcp/id/7926</identifier>
+      <originInfo>
+         <publisher/>
+         <dateIssued encoding="w3cdtf" keyDate="yes"/>
+      </originInfo>
+      <originInfo eventType="manufacture">
+         <publisher/>
+      </originInfo>
+      <originInfo eventType="publication">
+         <dateIssued encoding="w3cdtf"/>
+      </originInfo>
       <subject>
-         <hierarchicalGeographic>
-            <continent>North America</continent>
-            <country>Canada</country>
-            <province>PE</province>
-            <county>Queens</county>
-            <city>Charlottetown</city>
-         </hierarchicalGeographic>
+         <topic/>
+         <geographic/>
          <cartographics>
-            <coordinates>46.240278, -63.134722</coordinates>
+            <coordinates/>
          </cartographics>
       </subject>
+      <extension>
+         <CONTENTdmData>
+            <alias>bcp</alias>
+            <pointer>7926</pointer>
+            <dmGetItemInfo timestamp="2016-04-17 18:03:14"
+                           mimetype="application/json"
+                           source="http://content.lib.sfu.ca:81/dmwebservices/index.php?q=dmGetItemInfo/bcp/7926/json">{"title":"MSC130-2256-01","subjec":{},"creato":{},"descri":{},"publis":{},"contri":{},"date":{},"langua":{},"type":{},"format":{},"identi":{},"source":{},"relati":{},"covera":{},"bookle":{},"rights":"Images from the British Columbia Postcards Collection have been made available by Simon Fraser University Library   under a Creative Commons attribution, non-commercial license at http:\/\/creativecommons.org\/licenses\/by-nc\/3.0\/. A   full legal outline of the license can be viewed at: http:\/\/creativecommons.org\/licenses\/by-nc\/3.0\/legalcode &lt;BR&gt;&lt;BR&gt;We encourage the appropriate open use of images from this collection for educational and other not-for-profit   purposes. Attribution\/citation should be provided as follows:  Image [insert image number here, eg. MSC130-2144-01]   courtesy of the British Columbia Postcards Collection, a digital initiative of Simon Fraser University Library.   [Please include the website url when images are used in an offline or print-based context]. &lt;BR&gt;&lt;BR&gt;Parties interested in using high-resolution versions of the images from the British Columbia Postcards   Collection for commercial purposes should contact Special Collections and Rare Books, SFU Library.","audien":{},"from":{},"to":{},"subjea":{},"place":{},"geo":{},"fullrs":{},"find":"7927.jp2","dmaccess":{},"dmimage":{},"dmcreated":"2012-11-27","dmmodified":"2012-11-27","dmoclcno":{},"dmrecord":"7926","restrictionCode":"1","cdmfilesize":"558838","cdmfilesizeformatted":"0.53 MB","cdmprintpdf":"0","cdmhasocr":"0","cdmisnewspaper":"0"}</dmGetItemInfo>
+            <GetParent timestamp="2016-04-17 18:03:14"
+                       mimetype="text/xml"
+                       source="http://content.lib.sfu.ca:81/dmwebservices/index.php?q=GetParent/bcp/7926/xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;parent&gt;7928&lt;/parent&gt;</GetParent>
+         </CONTENTdmData>
+         <to type="SFU custom metadata for the British Columbia Postcards Collection"/>
+         <from type="SFU custom metadata for the British Columbia Postcards Collection"/>
+         <on_front_and_back type="SFU custom metadata for the British Columbia Postcards Collection"/>
+         <handwritten_date type="SFU custom metadata for the British Columbia Postcards Collection"/>
+         <postmark type="SFU custom metadata for the British Columbia Postcards Collection"/>
+         <booklet_information type="SFU custom metadata for the British Columbia Postcards Collection"/>
+      </extension>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title>Bill Miner, Train Robber, 1906</title>
+      </titleInfo>
+      <name>
+         <namePart/>
+         <role>
+            <roleTerm type="text" authority="marcrelator">photographer</roleTerm>
+            <roleTerm type="code" authority="marcrelator">pht</roleTerm>
+         </role>
+      </name>
+      <language>
+         <languageTerm type="text">English</languageTerm>
+      </language>
+      <genre authority="gmgpc">Postcards</genre>
+      <identifier type="local">MSC130-2256</identifier>
+      <physicalDescription>
+         <extent>1 postcard : b&amp;w ; 9 x 14 cm.</extent>
+      </physicalDescription>
+      <abstract>A photograph of Bill Miner the train robber in 1906.</abstract>
+      <accessCondition type="use and reproduction">Images from the British Columbia Postcards Collection have been made available by Simon Fraser University Library   under a Creative Commons attribution, non-commercial license at http://creativecommons.org/licenses/by-nc/3.0/. A   full legal outline of the license can be viewed at: http://creativecommons.org/licenses/by-nc/3.0/legalcode &lt;BR&gt;&lt;BR&gt;We encourage the appropriate open use of images from this collection for educational and other not-for-profit   purposes. Attribution/citation should be provided as follows:  Image [insert image number here, eg. MSC130-2144-01]   courtesy of the British Columbia Postcards Collection, a digital initiative of Simon Fraser University Library.   [Please include the website url when images are used in an offline or print-based context]. &lt;BR&gt;&lt;BR&gt;Parties interested in using high-resolution versions of the images from the British Columbia Postcards   Collection for commercial purposes should contact Special Collections and Rare Books, SFU Library.</accessCondition>
+      <typeOfResource>still image</typeOfResource>
+      <identifier type="uuid">5fe693e4-1c81-47cf-aa17-b9cebdbcdadd</identifier>
+      <identifier type="uri" invalid="yes" displayLabel="Migrated From">http://content.lib.sfu.ca/cdm/ref/collection/bcp/id/7928</identifier>
+      <originInfo>
+         <publisher>Vernon News Limited, Vernon (B.C.)</publisher>
+         <dateIssued encoding="w3cdtf" keyDate="yes"/>
+      </originInfo>
+      <originInfo eventType="manufacture">
+         <publisher/>
+      </originInfo>
+      <originInfo eventType="publication">
+         <dateIssued encoding="w3cdtf">1906</dateIssued>
+      </originInfo>
+      <subject>
+         <topic>Criminals</topic>
+         <geographic/>
+         <cartographics>
+            <coordinates/>
+         </cartographics>
+      </subject>
+      <extension>
+         <CONTENTdmData>
+            <alias>bcp</alias>
+            <pointer>7928</pointer>
+            <dmGetItemInfo timestamp="2016-04-17 18:03:11"
+                           mimetype="application/json"
+                           source="http://content.lib.sfu.ca:81/dmwebservices/index.php?q=dmGetItemInfo/bcp/7928/json">{"title":"Bill Miner, Train Robber, 1906","subjec":"Vernon News Limited, Vernon (B.C.)","creato":{},"descri":{},"publis":"1906","contri":{},"date":{},"langua":"English","type":"Image","format":"image\/jpeg","identi":"MSC130-2256","source":"1 postcard : b&amp;w ; 9 x 14 cm.","relati":"A photograph of Bill Miner the train robber in 1906.","covera":{},"bookle":{},"rights":"Images from the British Columbia Postcards Collection have been made available by Simon Fraser University Library   under a Creative Commons attribution, non-commercial license at http:\/\/creativecommons.org\/licenses\/by-nc\/3.0\/. A   full legal outline of the license can be viewed at: http:\/\/creativecommons.org\/licenses\/by-nc\/3.0\/legalcode &lt;BR&gt;&lt;BR&gt;We encourage the appropriate open use of images from this collection for educational and other not-for-profit   purposes. Attribution\/citation should be provided as follows:  Image [insert image number here, eg. MSC130-2144-01]   courtesy of the British Columbia Postcards Collection, a digital initiative of Simon Fraser University Library.   [Please include the website url when images are used in an offline or print-based context]. &lt;BR&gt;&lt;BR&gt;Parties interested in using high-resolution versions of the images from the British Columbia Postcards   Collection for commercial purposes should contact Special Collections and Rare Books, SFU Library.","audien":"[Front[ Bill Miner, Train Robber, 1906. [Back] The Vernon News Limited, Vernon, B.C.; Post Card; Address; Canadian Postage","from":{},"to":{},"subjea":"Criminals","place":{},"geo":{},"fullrs":{},"find":"7929.cpd","dmaccess":{},"dmimage":{},"dmcreated":"2012-11-27","dmmodified":"2012-11-27","dmoclcno":{},"dmrecord":"7928","restrictionCode":"1","cdmfilesize":"339","cdmfilesizeformatted":"0.00 MB","cdmprintpdf":"0","cdmhasocr":"0","cdmisnewspaper":"0"}</dmGetItemInfo>
+            <dmGetCompoundObjectInfo timestamp="2016-04-17 18:03:11"
+                                     mimetype="text/xml"
+                                     source="http://content.lib.sfu.ca:81/dmwebservices/index.php?q=dmGetCompoundObjectInfo/bcp/7928/xml">﻿&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;cpd&gt;
+  &lt;type&gt;Document&lt;/type&gt;
+  &lt;page&gt;
+    &lt;pagetitle&gt;MSC130-2256-01&lt;/pagetitle&gt;
+    &lt;pagefile&gt;7927.jp2&lt;/pagefile&gt;
+    &lt;pageptr&gt;7926&lt;/pageptr&gt;
+  &lt;/page&gt;
+  &lt;page&gt;
+    &lt;pagetitle&gt;MSC130-2256-02&lt;/pagetitle&gt;
+    &lt;pagefile&gt;7928.jp2&lt;/pagefile&gt;
+    &lt;pageptr&gt;7927&lt;/pageptr&gt;
+  &lt;/page&gt;
+&lt;/cpd&gt;
+</dmGetCompoundObjectInfo>
+         </CONTENTdmData>
+         <to type="SFU custom metadata for the British Columbia Postcards Collection"/>
+         <from type="SFU custom metadata for the British Columbia Postcards Collection"/>
+         <on_front_and_back type="SFU custom metadata for the British Columbia Postcards Collection">[Front[ Bill Miner, Train Robber, 1906. [Back] The Vernon News Limited, Vernon, B.C.; Post Card; Address; Canadian Postage</on_front_and_back>
+         <handwritten_date type="SFU custom metadata for the British Columbia Postcards Collection"/>
+         <postmark type="SFU custom metadata for the British Columbia Postcards Collection"/>
+         <booklet_information type="SFU custom metadata for the British Columbia Postcards Collection"/>
+      </extension>
+   </mods>
+   <mods>
+      <name type="personal">
+         <role>
+            <roleTerm authority="local" type="text">author</roleTerm>
+         </role>
+         <namePart type="given">Michael J.</namePart>
+         <namePart type="family">Cowper</namePart>
+         <affiliation>Chemistry</affiliation>
+      </name>
+      <name type="personal">
+         <role>
+            <roleTerm authority="local" type="text">Thesis advisor</roleTerm>
+         </role>
+         <namePart type="given">Alaa</namePart>
+         <namePart type="family">Abd-El-Aziz</namePart>
+      </name>
+      <name type="personal">
+         <role>
+            <roleTerm authority="local" type="text">Thesis advisor</roleTerm>
+         </role>
+         <namePart type="given">Rabin</namePart>
+         <namePart type="family">Bissessur</namePart>
+      </name>
+      <name type="personal">
+         <role>
+            <roleTerm authority="local" type="text">Supervisory Committee Member</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <role>
+            <roleTerm authority="local" type="text">Examination Committee Member</roleTerm>
+         </role>
+         <namePart type="given">Alaa</namePart>
+         <namePart type="family">Abd-El-Aziz</namePart>
+      </name>
+      <identifier type="u1">abdelaziz</identifier>
+      <identifier type="u1">rabissessur</identifier>
+      <identifier type="u2">Chemistry</identifier>
+      <typeOfResource>text</typeOfResource>
+      <genre>Dissertation/Thesis</genre>
+      <titleInfo>
+         <title>Synthesis and characterization of terpyridinebased coordination polymers</title>
+      </titleInfo>
+      <originInfo>
+         <publisher>University of Prince Edward Island</publisher>
+         <place>
+            <placeTerm type="text">Charlottetown, PE</placeTerm>
+         </place>
+         <dateIssued keyDate="yes">2017</dateIssued>
+         <issuance>monographic</issuance>
+      </originInfo>
+      <language>
+         <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+      </language>
+      <physicalDescription>
+         <form authority="marcform">electronic</form>
+         <extent>108</extent>
+         <internetMediaType>application/pdf</internetMediaType>
+      </physicalDescription>
+      <extension>
+         <etd:degree xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0">
+            <etd:name>Master of Science</etd:name>
+            <etd:level>Master</etd:level>
+            <etd:discipline>Faculty of Science. Molecular and Macromolecular Sciences.</etd:discipline>
+            <etd:grantor>University of Prince Edward Island</etd:grantor>
+         </etd:degree>
+      </extension>
+      <identifier type="lac">TC-PCU-20848</identifier>
+      <accessCondition type="use and reproduction">author</accessCondition>
+      <physicalDescription authority="local">PUBLISHED</physicalDescription>
+      <name type="personal">
+         <role>
+            <roleTerm authority="local" type="text">Examination Committee Member</roleTerm>
+         </role>
+         <namePart type="given">Rabin</namePart>
+         <namePart type="family">Bissessur</namePart>
+      </name>
+      <name type="personal">
+         <role>
+            <roleTerm authority="local" type="text">Examination Committee Member</roleTerm>
+         </role>
+         <namePart type="given">Nola</namePart>
+         <namePart type="family">Etkin</namePart>
+      </name>
+      <name type="personal">
+         <role>
+            <roleTerm authority="local" type="text">Examination Committee Member</roleTerm>
+         </role>
+         <namePart type="given">Brian</namePart>
+         <namePart type="family">Wagner</namePart>
+      </name>
+      <name type="personal">
+         <role>
+            <roleTerm authority="local" type="text">Examination Committee Member</roleTerm>
+         </role>
+         <namePart type="given">Ali</namePart>
+         <namePart type="family">Ahmadi</namePart>
+      </name>
+      <name type="personal">
+         <role>
+            <roleTerm authority="local" type="text">Examination Committee Member</roleTerm>
+         </role>
+         <namePart type="given">Amy</namePart>
+         <namePart type="family">Hsiao</namePart>
+      </name>
+      <abstract>Utilizing a radical-nucleophilic aromatic substitution reaction, a novel bisterpyridine&#xD;
+compound containing a high degree of conjugation was synthesized. This&#xD;
+compound was then used along with a series of transition metal compounds to create a&#xD;
+series of coordination polymers. The metals used in this series were iron, resulting in a&#xD;
+deep purple compound; nickel, resulting in a pale yellow compound; zinc, resulting in a&#xD;
+slightly pink, off white compound; cobalt, resulting in a vibrant turquoise compound;&#xD;
+copper, resulting in a dark pastel green compound; and ruthenium, resulting in a dark red&#xD;
+compound.&#xD;
+The iron coordination polymer was characterized using NMR spectroscopy, and&#xD;
+was estimated to possess a molecular weight just under 40,000 g/mol using viscometric&#xD;
+analysis. Conductivity measurements were performed on the iron polymer, the results of&#xD;
+which unfortunately showed no conductivity. The thermal properties of the iron&#xD;
+coordination polymer were also examined, and using TGA it was found to undergo two&#xD;
+major decompositions at approximately 460 °C and 485 °C losing 11.27% and 55.04%&#xD;
+mass respectively. It was also observed to undergo a glass transition at -37.86 °C.&#xD;
+The full polymer series was examined using NMR spectroscopy, and several of&#xD;
+the compounds were also examined using EPR spectroscopy. Several of the polymers&#xD;
+were investigated using fluorescence spectroscopy, and the zinc polymer displayed an&#xD;
+unexpected fluorescence enhancement of nearly five times over the uncoordinated&#xD;
+monomer. Quantum yield experiments determined that this polymer has a quantum yield&#xD;
+of 0.33%.</abstract>
+      <location>
+         <url>http://www.islandscholar.ca/islandora/object/ir:20848/datastream/PDF/download/citation.pdf</url>
+      </location>
    </mods>
    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3"
               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -1006,183 +1143,125 @@ The Guardian was published by Guardian Publishing Co. from Dec. 16, 1890 up unti
       <identifier type="pmcid">PMC5508383</identifier>
    </mods>
    <mods>
-      <identifier type="local" displayLabel="PID">wyu71880:WYO1914</identifier>
       <titleInfo>
-         <title>Wyo senior class of 1914</title>
+         <title>1910 Grand Parade</title>
       </titleInfo>
-      <titleInfo type="alternative">
-         <title>Wyo yearbook</title>
+      <typeOfResource>still image</typeOfResource>
+      <genre authority="lctgm">postcards</genre>
+      <language>
+         <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+      </language>
+      <abstract>Black and white photograph of a number of horse carriages on a country road with crowds around them.</abstract>
+      <identifier type="local">PEIP1-0012</identifier>
+      <physicalDescription>
+         <form authority="marcform">nonprojected graphic</form>
+         <extent>1 postcard</extent>
+      </physicalDescription>
+      <subject>
+         <hierarchicalGeographic>
+            <continent>North America</continent>
+            <country>Canada</country>
+            <province>PE</province>
+            <county>Queens</county>
+            <city>Charlottetown</city>
+         </hierarchicalGeographic>
+         <cartographics>
+            <coordinates>46.240278, -63.134722</coordinates>
+         </cartographics>
+      </subject>
+   </mods>
+   <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         version="3.4"
+         xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+      <identifier type="local" displayLabel="PID">wyu81104:RollFlower</identifier>
+      <titleInfo>
+         <title>Rolling Flower</title>
       </titleInfo>
-      <part>
-         <detail type="volume">
-            <number>06</number>
-         </detail>
-      </part>
-      <name type="corporate">
-         <namePart>University of Wyoming</namePart>
-         <namePart>Junior Class</namePart>
+      <name type="personal" usage="primary">
+         <role>
+            <roleTerm type="text">creator</roleTerm>
+         </role>
       </name>
-      <typeOfResource>text</typeOfResource>
+      <name type="corporate">
+         <role>
+            <roleTerm type="text">creator</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart>Surls, James</namePart>
+         <role>
+            <roleTerm type="text">Creator</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <role>
+            <roleTerm type="text">contributor</roleTerm>
+         </role>
+      </name>
+      <name type="corporate">
+         <role>
+            <roleTerm type="text">contributor</roleTerm>
+         </role>
+      </name>
+      <typeOfResource>still image</typeOfResource>
+      <genre authority="marcgt">picture</genre>
       <originInfo>
          <place>
             <placeTerm type="text">Laramie, WY</placeTerm>
          </place>
-         <publisher>University of Wyoming</publisher>
-         <dateIssued keyDate="yes">1914</dateIssued>
-         <issuance>continuing</issuance>
-         <copyrightDate>1914</copyrightDate>
+         <dateCreated encoding="marc" point="start">2009</dateCreated>
+         <publisher>Coe Library, University of Wyoming</publisher>
+         <dateCreated>2009</dateCreated>
+         <issuance>monographic</issuance>
       </originInfo>
-      <language>
-         <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-      </language>
-      <physicalDescription>
-         <form authority="marcform">print</form>
-         <digitalOrigin>reformatted digital</digitalOrigin>
-      </physicalDescription>
-      <note type="statement of responsibility">Junior Class, University of Wyoming</note>
-      <subject authority="lcsh">
-         <name type="corporate">
-            <namePart>University of Wyoming</namePart>
-         </name>
-         <topic>Students -- Periodicals -- Yearbooks</topic>
+      <abstract type="Summary">Rolling Flower by James Surls. Scroll down for an interview with the Artist.</abstract>
+      <accessCondition type="use and reproduction">You may use the digital images and catalog records found on this website for private study, scholarship or research.</accessCondition>
+      <note>UW Libraries Commission 2009</note>
+      <subject>
+         <topic>Art objects, American</topic>
+         <geographic>Coe Library, Level 5, Laramie, Wyoming</geographic>
       </subject>
-      <accessCondition xmlns:xlink="http://www.w3.org/1999/xlink"
-                       displayLabel="Standardized rights statement"
-                       type="use and reproduction"
-                       xlink:href="http://rightsstatements.org/page/InC/1.0/">In Copyright</accessCondition>
+      <relatedItem type="series">
+         <titleInfo>
+            <title>Art in Coe</title>
+         </titleInfo>
+      </relatedItem>
+      <recordInfo>
+         <recordOrigin>Converted from MARCXML to MODS version 3.4 using MARC21slim2MODS3-4.xsl (Revision 1.94 2014/02/21)</recordOrigin>
+      </recordInfo>
+      <physicalDescription>
+         <digitalOrigin>born digital</digitalOrigin>
+      </physicalDescription>
+      <accessCondition type="useAndReproduction">You may use the digital images and catalog records found on this website for private study, scholarship or research.</accessCondition>
       <location>
-         <url usage="primary display">http://hdl.handle.net/10176/wyu:71880</url>
+        <url usage="primary display">http://hdl.handle.net/10176/wyu:81104</url>
       </location>
    </mods>
    <mods>
-      <name type="personal">
-         <role>
-            <roleTerm authority="local" type="text">author</roleTerm>
-         </role>
-         <namePart type="given">Michael J.</namePart>
-         <namePart type="family">Cowper</namePart>
-         <affiliation>Chemistry</affiliation>
-      </name>
-      <name type="personal">
-         <role>
-            <roleTerm authority="local" type="text">Thesis advisor</roleTerm>
-         </role>
-         <namePart type="given">Alaa</namePart>
-         <namePart type="family">Abd-El-Aziz</namePart>
-      </name>
-      <name type="personal">
-         <role>
-            <roleTerm authority="local" type="text">Thesis advisor</roleTerm>
-         </role>
-         <namePart type="given">Rabin</namePart>
-         <namePart type="family">Bissessur</namePart>
-      </name>
-      <name type="personal">
-         <role>
-            <roleTerm authority="local" type="text">Supervisory Committee Member</roleTerm>
-         </role>
-      </name>
-      <name type="personal">
-         <role>
-            <roleTerm authority="local" type="text">Examination Committee Member</roleTerm>
-         </role>
-         <namePart type="given">Alaa</namePart>
-         <namePart type="family">Abd-El-Aziz</namePart>
-      </name>
-      <identifier type="u1">abdelaziz</identifier>
-      <identifier type="u1">rabissessur</identifier>
-      <identifier type="u2">Chemistry</identifier>
-      <typeOfResource>text</typeOfResource>
-      <genre>Dissertation/Thesis</genre>
+      <relatedItem type="host">
+        <identifier type="lccn">cn 87080496</identifier>
+        <part>
+            <detail type="volume">
+                <number/>
+            </detail>
+            <detail type="issue">
+                <number/>
+            </detail>
+            <detail type="edition">
+                <number/>
+                <caption/>
+            </detail>
+        </part>
+      </relatedItem>
       <titleInfo>
-         <title>Synthesis and characterization of terpyridinebased coordination polymers</title>
+        <nonSort>The</nonSort>
+        <title>Charlottetown Guardian</title>
       </titleInfo>
       <originInfo>
-         <publisher>University of Prince Edward Island</publisher>
-         <place>
-            <placeTerm type="text">Charlottetown, PE</placeTerm>
-         </place>
-         <dateIssued keyDate="yes">2017</dateIssued>
-         <issuance>monographic</issuance>
+        <dateIssued encoding="iso8601">1917-07-28T00:00:00.000Z</dateIssued>
       </originInfo>
-      <language>
-         <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-      </language>
-      <physicalDescription>
-         <form authority="marcform">electronic</form>
-         <extent>108</extent>
-         <internetMediaType>application/pdf</internetMediaType>
-      </physicalDescription>
-      <extension>
-         <etd:degree xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0">
-            <etd:name>Master of Science</etd:name>
-            <etd:level>Master</etd:level>
-            <etd:discipline>Faculty of Science. Molecular and Macromolecular Sciences.</etd:discipline>
-            <etd:grantor>University of Prince Edward Island</etd:grantor>
-         </etd:degree>
-      </extension>
-      <identifier type="lac">TC-PCU-20848</identifier>
-      <accessCondition type="use and reproduction">author</accessCondition>
-      <physicalDescription authority="local">PUBLISHED</physicalDescription>
-      <name type="personal">
-         <role>
-            <roleTerm authority="local" type="text">Examination Committee Member</roleTerm>
-         </role>
-         <namePart type="given">Rabin</namePart>
-         <namePart type="family">Bissessur</namePart>
-      </name>
-      <name type="personal">
-         <role>
-            <roleTerm authority="local" type="text">Examination Committee Member</roleTerm>
-         </role>
-         <namePart type="given">Nola</namePart>
-         <namePart type="family">Etkin</namePart>
-      </name>
-      <name type="personal">
-         <role>
-            <roleTerm authority="local" type="text">Examination Committee Member</roleTerm>
-         </role>
-         <namePart type="given">Brian</namePart>
-         <namePart type="family">Wagner</namePart>
-      </name>
-      <name type="personal">
-         <role>
-            <roleTerm authority="local" type="text">Examination Committee Member</roleTerm>
-         </role>
-         <namePart type="given">Ali</namePart>
-         <namePart type="family">Ahmadi</namePart>
-      </name>
-      <name type="personal">
-         <role>
-            <roleTerm authority="local" type="text">Examination Committee Member</roleTerm>
-         </role>
-         <namePart type="given">Amy</namePart>
-         <namePart type="family">Hsiao</namePart>
-      </name>
-      <abstract>Utilizing a radical-nucleophilic aromatic substitution reaction, a novel bisterpyridine&#xD;
-compound containing a high degree of conjugation was synthesized. This&#xD;
-compound was then used along with a series of transition metal compounds to create a&#xD;
-series of coordination polymers. The metals used in this series were iron, resulting in a&#xD;
-deep purple compound; nickel, resulting in a pale yellow compound; zinc, resulting in a&#xD;
-slightly pink, off white compound; cobalt, resulting in a vibrant turquoise compound;&#xD;
-copper, resulting in a dark pastel green compound; and ruthenium, resulting in a dark red&#xD;
-compound.&#xD;
-The iron coordination polymer was characterized using NMR spectroscopy, and&#xD;
-was estimated to possess a molecular weight just under 40,000 g/mol using viscometric&#xD;
-analysis. Conductivity measurements were performed on the iron polymer, the results of&#xD;
-which unfortunately showed no conductivity. The thermal properties of the iron&#xD;
-coordination polymer were also examined, and using TGA it was found to undergo two&#xD;
-major decompositions at approximately 460 °C and 485 °C losing 11.27% and 55.04%&#xD;
-mass respectively. It was also observed to undergo a glass transition at -37.86 °C.&#xD;
-The full polymer series was examined using NMR spectroscopy, and several of&#xD;
-the compounds were also examined using EPR spectroscopy. Several of the polymers&#xD;
-were investigated using fluorescence spectroscopy, and the zinc polymer displayed an&#xD;
-unexpected fluorescence enhancement of nearly five times over the uncoordinated&#xD;
-monomer. Quantum yield experiments determined that this polymer has a quantum yield&#xD;
-of 0.33%.</abstract>
-      <location>
-         <url>http://www.islandscholar.ca/islandora/object/ir:20848/datastream/PDF/download/citation.pdf</url>
-      </location>
+      <identifier type="PID">guardian:19170728</identifier>
+      <note type="missing">missing page</note>
    </mods>
    <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          version="3.4"
@@ -1226,84 +1305,5 @@ of 0.33%.</abstract>
       </physicalDescription>
       <identifier type="local">ivoices:ivoices20100622acass002</identifier>
       <accessCondition>All content on this site is made available for personal research and private study only. Any other reuse, reproduction, or re-purposing may require the permission of the rightsholder(s); please contact the UPEI Library for more information on permissions/clearances.</accessCondition>
-   </mods>
-   <mods>
-      <identifier type="local" displayLabel="PID">wyu168835:brandingIron</identifier>
-      <titleInfo>
-         <nonSort>The</nonSort>
-         <title>
-      branding iron
-    </title>
-      </titleInfo>
-      <titleInfo type="alternative">
-         <title>Campus roundup</title>
-      </titleInfo>
-      <titleInfo type="alternative">
-         <title>Summer roundup</title>
-      </titleInfo>
-      <titleInfo type="alternative">
-         <title>Roundup</title>
-      </titleInfo>
-      <titleInfo type="alternative">
-         <title>Summer branding iron</title>
-         <titleInfo type="alternative">
-            <title>University of Wyoming branding iron</title>
-         </titleInfo>
-      </titleInfo>
-      <name type="corporate">
-         <namePart>
-      Associated Students of the University of Wyoming
-    </namePart>
-      </name>
-      <typeOfResource>text</typeOfResource>
-      <genre authority="marcgt">newspaper</genre>
-      <originInfo eventType="publication">
-         <place>
-            <placeTerm authority="marccountry" type="code">wyu</placeTerm>
-         </place>
-         <place>
-            <placeTerm type="text">Laramie, WY</placeTerm>
-         </place>
-         <publisher>
-      Associated Students of the University of Wyoming
-    </publisher>
-         <dateIssued>1923-</dateIssued>
-         <dateIssued encoding="marc" point="start">1923</dateIssued>
-         <issuance>continuing</issuance>
-         <frequency>Frequency varies</frequency>
-      </originInfo>
-      <language>
-         <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-      </language>
-      <physicalDescription>
-         <form authority="marcform">print</form>
-         <extent>v. : ill.</extent>
-         <digitalOrigin>reformatted digital</digitalOrigin>
-      </physicalDescription>
-      <note>Not published during academic breaks</note>
-      <subject authority="lcsh">
-         <topic>University of Wyoming</topic>
-         <topic>Newspapers</topic>
-      </subject>
-      <subject authority="lcsh">
-         <topic>College student newspapers and periodicals</topic>
-         <topic>Wyoming</topic>
-      </subject>
-      <subject authority="lcsh">
-         <topic>Laramie (Wyo.)</topic>
-         <topic>Newspapers</topic>
-      </subject>
-      <relatedItem type="preceeding">
-         <titleInfo>
-            <title>Wyoming student</title>
-         </titleInfo>
-      </relatedItem>
-      <recordInfo>
-         <recordIdentifier>904243322</recordIdentifier>
-      </recordInfo>
-      <accessCondition xmlns:xlink="http://www.w3.org/1999/xlink"
-                       type="use and reproduction"
-                       displayLabel="Standardized rights statement"
-                       xlink:href="http://rightsstatements.org/vocab/UND/1.0/">Copyright Undetermined</accessCondition>
    </mods>
 </modsCollection>
