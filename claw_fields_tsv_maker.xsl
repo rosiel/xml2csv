@@ -9,7 +9,7 @@
     
     <xsl:output method="text"/>
     
-    <xsl:variable name="partition" select="'&quot;,&quot;'"/>
+    <xsl:variable name="partition" select="'&#9;'"/>
     <xsl:template match="/">
         <xsl:call-template name="headerRow"/>
         <xsl:apply-templates select="modsCollection/mods"/>
@@ -23,7 +23,7 @@
         Note: mods/physicalDescription/extent and mods/typeOfResource had no value in this column, so their RDF mapping value was used instead. 
     -->
     <xsl:template name="headerRow">
-        <xsl:text>Title,Title (in a different language),Alternative Title,Agent (with fields &quot;Linked Agent&quot; and &quot;Role&quot;),Agent (with Role of &quot;Author&quot;),Agent (with Role of &quot;Contributor&quot;),Agent (with various Role values),Identifier,Rights [multi-valued field],Date,Date Issued,Date Created,dc:format,dcterms:type,Mime Type&#xa;</xsl:text>
+        <xsl:text>Title&#9;Title (in a different language)&#9;Alternative Title&#9;Agent (with fields &quot;Linked Agent&quot; and &quot;Role&quot;)&#9;Agent (with Role of &quot;Author&quot;)&#9;Agent (with Role of &quot;Contributor&quot;)&#9;Agent (with various Role values)&#9;Identifier&#9;Rights [multi-valued field]&#9;Date&#9;Date Issued&#9;Date Created&#9;dc:format&#9;dcterms:type&#9;Mime Type&#xa;</xsl:text>
     </xsl:template>
     <!-- End header row -->
     
@@ -31,7 +31,6 @@
     <xsl:template match="mods">
         
         <!-- Cell value for Title -->
-        <xsl:text>&quot;</xsl:text>
         <xsl:for-each select="titleInfo[not(@type)]">
             <xsl:call-template name="cell"/>
         </xsl:for-each>
@@ -123,7 +122,6 @@
         <xsl:for-each select="physicalDescription/internetMediaType">
             <xsl:call-template name="cell"/>
         </xsl:for-each>
-        <xsl:text>&quot;</xsl:text>
         
         <!-- New line for next record -->
         <xsl:text>&#xa;</xsl:text>
