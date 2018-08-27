@@ -69,7 +69,9 @@
         <xsl:value-of select="$partition"/>
         
         <!-- Cell value for Agent (with Role of "Contributor") -->
-        
+        <xsl:for-each select="name[role/roleTerm='ctb']|name[role/roleTerm=lower-case('contributor')]">
+            <xsl:call-template name="agent"/>
+        </xsl:for-each>
         <xsl:value-of select="$partition"/>
         
         <!-- Cell value for Agent (with various Role values) -->
