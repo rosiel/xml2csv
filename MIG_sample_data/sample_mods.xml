@@ -1,8 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<modsCollection xmlns="http://www.loc.gov/mods/v3">
-   <mods:mods xmlns:mods="http://www.loc.gov/mods/v3"
-              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-              version="3.6"
+<modsCollection xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xmlns:mods="http://www.loc.gov/mods/v3"
+                xmlns="http://www.loc.gov/mods/v3">
+   <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd">
+        <mods:titleInfo>
+            <mods:title>Ômi Province: Lake Biwa, Ishiyama Temple from the series Famous Places in the Sixty-odd Provinces, woodblock print, ink and color on paper</mods:title>
+        </mods:titleInfo>
+        <mods:language>
+            <mods:languageTerm type="code" authority="iso639-2b">zxx</mods:languageTerm>
+            <mods:languageTerm type="text">Not applicable</mods:languageTerm>
+        </mods:language>
+        <mods:typeOfResource>still image</mods:typeOfResource>
+        <mods:originInfo>
+            <mods:dateCreated>circa 1853</mods:dateCreated>
+            <mods:dateCreated point="start">1848</mods:dateCreated>
+            <mods:dateCreated point="end">1858</mods:dateCreated>
+        </mods:originInfo>
+        <mods:name type="personal" authority="oclc_naf">
+            <mods:role>
+                <mods:roleTerm type="text" authority="marcrelator">creator</mods:roleTerm>
+                <mods:roleTerm type="code" authority="marcrelator">cre</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="family">Andō</mods:namePart>
+            <mods:namePart type="given">Hiroshige</mods:namePart>
+            <mods:namePart type="date">1797-1858</mods:namePart>
+            <mods:displayForm>Andō, Hiroshige, 1797-1858</mods:displayForm>
+        </mods:name>
+        <mods:physicalDescription>
+            <mods:note displayLabel="Physical Characteristics and Technical Requirements note">image/tiff</mods:note>
+            <mods:extent>1 file</mods:extent>
+            <mods:note displayLabel="Material Specific Details note">reformatted digital</mods:note>
+            <mods:note displayLabel="General Physical Description note">25 cm X 36.5 cm</mods:note>
+        </mods:physicalDescription>
+        <mods:accessCondition type="useAndReproduction" displayLabel="Conditions Governing Use note">These materials are made available for use in research, teaching and private study, pursuant to U.S. Copyright Law. The user must assume full responsibility for any use of the materials, including but not limited to, infringement of copyright and publication rights of reproduced materials. Any materials used for academic research or otherwise should be fully credited with the source. The original artists may retain copyright to the materials.</mods:accessCondition>
+        <mods:relatedItem type="host">
+            <mods:titleInfo>
+                <mods:title>Japanese prints collection</mods:title>
+            </mods:titleInfo>
+            <mods:originInfo>
+                <mods:dateCreated>circa 1765-1964 (bulk 1780-1860)</mods:dateCreated>
+                <mods:dateCreated point="start">1765</mods:dateCreated>
+                <mods:dateCreated point="end">1964</mods:dateCreated>
+            </mods:originInfo>
+            <mods:identifier type="local">MS.2013.043</mods:identifier>
+            <mods:location>
+                <mods:url>http://hdl.handle.net/2345/3820</mods:url>
+            </mods:location>
+        </mods:relatedItem>
+        <mods:note displayLabel="Digital object made available by ">Archives and Manuscripts Department, 140 Commonwealth Avenue, Chestnut Hill, MA, 02467, United States, (http://www.bc.edu/burns)</mods:note>
+    </mods:mods>
+   <mods:mods version="3.6"
               xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd http://www.ndltd.org/standards/metadata/etdms/1.0/ http://www.ndltd.org/standards/metadata/etdms/1.0/etdms.xsd">
       <mods:titleInfo usage="primary">
          <mods:title>Rapid thinning of the Laurentide Ice Sheet in coastal Maine, USA during late Heinrich Stadial 1</mods:title>
@@ -76,8 +124,7 @@
       </mods:recordInfo>
       <mods:identifier type="hdl">http://hdl.handle.net/2345/bc-ir:107308</mods:identifier>
    </mods:mods>
-   <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         version="3.1"
+   <mods version="3.1"
          xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
       <titleInfo>
          <title>De symmetria partium in rectis formis humanorum</title>
@@ -215,6 +262,406 @@
       <abstract>Albrecht Dürer, printmaker and painter of the German Renaissance, was equally famous during his lifetime for contributions to the study of mathematics and proportion. In this text, Dürer treats the arithmetic and geometrical constructions of bodies, largely at rest.   Numerous woodcuts represent bodies male and female in various sizes and ages, and register their measurements. The ideas expressed in the De symmetria and the two complimentary volumes that followed, also on human proportion, were widely influential on artists and anatomists for centuries to come. This 1532 text in Latin contains the first two books of the results of this research, first published in German in 1528 as Vier Bücher von menschlicher Proportion (Four Books on Human Proportion.)   Dürer died shortly after receiving the first proofs of the German edition; the remaining publication details were completed by his friends. Our copy is bound in stamped pigskin, with a front panel illustrating Jacob’s ladder and a back panel depicting the baptism of Christ. The woodcut monogram Dürer developed in 1497 to protect his work from piracy is visible on the title page...&lt;a href="/Durer" class="purp" alt="Linked Read More text that goes to more information about De symmetria partium..."&gt;READ MORE&lt;/a&gt;</abstract>
       <note type="statement of responsibility"/>
       <classification edition="21" authority="ddc"/>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title>MSC130-2256-01</title>
+      </titleInfo>
+      <name>
+         <namePart/>
+         <role>
+            <roleTerm type="text" authority="marcrelator">photographer</roleTerm>
+            <roleTerm type="code" authority="marcrelator">pht</roleTerm>
+         </role>
+      </name>
+      <language>
+         <languageTerm type="text"/>
+      </language>
+      <genre authority="gmgpc">Postcards</genre>
+      <identifier type="local"/>
+      <physicalDescription>
+         <extent/>
+      </physicalDescription>
+      <abstract/>
+      <accessCondition type="use and reproduction">Images from the British Columbia Postcards Collection have been made available by Simon Fraser University Library   under a Creative Commons attribution, non-commercial license at http://creativecommons.org/licenses/by-nc/3.0/. A   full legal outline of the license can be viewed at: http://creativecommons.org/licenses/by-nc/3.0/legalcode &lt;BR&gt;&lt;BR&gt;We encourage the appropriate open use of images from this collection for educational and other not-for-profit   purposes. Attribution/citation should be provided as follows:  Image [insert image number here, eg. MSC130-2144-01]   courtesy of the British Columbia Postcards Collection, a digital initiative of Simon Fraser University Library.   [Please include the website url when images are used in an offline or print-based context]. &lt;BR&gt;&lt;BR&gt;Parties interested in using high-resolution versions of the images from the British Columbia Postcards   Collection for commercial purposes should contact Special Collections and Rare Books, SFU Library.</accessCondition>
+      <typeOfResource>still image</typeOfResource>
+      <identifier type="uuid">fa40ca69-70ee-42bc-bd00-b7cbc20a240f</identifier>
+      <identifier type="uri" invalid="yes" displayLabel="Migrated From">http://content.lib.sfu.ca/cdm/ref/collection/bcp/id/7926</identifier>
+      <originInfo>
+         <publisher/>
+         <dateIssued encoding="w3cdtf" keyDate="yes"/>
+      </originInfo>
+      <originInfo eventType="manufacture">
+         <publisher/>
+      </originInfo>
+      <originInfo eventType="publication">
+         <dateIssued encoding="w3cdtf"/>
+      </originInfo>
+      <subject>
+         <topic/>
+         <geographic/>
+         <cartographics>
+            <coordinates/>
+         </cartographics>
+      </subject>
+      <extension>
+         <CONTENTdmData>
+            <alias>bcp</alias>
+            <pointer>7926</pointer>
+            <dmGetItemInfo timestamp="2016-04-17 18:03:14"
+                           mimetype="application/json"
+                           source="http://content.lib.sfu.ca:81/dmwebservices/index.php?q=dmGetItemInfo/bcp/7926/json">{"title":"MSC130-2256-01","subjec":{},"creato":{},"descri":{},"publis":{},"contri":{},"date":{},"langua":{},"type":{},"format":{},"identi":{},"source":{},"relati":{},"covera":{},"bookle":{},"rights":"Images from the British Columbia Postcards Collection have been made available by Simon Fraser University Library   under a Creative Commons attribution, non-commercial license at http:\/\/creativecommons.org\/licenses\/by-nc\/3.0\/. A   full legal outline of the license can be viewed at: http:\/\/creativecommons.org\/licenses\/by-nc\/3.0\/legalcode &lt;BR&gt;&lt;BR&gt;We encourage the appropriate open use of images from this collection for educational and other not-for-profit   purposes. Attribution\/citation should be provided as follows:  Image [insert image number here, eg. MSC130-2144-01]   courtesy of the British Columbia Postcards Collection, a digital initiative of Simon Fraser University Library.   [Please include the website url when images are used in an offline or print-based context]. &lt;BR&gt;&lt;BR&gt;Parties interested in using high-resolution versions of the images from the British Columbia Postcards   Collection for commercial purposes should contact Special Collections and Rare Books, SFU Library.","audien":{},"from":{},"to":{},"subjea":{},"place":{},"geo":{},"fullrs":{},"find":"7927.jp2","dmaccess":{},"dmimage":{},"dmcreated":"2012-11-27","dmmodified":"2012-11-27","dmoclcno":{},"dmrecord":"7926","restrictionCode":"1","cdmfilesize":"558838","cdmfilesizeformatted":"0.53 MB","cdmprintpdf":"0","cdmhasocr":"0","cdmisnewspaper":"0"}</dmGetItemInfo>
+            <GetParent timestamp="2016-04-17 18:03:14"
+                       mimetype="text/xml"
+                       source="http://content.lib.sfu.ca:81/dmwebservices/index.php?q=GetParent/bcp/7926/xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;parent&gt;7928&lt;/parent&gt;</GetParent>
+         </CONTENTdmData>
+         <to type="SFU custom metadata for the British Columbia Postcards Collection"/>
+         <from type="SFU custom metadata for the British Columbia Postcards Collection"/>
+         <on_front_and_back type="SFU custom metadata for the British Columbia Postcards Collection"/>
+         <handwritten_date type="SFU custom metadata for the British Columbia Postcards Collection"/>
+         <postmark type="SFU custom metadata for the British Columbia Postcards Collection"/>
+         <booklet_information type="SFU custom metadata for the British Columbia Postcards Collection"/>
+      </extension>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title>Bill Miner, Train Robber, 1906</title>
+      </titleInfo>
+      <name>
+         <namePart/>
+         <role>
+            <roleTerm type="text" authority="marcrelator">photographer</roleTerm>
+            <roleTerm type="code" authority="marcrelator">pht</roleTerm>
+         </role>
+      </name>
+      <language>
+         <languageTerm type="text">English</languageTerm>
+      </language>
+      <genre authority="gmgpc">Postcards</genre>
+      <identifier type="local">MSC130-2256</identifier>
+      <physicalDescription>
+         <extent>1 postcard : b&amp;w ; 9 x 14 cm.</extent>
+      </physicalDescription>
+      <abstract>A photograph of Bill Miner the train robber in 1906.</abstract>
+      <accessCondition type="use and reproduction">Images from the British Columbia Postcards Collection have been made available by Simon Fraser University Library   under a Creative Commons attribution, non-commercial license at http://creativecommons.org/licenses/by-nc/3.0/. A   full legal outline of the license can be viewed at: http://creativecommons.org/licenses/by-nc/3.0/legalcode &lt;BR&gt;&lt;BR&gt;We encourage the appropriate open use of images from this collection for educational and other not-for-profit   purposes. Attribution/citation should be provided as follows:  Image [insert image number here, eg. MSC130-2144-01]   courtesy of the British Columbia Postcards Collection, a digital initiative of Simon Fraser University Library.   [Please include the website url when images are used in an offline or print-based context]. &lt;BR&gt;&lt;BR&gt;Parties interested in using high-resolution versions of the images from the British Columbia Postcards   Collection for commercial purposes should contact Special Collections and Rare Books, SFU Library.</accessCondition>
+      <typeOfResource>still image</typeOfResource>
+      <identifier type="uuid">5fe693e4-1c81-47cf-aa17-b9cebdbcdadd</identifier>
+      <identifier type="uri" invalid="yes" displayLabel="Migrated From">http://content.lib.sfu.ca/cdm/ref/collection/bcp/id/7928</identifier>
+      <originInfo>
+         <publisher>Vernon News Limited, Vernon (B.C.)</publisher>
+         <dateIssued encoding="w3cdtf" keyDate="yes"/>
+      </originInfo>
+      <originInfo eventType="manufacture">
+         <publisher/>
+      </originInfo>
+      <originInfo eventType="publication">
+         <dateIssued encoding="w3cdtf">1906</dateIssued>
+      </originInfo>
+      <subject>
+         <topic>Criminals</topic>
+         <geographic/>
+         <cartographics>
+            <coordinates/>
+         </cartographics>
+      </subject>
+      <extension>
+         <CONTENTdmData>
+            <alias>bcp</alias>
+            <pointer>7928</pointer>
+            <dmGetItemInfo timestamp="2016-04-17 18:03:11"
+                           mimetype="application/json"
+                           source="http://content.lib.sfu.ca:81/dmwebservices/index.php?q=dmGetItemInfo/bcp/7928/json">{"title":"Bill Miner, Train Robber, 1906","subjec":"Vernon News Limited, Vernon (B.C.)","creato":{},"descri":{},"publis":"1906","contri":{},"date":{},"langua":"English","type":"Image","format":"image\/jpeg","identi":"MSC130-2256","source":"1 postcard : b&amp;w ; 9 x 14 cm.","relati":"A photograph of Bill Miner the train robber in 1906.","covera":{},"bookle":{},"rights":"Images from the British Columbia Postcards Collection have been made available by Simon Fraser University Library   under a Creative Commons attribution, non-commercial license at http:\/\/creativecommons.org\/licenses\/by-nc\/3.0\/. A   full legal outline of the license can be viewed at: http:\/\/creativecommons.org\/licenses\/by-nc\/3.0\/legalcode &lt;BR&gt;&lt;BR&gt;We encourage the appropriate open use of images from this collection for educational and other not-for-profit   purposes. Attribution\/citation should be provided as follows:  Image [insert image number here, eg. MSC130-2144-01]   courtesy of the British Columbia Postcards Collection, a digital initiative of Simon Fraser University Library.   [Please include the website url when images are used in an offline or print-based context]. &lt;BR&gt;&lt;BR&gt;Parties interested in using high-resolution versions of the images from the British Columbia Postcards   Collection for commercial purposes should contact Special Collections and Rare Books, SFU Library.","audien":"[Front[ Bill Miner, Train Robber, 1906. [Back] The Vernon News Limited, Vernon, B.C.; Post Card; Address; Canadian Postage","from":{},"to":{},"subjea":"Criminals","place":{},"geo":{},"fullrs":{},"find":"7929.cpd","dmaccess":{},"dmimage":{},"dmcreated":"2012-11-27","dmmodified":"2012-11-27","dmoclcno":{},"dmrecord":"7928","restrictionCode":"1","cdmfilesize":"339","cdmfilesizeformatted":"0.00 MB","cdmprintpdf":"0","cdmhasocr":"0","cdmisnewspaper":"0"}</dmGetItemInfo>
+            <dmGetCompoundObjectInfo timestamp="2016-04-17 18:03:11"
+                                     mimetype="text/xml"
+                                     source="http://content.lib.sfu.ca:81/dmwebservices/index.php?q=dmGetCompoundObjectInfo/bcp/7928/xml">﻿&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;cpd&gt;
+  &lt;type&gt;Document&lt;/type&gt;
+  &lt;page&gt;
+    &lt;pagetitle&gt;MSC130-2256-01&lt;/pagetitle&gt;
+    &lt;pagefile&gt;7927.jp2&lt;/pagefile&gt;
+    &lt;pageptr&gt;7926&lt;/pageptr&gt;
+  &lt;/page&gt;
+  &lt;page&gt;
+    &lt;pagetitle&gt;MSC130-2256-02&lt;/pagetitle&gt;
+    &lt;pagefile&gt;7928.jp2&lt;/pagefile&gt;
+    &lt;pageptr&gt;7927&lt;/pageptr&gt;
+  &lt;/page&gt;
+&lt;/cpd&gt;
+</dmGetCompoundObjectInfo>
+         </CONTENTdmData>
+         <to type="SFU custom metadata for the British Columbia Postcards Collection"/>
+         <from type="SFU custom metadata for the British Columbia Postcards Collection"/>
+         <on_front_and_back type="SFU custom metadata for the British Columbia Postcards Collection">[Front[ Bill Miner, Train Robber, 1906. [Back] The Vernon News Limited, Vernon, B.C.; Post Card; Address; Canadian Postage</on_front_and_back>
+         <handwritten_date type="SFU custom metadata for the British Columbia Postcards Collection"/>
+         <postmark type="SFU custom metadata for the British Columbia Postcards Collection"/>
+         <booklet_information type="SFU custom metadata for the British Columbia Postcards Collection"/>
+      </extension>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title>Evaluation of transmission infrared spectroscopy and digital and optical refractometers to identify low immunoglobulin G concentrations in alpaca serum.</title>
+      </titleInfo>
+      <abstract>This study aimed to evaluate the digital Brix and optical serum total protein (STP) refractometers for measuring concentrations of serum immunoglobulin G (IgG) in alpacas and compare them to IgG concentrations measured by the reference method of radial immunodiffusion (RID) assay. The appropriate cutoff point for Brix and STP refractometers and the transmission infrared (TIR) spectroscopy method was determined for low IgG concentrations (&lt; 10 g/L). Serum samples were collected from alpacas (N = 169) and tested by both refractometers. The correlation between Brix % and STP was high [correlation coefficient (r) = 0.99]. However, the correlation coefficients between Brix % and STP with serum RID-IgG concentrations were only 0.56 and 0.55, respectively. Twenty-one (12.4%) of 169 alpaca serum samples had IgG concentrations of &lt; 10 g/L. Using receiver operator characteristic curve (ROC) analysis, the optimal cutoff points for the TIR assay, digital Brix, and optical STP refractometers for assessing low IgG (RID &lt; 10 g/L) were 13 g/L, 8.8%, and 50 g/L, respectively. The TIR assay showed higher sensitivity (Se = 95.2%) and specificity (Sp = 96.8%) than either the digital Brix (Se = 90.5% and Sp = 65.5%) or optical STP (Se = 81% and Sp = 73.7%) refractometers for assessing alpacas with low IgG. In conclusion, the Brix and STP refractometers lack accuracy in measuring alpaca IgG concentrations, but may be useful for screening animals for low serum IgG. However, the TIR assay with a cutoff point of 13 g/L was more appropriate for identifying low IgG than either refractometer. Another study that focuses on neonatal crias is recommended in order to evaluate the usefulness of these assays for field diagnosing of failure of transfer of passive immunity (FTPI).</abstract>
+      <name type="personal">
+         <namePart type="family">Elsohaby</namePart>
+         <namePart type="given">Ibrahim</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="family">Burns</namePart>
+         <namePart type="given">Jennifer J</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="family">Riley</namePart>
+         <namePart type="given">Christopher B</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="family">McClure</namePart>
+         <namePart type="given">J Trenton</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+         </role>
+      </name>
+      <originInfo>
+         <dateIssued encoding="iso8601">2017-07</dateIssued>
+      </originInfo>
+      <identifier type="issn">1928-9022</identifier>
+      <part>
+         <detail type="issue">
+            <number>3</number>
+         </detail>
+         <detail type="volume">
+            <number>81</number>
+         </detail>
+         <extent unit="page">
+            <list>217-222</list>
+            <start>217</start>
+            <end>222</end>
+         </extent>
+         <date>2017</date>
+      </part>
+      <language>
+         <languageTerm>eng</languageTerm>
+      </language>
+      <identifier type="pmc">PMC5508383</identifier>
+      <identifier type="accession">28725112</identifier>
+      <relatedItem type="host">
+         <titleInfo>
+            <title>Canadian Journal of Veterinary Research = Revue Canadienne de Recherche Veterinaire</title>
+         </titleInfo>
+         <titleInfo type="abbreviated">
+            <title>Can J Vet Res</title>
+         </titleInfo>
+         <originInfo>
+            <issuance>continuing</issuance>
+            <dateIssued keyDate="yes">2017</dateIssued>
+         </originInfo>
+         <identifier type="issn">1928-9022</identifier>
+         <identifier type="issn">0830-9000</identifier>
+      </relatedItem>
+      <genre>Journal Article</genre>
+      <note type="type of work">journal article</note>
+      <extension displayLabel="CommentsAndCorrections">
+         <default:CommentsCorrectionsList xmlns:default="http://www.ncbi.nlm.nih.gov">
+            <default:CommentsCorrections RefType="Cites">
+               <default:RefSource>J Dairy Sci. 2014;97(6):3838-44</default:RefSource>
+               <default:PMID Version="1">24704239</default:PMID>
+            </default:CommentsCorrections>
+            <default:CommentsCorrections RefType="Cites">
+               <default:RefSource>Vet Clin North Am Food Anim Pract. 1994 Jul;10(2):209-27</default:RefSource>
+               <default:PMID Version="1">7953955</default:PMID>
+            </default:CommentsCorrections>
+            <default:CommentsCorrections RefType="Cites">
+               <default:RefSource>J Am Vet Med Assoc. 1997 Nov 1;211(9):1165-6</default:RefSource>
+               <default:PMID Version="1">9364234</default:PMID>
+            </default:CommentsCorrections>
+            <default:CommentsCorrections RefType="Cites">
+               <default:RefSource>Vet Clin North Am Food Anim Pract. 2009 Jul;25(2):353-66</default:RefSource>
+               <default:PMID Version="1">19460645</default:PMID>
+            </default:CommentsCorrections>
+            <default:CommentsCorrections RefType="Cites">
+               <default:RefSource>J Vet Intern Med. 2015 Mar-Apr;29(2):721-6</default:RefSource>
+               <default:PMID Version="1">25818225</default:PMID>
+            </default:CommentsCorrections>
+            <default:CommentsCorrections RefType="Cites">
+               <default:RefSource>J Vet Intern Med. 2007 May-Jun;21(3):519-25</default:RefSource>
+               <default:PMID Version="1">17552461</default:PMID>
+            </default:CommentsCorrections>
+            <default:CommentsCorrections RefType="Cites">
+               <default:RefSource>J Vet Diagn Invest. 2013 Jan;25(1):91-8</default:RefSource>
+               <default:PMID Version="1">23345272</default:PMID>
+            </default:CommentsCorrections>
+            <default:CommentsCorrections RefType="Cites">
+               <default:RefSource>ScientificWorldJournal. 2015;2015:752724</default:RefSource>
+               <default:PMID Version="1">25767825</default:PMID>
+            </default:CommentsCorrections>
+            <default:CommentsCorrections RefType="Cites">
+               <default:RefSource>Vet J. 2016 May;211:82-7</default:RefSource>
+               <default:PMID Version="1">26993533</default:PMID>
+            </default:CommentsCorrections>
+            <default:CommentsCorrections RefType="Cites">
+               <default:RefSource>Vet Clin Pathol. 2006 Sep;35(3):339-40</default:RefSource>
+               <default:PMID Version="1">16967422</default:PMID>
+            </default:CommentsCorrections>
+            <default:CommentsCorrections RefType="Cites">
+               <default:RefSource>J Vet Med B Infect Dis Vet Public Health. 2001 Oct;48(8):561-8</default:RefSource>
+               <default:PMID Version="1">11708675</default:PMID>
+            </default:CommentsCorrections>
+            <default:CommentsCorrections RefType="Cites">
+               <default:RefSource>Am J Vet Res. 2000 Jul;61(7):738-41</default:RefSource>
+               <default:PMID Version="1">10895892</default:PMID>
+            </default:CommentsCorrections>
+            <default:CommentsCorrections RefType="Cites">
+               <default:RefSource>J Am Vet Med Assoc. 2000 Feb 15;216(4):559-63</default:RefSource>
+               <default:PMID Version="1">10687013</default:PMID>
+            </default:CommentsCorrections>
+            <default:CommentsCorrections RefType="Cites">
+               <default:RefSource>J Am Vet Med Assoc. 1995 May 1;206(9):1374-80</default:RefSource>
+               <default:PMID Version="1">7775252</default:PMID>
+            </default:CommentsCorrections>
+            <default:CommentsCorrections RefType="Cites">
+               <default:RefSource>J Vet Intern Med. 2014 Mar-Apr;28(2):639-45</default:RefSource>
+               <default:PMID Version="1">24417433</default:PMID>
+            </default:CommentsCorrections>
+            <default:CommentsCorrections RefType="Cites">
+               <default:RefSource>Clin Chem. 1974;20(1):61-9</default:RefSource>
+               <default:PMID Version="1">4203461</default:PMID>
+            </default:CommentsCorrections>
+            <default:CommentsCorrections RefType="Cites">
+               <default:RefSource>J Vet Intern Med. 2007 Jul-Aug;21(4):828-34</default:RefSource>
+               <default:PMID Version="1">17708406</default:PMID>
+            </default:CommentsCorrections>
+            <default:CommentsCorrections RefType="Cites">
+               <default:RefSource>Am J Vet Res. 1987 Oct;48(10):1472-6</default:RefSource>
+               <default:PMID Version="1">3674556</default:PMID>
+            </default:CommentsCorrections>
+            <default:CommentsCorrections RefType="Cites">
+               <default:RefSource>Aust Vet J. 2015 Jan-Feb;93(1-2):26-30</default:RefSource>
+               <default:PMID Version="1">25622705</default:PMID>
+            </default:CommentsCorrections>
+            <default:CommentsCorrections RefType="Cites">
+               <default:RefSource>J Vet Diagn Invest. 1995 Oct;7(4):515-9</default:RefSource>
+               <default:PMID Version="1">8580175</default:PMID>
+            </default:CommentsCorrections>
+            <default:CommentsCorrections RefType="Cites">
+               <default:RefSource>J Am Vet Med Assoc. 2006 Jul 1;229(1):111-5</default:RefSource>
+               <default:PMID Version="1">16817725</default:PMID>
+            </default:CommentsCorrections>
+         </default:CommentsCorrectionsList>
+      </extension>
+      <recordInfo>
+         <recordOrigin>PubMed</recordOrigin>
+         <recordCreationDate>2017-07-24T17:03:35Z</recordCreationDate>
+      </recordInfo>
+      <note type="date issued">2017 Jul </note>
+      <note type="status">imported</note>
+      <identifier type="u1">jmcclure</identifier>
+      <identifier type="u2">Health Management</identifier>
+      <typeOfResource>text</typeOfResource>
+      <identifier type="pmid">28725112</identifier>
+      <identifier type="pmcid">PMC5508383</identifier>
+   </mods>
+   <mods version="3.4"
+         xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+      <titleInfo>
+         <title>Maisie Adams T1 [Tape One]</title>
+      </titleInfo>
+      <name>
+         <namePart>Thompson, Reg "Dutch"</namePart>
+         <role>
+            <roleTerm type="text">creator</roleTerm>
+         </role>
+      </name>
+      <name>
+         <namePart>Adams (Lamont), Maisie</namePart>
+      </name>
+      <typeOfResource>sound recording-nonmusical</typeOfResource>
+      <genre authority="dct">sound</genre>
+      <subject>
+         <cartographics>
+            <coordinates>46.514697,-63.517327</coordinates>
+         </cartographics>
+         <hierarchicalGeographic>
+            <continent>North America</continent>
+            <country>Canada</country>
+            <province>Prince Edward Island</province>
+            <county>Queens</county>
+            <region/>
+            <city>French River</city>
+            <area>Lot 21</area>
+            <citySection/>
+         </hierarchicalGeographic>
+         <geographic>French River, PE</geographic>
+      </subject>
+      <note>This interview is with Maisie Adams (nee Lamont) of French River and Summerside, P.E.I. In this interview Maisie talks about running the lighthouse in French River, storms and drownings, ships in the harbour, family, rum running, foxes, The Great Depression, stores in French River, WWI, the Spanish Flu, and a story about a bank robbery.</note>
+      <originInfo>
+         <dateOther>1997-04-11</dateOther>
+      </originInfo>
+      <physicalDescription>
+         <note>01:03:40</note>
+      </physicalDescription>
+      <identifier type="local">ivoices:ivoices20100622acass002</identifier>
+      <accessCondition>All content on this site is made available for personal research and private study only. Any other reuse, reproduction, or re-purposing may require the permission of the rightsholder(s); please contact the UPEI Library for more information on permissions/clearances.</accessCondition>
+   </mods>
+   <mods>
+      <relatedItem type="host">
+        <identifier type="lccn">cn 87080496</identifier>
+        <part>
+            <detail type="volume">
+                <number/>
+            </detail>
+            <detail type="issue">
+                <number/>
+            </detail>
+            <detail type="edition">
+                <number/>
+                <caption/>
+            </detail>
+        </part>
+      </relatedItem>
+      <titleInfo>
+        <nonSort>The</nonSort>
+        <title>Charlottetown Guardian</title>
+      </titleInfo>
+      <originInfo>
+        <dateIssued encoding="iso8601">1917-07-28T00:00:00.000Z</dateIssued>
+      </originInfo>
+      <identifier type="PID">guardian:19170728</identifier>
+      <note type="missing">missing page</note>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title>Page 2</title>
+      </titleInfo>
+      <part>
+        <extent unit="pages">
+            <start>0188</start>
+        </extent>
+        <detail type="page number">
+            <number>2</number>
+        </detail>
+      </part>
+      <relatedItem type="original">
+        <physicalDescription>
+            <form type="microfilm"/>
+        </physicalDescription>
+        <identifier type="reel number">33</identifier>
+        <identifier type="reel sequence number">0188</identifier>
+        <location>
+            <physicalLocation authority="marcorg" displayLabel="Source Repository">PCU</physicalLocation>
+        </location>
+      </relatedItem>
+      <identifier type="PID">guardian:19170728-002</identifier>
+      <note type="agencyResponsibleForReproduction"
+            displayLabel="Institution Responsible for Digitization">PCU</note>
    </mods>
    <mods>
       <titleInfo>
@@ -504,292 +951,32 @@ The Guardian was published by Guardian Publishing Co. from Dec. 16, 1890 up unti
       <note type="status">loaded</note>
    </mods>
    <mods>
-      <identifier type="local" displayLabel="PID">wyu168835:brandingIron</identifier>
       <titleInfo>
-         <nonSort>The</nonSort>
-         <title>
-      branding iron
-    </title>
+         <title>1910 Grand Parade</title>
       </titleInfo>
-      <titleInfo type="alternative">
-         <title>Campus roundup</title>
-      </titleInfo>
-      <titleInfo type="alternative">
-         <title>Summer roundup</title>
-      </titleInfo>
-      <titleInfo type="alternative">
-         <title>Roundup</title>
-      </titleInfo>
-      <titleInfo type="alternative">
-         <title>Summer branding iron</title>
-         <titleInfo type="alternative">
-            <title>University of Wyoming branding iron</title>
-         </titleInfo>
-      </titleInfo>
-      <name type="corporate">
-         <namePart>
-      Associated Students of the University of Wyoming
-    </namePart>
-      </name>
-      <typeOfResource>text</typeOfResource>
-      <genre authority="marcgt">newspaper</genre>
-      <originInfo eventType="publication">
-         <place>
-            <placeTerm authority="marccountry" type="code">wyu</placeTerm>
-         </place>
-         <place>
-            <placeTerm type="text">Laramie, WY</placeTerm>
-         </place>
-         <publisher>
-      Associated Students of the University of Wyoming
-    </publisher>
-         <dateIssued>1923-</dateIssued>
-         <dateIssued encoding="marc" point="start">1923</dateIssued>
-         <issuance>continuing</issuance>
-         <frequency>Frequency varies</frequency>
-      </originInfo>
+      <typeOfResource>still image</typeOfResource>
+      <genre authority="lctgm">postcards</genre>
       <language>
          <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
       </language>
+      <abstract>Black and white photograph of a number of horse carriages on a country road with crowds around them.</abstract>
+      <identifier type="local">PEIP1-0012</identifier>
       <physicalDescription>
-         <form authority="marcform">print</form>
-         <extent>v. : ill.</extent>
-         <digitalOrigin>reformatted digital</digitalOrigin>
+         <form authority="marcform">nonprojected graphic</form>
+         <extent>1 postcard</extent>
       </physicalDescription>
-      <note>Not published during academic breaks</note>
-      <subject authority="lcsh">
-         <topic>University of Wyoming</topic>
-         <topic>Newspapers</topic>
-      </subject>
-      <subject authority="lcsh">
-         <topic>College student newspapers and periodicals</topic>
-         <topic>Wyoming</topic>
-      </subject>
-      <subject authority="lcsh">
-         <topic>Laramie (Wyo.)</topic>
-         <topic>Newspapers</topic>
-      </subject>
-      <relatedItem type="preceeding">
-         <titleInfo>
-            <title>Wyoming student</title>
-         </titleInfo>
-      </relatedItem>
-      <recordInfo>
-         <recordIdentifier>904243322</recordIdentifier>
-      </recordInfo>
-      <accessCondition xmlns:xlink="http://www.w3.org/1999/xlink"
-                       type="use and reproduction"
-                       displayLabel="Standardized rights statement"
-                       xlink:href="http://rightsstatements.org/vocab/UND/1.0/">Copyright Undetermined</accessCondition>
-   </mods>
-   <mods>
-      <identifier type="local" displayLabel="PID">wyu71880:WYO1914</identifier>
-      <titleInfo>
-         <title>Wyo senior class of 1914</title>
-      </titleInfo>
-      <titleInfo type="alternative">
-         <title>Wyo yearbook</title>
-      </titleInfo>
-      <part>
-         <detail type="volume">
-            <number>06</number>
-         </detail>
-      </part>
-      <name type="corporate">
-         <namePart>University of Wyoming</namePart>
-         <namePart>Junior Class</namePart>
-      </name>
-      <typeOfResource>text</typeOfResource>
-      <originInfo>
-         <place>
-            <placeTerm type="text">Laramie, WY</placeTerm>
-         </place>
-         <publisher>University of Wyoming</publisher>
-         <dateIssued keyDate="yes">1914</dateIssued>
-         <issuance>continuing</issuance>
-         <copyrightDate>1914</copyrightDate>
-      </originInfo>
-      <language>
-         <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-      </language>
-      <physicalDescription>
-         <form authority="marcform">print</form>
-         <digitalOrigin>reformatted digital</digitalOrigin>
-      </physicalDescription>
-      <note type="statement of responsibility">Junior Class, University of Wyoming</note>
-      <subject authority="lcsh">
-         <name type="corporate">
-            <namePart>University of Wyoming</namePart>
-         </name>
-         <topic>Students -- Periodicals -- Yearbooks</topic>
-      </subject>
-      <accessCondition xmlns:xlink="http://www.w3.org/1999/xlink"
-                       displayLabel="Standardized rights statement"
-                       type="use and reproduction"
-                       xlink:href="http://rightsstatements.org/page/InC/1.0/">In Copyright</accessCondition>
-      <location>
-         <url usage="primary display">http://hdl.handle.net/10176/wyu:71880</url>
-      </location>
-   </mods>
-   <mods>
-      <titleInfo>
-         <title>Page 2</title>
-      </titleInfo>
-      <part>
-        <extent unit="pages">
-            <start>0188</start>
-        </extent>
-        <detail type="page number">
-            <number>2</number>
-        </detail>
-      </part>
-      <relatedItem type="original">
-        <physicalDescription>
-            <form type="microfilm"/>
-        </physicalDescription>
-        <identifier type="reel number">33</identifier>
-        <identifier type="reel sequence number">0188</identifier>
-        <location>
-            <physicalLocation authority="marcorg" displayLabel="Source Repository">PCU</physicalLocation>
-        </location>
-      </relatedItem>
-      <identifier type="PID">guardian:19170728-002</identifier>
-      <note type="agencyResponsibleForReproduction"
-            displayLabel="Institution Responsible for Digitization">PCU</note>
-   </mods>
-   <mods>
-      <titleInfo>
-         <title>MSC130-2256-01</title>
-      </titleInfo>
-      <name>
-         <namePart/>
-         <role>
-            <roleTerm type="text" authority="marcrelator">photographer</roleTerm>
-            <roleTerm type="code" authority="marcrelator">pht</roleTerm>
-         </role>
-      </name>
-      <language>
-         <languageTerm type="text"/>
-      </language>
-      <genre authority="gmgpc">Postcards</genre>
-      <identifier type="local"/>
-      <physicalDescription>
-         <extent/>
-      </physicalDescription>
-      <abstract/>
-      <accessCondition type="use and reproduction">Images from the British Columbia Postcards Collection have been made available by Simon Fraser University Library   under a Creative Commons attribution, non-commercial license at http://creativecommons.org/licenses/by-nc/3.0/. A   full legal outline of the license can be viewed at: http://creativecommons.org/licenses/by-nc/3.0/legalcode &lt;BR&gt;&lt;BR&gt;We encourage the appropriate open use of images from this collection for educational and other not-for-profit   purposes. Attribution/citation should be provided as follows:  Image [insert image number here, eg. MSC130-2144-01]   courtesy of the British Columbia Postcards Collection, a digital initiative of Simon Fraser University Library.   [Please include the website url when images are used in an offline or print-based context]. &lt;BR&gt;&lt;BR&gt;Parties interested in using high-resolution versions of the images from the British Columbia Postcards   Collection for commercial purposes should contact Special Collections and Rare Books, SFU Library.</accessCondition>
-      <typeOfResource>still image</typeOfResource>
-      <identifier type="uuid">fa40ca69-70ee-42bc-bd00-b7cbc20a240f</identifier>
-      <identifier type="uri" invalid="yes" displayLabel="Migrated From">http://content.lib.sfu.ca/cdm/ref/collection/bcp/id/7926</identifier>
-      <originInfo>
-         <publisher/>
-         <dateIssued encoding="w3cdtf" keyDate="yes"/>
-      </originInfo>
-      <originInfo eventType="manufacture">
-         <publisher/>
-      </originInfo>
-      <originInfo eventType="publication">
-         <dateIssued encoding="w3cdtf"/>
-      </originInfo>
       <subject>
-         <topic/>
-         <geographic/>
+         <hierarchicalGeographic>
+            <continent>North America</continent>
+            <country>Canada</country>
+            <province>PE</province>
+            <county>Queens</county>
+            <city>Charlottetown</city>
+         </hierarchicalGeographic>
          <cartographics>
-            <coordinates/>
+            <coordinates>46.240278, -63.134722</coordinates>
          </cartographics>
       </subject>
-      <extension>
-         <CONTENTdmData>
-            <alias>bcp</alias>
-            <pointer>7926</pointer>
-            <dmGetItemInfo timestamp="2016-04-17 18:03:14"
-                           mimetype="application/json"
-                           source="http://content.lib.sfu.ca:81/dmwebservices/index.php?q=dmGetItemInfo/bcp/7926/json">{"title":"MSC130-2256-01","subjec":{},"creato":{},"descri":{},"publis":{},"contri":{},"date":{},"langua":{},"type":{},"format":{},"identi":{},"source":{},"relati":{},"covera":{},"bookle":{},"rights":"Images from the British Columbia Postcards Collection have been made available by Simon Fraser University Library   under a Creative Commons attribution, non-commercial license at http:\/\/creativecommons.org\/licenses\/by-nc\/3.0\/. A   full legal outline of the license can be viewed at: http:\/\/creativecommons.org\/licenses\/by-nc\/3.0\/legalcode &lt;BR&gt;&lt;BR&gt;We encourage the appropriate open use of images from this collection for educational and other not-for-profit   purposes. Attribution\/citation should be provided as follows:  Image [insert image number here, eg. MSC130-2144-01]   courtesy of the British Columbia Postcards Collection, a digital initiative of Simon Fraser University Library.   [Please include the website url when images are used in an offline or print-based context]. &lt;BR&gt;&lt;BR&gt;Parties interested in using high-resolution versions of the images from the British Columbia Postcards   Collection for commercial purposes should contact Special Collections and Rare Books, SFU Library.","audien":{},"from":{},"to":{},"subjea":{},"place":{},"geo":{},"fullrs":{},"find":"7927.jp2","dmaccess":{},"dmimage":{},"dmcreated":"2012-11-27","dmmodified":"2012-11-27","dmoclcno":{},"dmrecord":"7926","restrictionCode":"1","cdmfilesize":"558838","cdmfilesizeformatted":"0.53 MB","cdmprintpdf":"0","cdmhasocr":"0","cdmisnewspaper":"0"}</dmGetItemInfo>
-            <GetParent timestamp="2016-04-17 18:03:14"
-                       mimetype="text/xml"
-                       source="http://content.lib.sfu.ca:81/dmwebservices/index.php?q=GetParent/bcp/7926/xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;parent&gt;7928&lt;/parent&gt;</GetParent>
-         </CONTENTdmData>
-         <to type="SFU custom metadata for the British Columbia Postcards Collection"/>
-         <from type="SFU custom metadata for the British Columbia Postcards Collection"/>
-         <on_front_and_back type="SFU custom metadata for the British Columbia Postcards Collection"/>
-         <handwritten_date type="SFU custom metadata for the British Columbia Postcards Collection"/>
-         <postmark type="SFU custom metadata for the British Columbia Postcards Collection"/>
-         <booklet_information type="SFU custom metadata for the British Columbia Postcards Collection"/>
-      </extension>
-   </mods>
-   <mods>
-      <titleInfo>
-         <title>Bill Miner, Train Robber, 1906</title>
-      </titleInfo>
-      <name>
-         <namePart/>
-         <role>
-            <roleTerm type="text" authority="marcrelator">photographer</roleTerm>
-            <roleTerm type="code" authority="marcrelator">pht</roleTerm>
-         </role>
-      </name>
-      <language>
-         <languageTerm type="text">English</languageTerm>
-      </language>
-      <genre authority="gmgpc">Postcards</genre>
-      <identifier type="local">MSC130-2256</identifier>
-      <physicalDescription>
-         <extent>1 postcard : b&amp;w ; 9 x 14 cm.</extent>
-      </physicalDescription>
-      <abstract>A photograph of Bill Miner the train robber in 1906.</abstract>
-      <accessCondition type="use and reproduction">Images from the British Columbia Postcards Collection have been made available by Simon Fraser University Library   under a Creative Commons attribution, non-commercial license at http://creativecommons.org/licenses/by-nc/3.0/. A   full legal outline of the license can be viewed at: http://creativecommons.org/licenses/by-nc/3.0/legalcode &lt;BR&gt;&lt;BR&gt;We encourage the appropriate open use of images from this collection for educational and other not-for-profit   purposes. Attribution/citation should be provided as follows:  Image [insert image number here, eg. MSC130-2144-01]   courtesy of the British Columbia Postcards Collection, a digital initiative of Simon Fraser University Library.   [Please include the website url when images are used in an offline or print-based context]. &lt;BR&gt;&lt;BR&gt;Parties interested in using high-resolution versions of the images from the British Columbia Postcards   Collection for commercial purposes should contact Special Collections and Rare Books, SFU Library.</accessCondition>
-      <typeOfResource>still image</typeOfResource>
-      <identifier type="uuid">5fe693e4-1c81-47cf-aa17-b9cebdbcdadd</identifier>
-      <identifier type="uri" invalid="yes" displayLabel="Migrated From">http://content.lib.sfu.ca/cdm/ref/collection/bcp/id/7928</identifier>
-      <originInfo>
-         <publisher>Vernon News Limited, Vernon (B.C.)</publisher>
-         <dateIssued encoding="w3cdtf" keyDate="yes"/>
-      </originInfo>
-      <originInfo eventType="manufacture">
-         <publisher/>
-      </originInfo>
-      <originInfo eventType="publication">
-         <dateIssued encoding="w3cdtf">1906</dateIssued>
-      </originInfo>
-      <subject>
-         <topic>Criminals</topic>
-         <geographic/>
-         <cartographics>
-            <coordinates/>
-         </cartographics>
-      </subject>
-      <extension>
-         <CONTENTdmData>
-            <alias>bcp</alias>
-            <pointer>7928</pointer>
-            <dmGetItemInfo timestamp="2016-04-17 18:03:11"
-                           mimetype="application/json"
-                           source="http://content.lib.sfu.ca:81/dmwebservices/index.php?q=dmGetItemInfo/bcp/7928/json">{"title":"Bill Miner, Train Robber, 1906","subjec":"Vernon News Limited, Vernon (B.C.)","creato":{},"descri":{},"publis":"1906","contri":{},"date":{},"langua":"English","type":"Image","format":"image\/jpeg","identi":"MSC130-2256","source":"1 postcard : b&amp;w ; 9 x 14 cm.","relati":"A photograph of Bill Miner the train robber in 1906.","covera":{},"bookle":{},"rights":"Images from the British Columbia Postcards Collection have been made available by Simon Fraser University Library   under a Creative Commons attribution, non-commercial license at http:\/\/creativecommons.org\/licenses\/by-nc\/3.0\/. A   full legal outline of the license can be viewed at: http:\/\/creativecommons.org\/licenses\/by-nc\/3.0\/legalcode &lt;BR&gt;&lt;BR&gt;We encourage the appropriate open use of images from this collection for educational and other not-for-profit   purposes. Attribution\/citation should be provided as follows:  Image [insert image number here, eg. MSC130-2144-01]   courtesy of the British Columbia Postcards Collection, a digital initiative of Simon Fraser University Library.   [Please include the website url when images are used in an offline or print-based context]. &lt;BR&gt;&lt;BR&gt;Parties interested in using high-resolution versions of the images from the British Columbia Postcards   Collection for commercial purposes should contact Special Collections and Rare Books, SFU Library.","audien":"[Front[ Bill Miner, Train Robber, 1906. [Back] The Vernon News Limited, Vernon, B.C.; Post Card; Address; Canadian Postage","from":{},"to":{},"subjea":"Criminals","place":{},"geo":{},"fullrs":{},"find":"7929.cpd","dmaccess":{},"dmimage":{},"dmcreated":"2012-11-27","dmmodified":"2012-11-27","dmoclcno":{},"dmrecord":"7928","restrictionCode":"1","cdmfilesize":"339","cdmfilesizeformatted":"0.00 MB","cdmprintpdf":"0","cdmhasocr":"0","cdmisnewspaper":"0"}</dmGetItemInfo>
-            <dmGetCompoundObjectInfo timestamp="2016-04-17 18:03:11"
-                                     mimetype="text/xml"
-                                     source="http://content.lib.sfu.ca:81/dmwebservices/index.php?q=dmGetCompoundObjectInfo/bcp/7928/xml">﻿&lt;?xml version="1.0" encoding="utf-8"?&gt;
-&lt;cpd&gt;
-  &lt;type&gt;Document&lt;/type&gt;
-  &lt;page&gt;
-    &lt;pagetitle&gt;MSC130-2256-01&lt;/pagetitle&gt;
-    &lt;pagefile&gt;7927.jp2&lt;/pagefile&gt;
-    &lt;pageptr&gt;7926&lt;/pageptr&gt;
-  &lt;/page&gt;
-  &lt;page&gt;
-    &lt;pagetitle&gt;MSC130-2256-02&lt;/pagetitle&gt;
-    &lt;pagefile&gt;7928.jp2&lt;/pagefile&gt;
-    &lt;pageptr&gt;7927&lt;/pageptr&gt;
-  &lt;/page&gt;
-&lt;/cpd&gt;
-</dmGetCompoundObjectInfo>
-         </CONTENTdmData>
-         <to type="SFU custom metadata for the British Columbia Postcards Collection"/>
-         <from type="SFU custom metadata for the British Columbia Postcards Collection"/>
-         <on_front_and_back type="SFU custom metadata for the British Columbia Postcards Collection">[Front[ Bill Miner, Train Robber, 1906. [Back] The Vernon News Limited, Vernon, B.C.; Post Card; Address; Canadian Postage</on_front_and_back>
-         <handwritten_date type="SFU custom metadata for the British Columbia Postcards Collection"/>
-         <postmark type="SFU custom metadata for the British Columbia Postcards Collection"/>
-         <booklet_information type="SFU custom metadata for the British Columbia Postcards Collection"/>
-      </extension>
    </mods>
    <mods>
       <name type="personal">
@@ -921,257 +1108,135 @@ of 0.33%.</abstract>
          <url>http://www.islandscholar.ca/islandora/object/ir:20848/datastream/PDF/download/citation.pdf</url>
       </location>
    </mods>
-   <mods:mods xmlns:mods="http://www.loc.gov/mods/v3"
-              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-              xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd">
-        <mods:titleInfo>
-            <mods:title>Ômi Province: Lake Biwa, Ishiyama Temple from the series Famous Places in the Sixty-odd Provinces, woodblock print, ink and color on paper</mods:title>
-        </mods:titleInfo>
-        <mods:language>
-            <mods:languageTerm type="code" authority="iso639-2b">zxx</mods:languageTerm>
-            <mods:languageTerm type="text">Not applicable</mods:languageTerm>
-        </mods:language>
-        <mods:typeOfResource>still image</mods:typeOfResource>
-        <mods:originInfo>
-            <mods:dateCreated>circa 1853</mods:dateCreated>
-            <mods:dateCreated point="start">1848</mods:dateCreated>
-            <mods:dateCreated point="end">1858</mods:dateCreated>
-        </mods:originInfo>
-        <mods:name type="personal" authority="oclc_naf">
-            <mods:role>
-                <mods:roleTerm type="text" authority="marcrelator">creator</mods:roleTerm>
-                <mods:roleTerm type="code" authority="marcrelator">cre</mods:roleTerm>
-            </mods:role>
-            <mods:namePart type="family">Andō</mods:namePart>
-            <mods:namePart type="given">Hiroshige</mods:namePart>
-            <mods:namePart type="date">1797-1858</mods:namePart>
-            <mods:displayForm>Andō, Hiroshige, 1797-1858</mods:displayForm>
-        </mods:name>
-        <mods:physicalDescription>
-            <mods:note displayLabel="Physical Characteristics and Technical Requirements note">image/tiff</mods:note>
-            <mods:extent>1 file</mods:extent>
-            <mods:note displayLabel="Material Specific Details note">reformatted digital</mods:note>
-            <mods:note displayLabel="General Physical Description note">25 cm X 36.5 cm</mods:note>
-        </mods:physicalDescription>
-        <mods:accessCondition type="useAndReproduction" displayLabel="Conditions Governing Use note">These materials are made available for use in research, teaching and private study, pursuant to U.S. Copyright Law. The user must assume full responsibility for any use of the materials, including but not limited to, infringement of copyright and publication rights of reproduced materials. Any materials used for academic research or otherwise should be fully credited with the source. The original artists may retain copyright to the materials.</mods:accessCondition>
-        <mods:relatedItem type="host">
-            <mods:titleInfo>
-                <mods:title>Japanese prints collection</mods:title>
-            </mods:titleInfo>
-            <mods:originInfo>
-                <mods:dateCreated>circa 1765-1964 (bulk 1780-1860)</mods:dateCreated>
-                <mods:dateCreated point="start">1765</mods:dateCreated>
-                <mods:dateCreated point="end">1964</mods:dateCreated>
-            </mods:originInfo>
-            <mods:identifier type="local">MS.2013.043</mods:identifier>
-            <mods:location>
-                <mods:url>http://hdl.handle.net/2345/3820</mods:url>
-            </mods:location>
-        </mods:relatedItem>
-        <mods:note displayLabel="Digital object made available by ">Archives and Manuscripts Department, 140 Commonwealth Avenue, Chestnut Hill, MA, 02467, United States, (http://www.bc.edu/burns)</mods:note>
-    </mods:mods>
    <mods>
+      <identifier type="local" displayLabel="PID">wyu168835:brandingIron</identifier>
       <titleInfo>
-         <title>Evaluation of transmission infrared spectroscopy and digital and optical refractometers to identify low immunoglobulin G concentrations in alpaca serum.</title>
+         <nonSort>The</nonSort>
+         <title>
+      branding iron
+    </title>
       </titleInfo>
-      <abstract>This study aimed to evaluate the digital Brix and optical serum total protein (STP) refractometers for measuring concentrations of serum immunoglobulin G (IgG) in alpacas and compare them to IgG concentrations measured by the reference method of radial immunodiffusion (RID) assay. The appropriate cutoff point for Brix and STP refractometers and the transmission infrared (TIR) spectroscopy method was determined for low IgG concentrations (&lt; 10 g/L). Serum samples were collected from alpacas (N = 169) and tested by both refractometers. The correlation between Brix % and STP was high [correlation coefficient (r) = 0.99]. However, the correlation coefficients between Brix % and STP with serum RID-IgG concentrations were only 0.56 and 0.55, respectively. Twenty-one (12.4%) of 169 alpaca serum samples had IgG concentrations of &lt; 10 g/L. Using receiver operator characteristic curve (ROC) analysis, the optimal cutoff points for the TIR assay, digital Brix, and optical STP refractometers for assessing low IgG (RID &lt; 10 g/L) were 13 g/L, 8.8%, and 50 g/L, respectively. The TIR assay showed higher sensitivity (Se = 95.2%) and specificity (Sp = 96.8%) than either the digital Brix (Se = 90.5% and Sp = 65.5%) or optical STP (Se = 81% and Sp = 73.7%) refractometers for assessing alpacas with low IgG. In conclusion, the Brix and STP refractometers lack accuracy in measuring alpaca IgG concentrations, but may be useful for screening animals for low serum IgG. However, the TIR assay with a cutoff point of 13 g/L was more appropriate for identifying low IgG than either refractometer. Another study that focuses on neonatal crias is recommended in order to evaluate the usefulness of these assays for field diagnosing of failure of transfer of passive immunity (FTPI).</abstract>
-      <name type="personal">
-         <namePart type="family">Elsohaby</namePart>
-         <namePart type="given">Ibrahim</namePart>
-         <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-         </role>
-      </name>
-      <name type="personal">
-         <namePart type="family">Burns</namePart>
-         <namePart type="given">Jennifer J</namePart>
-         <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-         </role>
-      </name>
-      <name type="personal">
-         <namePart type="family">Riley</namePart>
-         <namePart type="given">Christopher B</namePart>
-         <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-         </role>
-      </name>
-      <name type="personal">
-         <namePart type="family">McClure</namePart>
-         <namePart type="given">J Trenton</namePart>
-         <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-         </role>
-      </name>
-      <originInfo>
-         <dateIssued encoding="iso8601">2017-07</dateIssued>
-      </originInfo>
-      <identifier type="issn">1928-9022</identifier>
-      <part>
-         <detail type="issue">
-            <number>3</number>
-         </detail>
-         <detail type="volume">
-            <number>81</number>
-         </detail>
-         <extent unit="page">
-            <list>217-222</list>
-            <start>217</start>
-            <end>222</end>
-         </extent>
-         <date>2017</date>
-      </part>
-      <language>
-         <languageTerm>eng</languageTerm>
-      </language>
-      <identifier type="pmc">PMC5508383</identifier>
-      <identifier type="accession">28725112</identifier>
-      <relatedItem type="host">
-         <titleInfo>
-            <title>Canadian Journal of Veterinary Research = Revue Canadienne de Recherche Veterinaire</title>
+      <titleInfo type="alternative">
+         <title>Campus roundup</title>
+      </titleInfo>
+      <titleInfo type="alternative">
+         <title>Summer roundup</title>
+      </titleInfo>
+      <titleInfo type="alternative">
+         <title>Roundup</title>
+      </titleInfo>
+      <titleInfo type="alternative">
+         <title>Summer branding iron</title>
+         <titleInfo type="alternative">
+            <title>University of Wyoming branding iron</title>
          </titleInfo>
-         <titleInfo type="abbreviated">
-            <title>Can J Vet Res</title>
-         </titleInfo>
-         <originInfo>
-            <issuance>continuing</issuance>
-            <dateIssued keyDate="yes">2017</dateIssued>
-         </originInfo>
-         <identifier type="issn">1928-9022</identifier>
-         <identifier type="issn">0830-9000</identifier>
-      </relatedItem>
-      <genre>Journal Article</genre>
-      <note type="type of work">journal article</note>
-      <extension displayLabel="CommentsAndCorrections">
-         <default:CommentsCorrectionsList xmlns:default="http://www.ncbi.nlm.nih.gov">
-            <default:CommentsCorrections RefType="Cites">
-               <default:RefSource>J Dairy Sci. 2014;97(6):3838-44</default:RefSource>
-               <default:PMID Version="1">24704239</default:PMID>
-            </default:CommentsCorrections>
-            <default:CommentsCorrections RefType="Cites">
-               <default:RefSource>Vet Clin North Am Food Anim Pract. 1994 Jul;10(2):209-27</default:RefSource>
-               <default:PMID Version="1">7953955</default:PMID>
-            </default:CommentsCorrections>
-            <default:CommentsCorrections RefType="Cites">
-               <default:RefSource>J Am Vet Med Assoc. 1997 Nov 1;211(9):1165-6</default:RefSource>
-               <default:PMID Version="1">9364234</default:PMID>
-            </default:CommentsCorrections>
-            <default:CommentsCorrections RefType="Cites">
-               <default:RefSource>Vet Clin North Am Food Anim Pract. 2009 Jul;25(2):353-66</default:RefSource>
-               <default:PMID Version="1">19460645</default:PMID>
-            </default:CommentsCorrections>
-            <default:CommentsCorrections RefType="Cites">
-               <default:RefSource>J Vet Intern Med. 2015 Mar-Apr;29(2):721-6</default:RefSource>
-               <default:PMID Version="1">25818225</default:PMID>
-            </default:CommentsCorrections>
-            <default:CommentsCorrections RefType="Cites">
-               <default:RefSource>J Vet Intern Med. 2007 May-Jun;21(3):519-25</default:RefSource>
-               <default:PMID Version="1">17552461</default:PMID>
-            </default:CommentsCorrections>
-            <default:CommentsCorrections RefType="Cites">
-               <default:RefSource>J Vet Diagn Invest. 2013 Jan;25(1):91-8</default:RefSource>
-               <default:PMID Version="1">23345272</default:PMID>
-            </default:CommentsCorrections>
-            <default:CommentsCorrections RefType="Cites">
-               <default:RefSource>ScientificWorldJournal. 2015;2015:752724</default:RefSource>
-               <default:PMID Version="1">25767825</default:PMID>
-            </default:CommentsCorrections>
-            <default:CommentsCorrections RefType="Cites">
-               <default:RefSource>Vet J. 2016 May;211:82-7</default:RefSource>
-               <default:PMID Version="1">26993533</default:PMID>
-            </default:CommentsCorrections>
-            <default:CommentsCorrections RefType="Cites">
-               <default:RefSource>Vet Clin Pathol. 2006 Sep;35(3):339-40</default:RefSource>
-               <default:PMID Version="1">16967422</default:PMID>
-            </default:CommentsCorrections>
-            <default:CommentsCorrections RefType="Cites">
-               <default:RefSource>J Vet Med B Infect Dis Vet Public Health. 2001 Oct;48(8):561-8</default:RefSource>
-               <default:PMID Version="1">11708675</default:PMID>
-            </default:CommentsCorrections>
-            <default:CommentsCorrections RefType="Cites">
-               <default:RefSource>Am J Vet Res. 2000 Jul;61(7):738-41</default:RefSource>
-               <default:PMID Version="1">10895892</default:PMID>
-            </default:CommentsCorrections>
-            <default:CommentsCorrections RefType="Cites">
-               <default:RefSource>J Am Vet Med Assoc. 2000 Feb 15;216(4):559-63</default:RefSource>
-               <default:PMID Version="1">10687013</default:PMID>
-            </default:CommentsCorrections>
-            <default:CommentsCorrections RefType="Cites">
-               <default:RefSource>J Am Vet Med Assoc. 1995 May 1;206(9):1374-80</default:RefSource>
-               <default:PMID Version="1">7775252</default:PMID>
-            </default:CommentsCorrections>
-            <default:CommentsCorrections RefType="Cites">
-               <default:RefSource>J Vet Intern Med. 2014 Mar-Apr;28(2):639-45</default:RefSource>
-               <default:PMID Version="1">24417433</default:PMID>
-            </default:CommentsCorrections>
-            <default:CommentsCorrections RefType="Cites">
-               <default:RefSource>Clin Chem. 1974;20(1):61-9</default:RefSource>
-               <default:PMID Version="1">4203461</default:PMID>
-            </default:CommentsCorrections>
-            <default:CommentsCorrections RefType="Cites">
-               <default:RefSource>J Vet Intern Med. 2007 Jul-Aug;21(4):828-34</default:RefSource>
-               <default:PMID Version="1">17708406</default:PMID>
-            </default:CommentsCorrections>
-            <default:CommentsCorrections RefType="Cites">
-               <default:RefSource>Am J Vet Res. 1987 Oct;48(10):1472-6</default:RefSource>
-               <default:PMID Version="1">3674556</default:PMID>
-            </default:CommentsCorrections>
-            <default:CommentsCorrections RefType="Cites">
-               <default:RefSource>Aust Vet J. 2015 Jan-Feb;93(1-2):26-30</default:RefSource>
-               <default:PMID Version="1">25622705</default:PMID>
-            </default:CommentsCorrections>
-            <default:CommentsCorrections RefType="Cites">
-               <default:RefSource>J Vet Diagn Invest. 1995 Oct;7(4):515-9</default:RefSource>
-               <default:PMID Version="1">8580175</default:PMID>
-            </default:CommentsCorrections>
-            <default:CommentsCorrections RefType="Cites">
-               <default:RefSource>J Am Vet Med Assoc. 2006 Jul 1;229(1):111-5</default:RefSource>
-               <default:PMID Version="1">16817725</default:PMID>
-            </default:CommentsCorrections>
-         </default:CommentsCorrectionsList>
-      </extension>
-      <recordInfo>
-         <recordOrigin>PubMed</recordOrigin>
-         <recordCreationDate>2017-07-24T17:03:35Z</recordCreationDate>
-      </recordInfo>
-      <note type="date issued">2017 Jul </note>
-      <note type="status">imported</note>
-      <identifier type="u1">jmcclure</identifier>
-      <identifier type="u2">Health Management</identifier>
+      </titleInfo>
+      <name type="corporate">
+         <namePart>
+      Associated Students of the University of Wyoming
+    </namePart>
+      </name>
       <typeOfResource>text</typeOfResource>
-      <identifier type="pmid">28725112</identifier>
-      <identifier type="pmcid">PMC5508383</identifier>
-   </mods>
-   <mods>
-      <titleInfo>
-         <title>1910 Grand Parade</title>
-      </titleInfo>
-      <typeOfResource>still image</typeOfResource>
-      <genre authority="lctgm">postcards</genre>
+      <genre authority="marcgt">newspaper</genre>
+      <originInfo eventType="publication">
+         <place>
+            <placeTerm authority="marccountry" type="code">wyu</placeTerm>
+         </place>
+         <place>
+            <placeTerm type="text">Laramie, WY</placeTerm>
+         </place>
+         <publisher>
+      Associated Students of the University of Wyoming
+    </publisher>
+         <dateIssued>1923-</dateIssued>
+         <dateIssued encoding="marc" point="start">1923</dateIssued>
+         <issuance>continuing</issuance>
+         <frequency>Frequency varies</frequency>
+      </originInfo>
       <language>
          <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
       </language>
-      <abstract>Black and white photograph of a number of horse carriages on a country road with crowds around them.</abstract>
-      <identifier type="local">PEIP1-0012</identifier>
       <physicalDescription>
-         <form authority="marcform">nonprojected graphic</form>
-         <extent>1 postcard</extent>
+         <form authority="marcform">print</form>
+         <extent>v. : ill.</extent>
+         <digitalOrigin>reformatted digital</digitalOrigin>
       </physicalDescription>
-      <subject>
-         <hierarchicalGeographic>
-            <continent>North America</continent>
-            <country>Canada</country>
-            <province>PE</province>
-            <county>Queens</county>
-            <city>Charlottetown</city>
-         </hierarchicalGeographic>
-         <cartographics>
-            <coordinates>46.240278, -63.134722</coordinates>
-         </cartographics>
+      <note>Not published during academic breaks</note>
+      <subject authority="lcsh">
+         <topic>University of Wyoming</topic>
+         <topic>Newspapers</topic>
       </subject>
+      <subject authority="lcsh">
+         <topic>College student newspapers and periodicals</topic>
+         <topic>Wyoming</topic>
+      </subject>
+      <subject authority="lcsh">
+         <topic>Laramie (Wyo.)</topic>
+         <topic>Newspapers</topic>
+      </subject>
+      <relatedItem type="preceeding">
+         <titleInfo>
+            <title>Wyoming student</title>
+         </titleInfo>
+      </relatedItem>
+      <recordInfo>
+         <recordIdentifier>904243322</recordIdentifier>
+      </recordInfo>
+      <accessCondition xmlns:xlink="http://www.w3.org/1999/xlink"
+                       type="use and reproduction"
+                       displayLabel="Standardized rights statement"
+                       xlink:href="http://rightsstatements.org/vocab/UND/1.0/">Copyright Undetermined</accessCondition>
    </mods>
-   <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         version="3.4"
+   <mods>
+      <identifier type="local" displayLabel="PID">wyu71880:WYO1914</identifier>
+      <titleInfo>
+         <title>Wyo senior class of 1914</title>
+      </titleInfo>
+      <titleInfo type="alternative">
+         <title>Wyo yearbook</title>
+      </titleInfo>
+      <part>
+         <detail type="volume">
+            <number>06</number>
+         </detail>
+      </part>
+      <name type="corporate">
+         <namePart>University of Wyoming</namePart>
+         <namePart>Junior Class</namePart>
+      </name>
+      <typeOfResource>text</typeOfResource>
+      <originInfo>
+         <place>
+            <placeTerm type="text">Laramie, WY</placeTerm>
+         </place>
+         <publisher>University of Wyoming</publisher>
+         <dateIssued keyDate="yes">1914</dateIssued>
+         <issuance>continuing</issuance>
+         <copyrightDate>1914</copyrightDate>
+      </originInfo>
+      <language>
+         <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+      </language>
+      <physicalDescription>
+         <form authority="marcform">print</form>
+         <digitalOrigin>reformatted digital</digitalOrigin>
+      </physicalDescription>
+      <note type="statement of responsibility">Junior Class, University of Wyoming</note>
+      <subject authority="lcsh">
+         <name type="corporate">
+            <namePart>University of Wyoming</namePart>
+         </name>
+         <topic>Students -- Periodicals -- Yearbooks</topic>
+      </subject>
+      <accessCondition xmlns:xlink="http://www.w3.org/1999/xlink"
+                       displayLabel="Standardized rights statement"
+                       type="use and reproduction"
+                       xlink:href="http://rightsstatements.org/page/InC/1.0/">In Copyright</accessCondition>
+      <location>
+         <url usage="primary display">http://hdl.handle.net/10176/wyu:71880</url>
+      </location>
+   </mods>
+   <mods version="3.4"
          xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
       <identifier type="local" displayLabel="PID">wyu81104:RollFlower</identifier>
       <titleInfo>
@@ -1236,74 +1301,5 @@ of 0.33%.</abstract>
       <location>
         <url usage="primary display">http://hdl.handle.net/10176/wyu:81104</url>
       </location>
-   </mods>
-   <mods>
-      <relatedItem type="host">
-        <identifier type="lccn">cn 87080496</identifier>
-        <part>
-            <detail type="volume">
-                <number/>
-            </detail>
-            <detail type="issue">
-                <number/>
-            </detail>
-            <detail type="edition">
-                <number/>
-                <caption/>
-            </detail>
-        </part>
-      </relatedItem>
-      <titleInfo>
-        <nonSort>The</nonSort>
-        <title>Charlottetown Guardian</title>
-      </titleInfo>
-      <originInfo>
-        <dateIssued encoding="iso8601">1917-07-28T00:00:00.000Z</dateIssued>
-      </originInfo>
-      <identifier type="PID">guardian:19170728</identifier>
-      <note type="missing">missing page</note>
-   </mods>
-   <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         version="3.4"
-         xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-      <titleInfo>
-         <title>Maisie Adams T1 [Tape One]</title>
-      </titleInfo>
-      <name>
-         <namePart>Thompson, Reg "Dutch"</namePart>
-         <role>
-            <roleTerm type="text">creator</roleTerm>
-         </role>
-      </name>
-      <name>
-         <namePart>Adams (Lamont), Maisie</namePart>
-      </name>
-      <typeOfResource>sound recording-nonmusical</typeOfResource>
-      <genre authority="dct">sound</genre>
-      <subject>
-         <cartographics>
-            <coordinates>46.514697,-63.517327</coordinates>
-         </cartographics>
-         <hierarchicalGeographic>
-            <continent>North America</continent>
-            <country>Canada</country>
-            <province>Prince Edward Island</province>
-            <county>Queens</county>
-            <region/>
-            <city>French River</city>
-            <area>Lot 21</area>
-            <citySection/>
-         </hierarchicalGeographic>
-         <geographic>French River, PE</geographic>
-      </subject>
-      <note>This interview is with Maisie Adams (nee Lamont) of French River and Summerside, P.E.I. In this interview Maisie talks about running the lighthouse in French River, storms and drownings, ships in the harbour, family, rum running, foxes, The Great Depression, stores in French River, WWI, the Spanish Flu, and a story about a bank robbery.</note>
-      <originInfo>
-         <dateOther>1997-04-11</dateOther>
-      </originInfo>
-      <physicalDescription>
-         <note>01:03:40</note>
-      </physicalDescription>
-      <identifier type="local">ivoices:ivoices20100622acass002</identifier>
-      <accessCondition>All content on this site is made available for personal research and private study only. Any other reuse, reproduction, or re-purposing may require the permission of the rightsholder(s); please contact the UPEI Library for more information on permissions/clearances.</accessCondition>
    </mods>
 </modsCollection>
