@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    xpath-default-namespace="http://www.loc.gov/mods/v3" exclude-result-prefixes="xs mods #default" version="2.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:mods="http://www.loc.gov/mods/v3"
     xmlns="http://www.loc.gov/mods/v3"
-    xmlns:mods="http://www.loc.gov/mods/v3">
+    xpath-default-namespace="http://www.loc.gov/mods/v3"
+    version="2.0">
 
     <!--   
     This stylesheet merges a directory of MODS XML files into a single XML file 
@@ -20,7 +22,11 @@
 
     <!-- Creates the root modsCollection element and calls XML documents in the named directory -->
     <xsl:template match="/">
-        <modsCollection>
+        <modsCollection xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xmlns:mods="http://www.loc.gov/mods/v3"
+            xmlns="http://www.loc.gov/mods/v3">
             <xsl:apply-templates select="collection($directoryName)//mods"/>
         </modsCollection>
     </xsl:template>
