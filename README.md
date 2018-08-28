@@ -67,9 +67,12 @@ The CLAW Migration participants are interested in the application of [OpenRefine
 ## Known Issues & Intended Improvements
 
 * 'Agent' fields / name/* elements need additional logic
+* Pull out the added PID identifier as its own column
+* Handling of tab characters within cells (?)
 * Handling of empty elements (extra/leading/trailing delimiters in cells)
 * Handling of values stored in attributes instead of as text nodes
 * Develop additional stylesheet to identify XPaths in metadata set that are *not* included in output
+* Update in tandem with additional mapped elements
 
 
 ## Notes on Processing with Saxon
