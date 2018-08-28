@@ -20,7 +20,7 @@ The original "XPaths To CSV" process is a proof of concept only. It represents e
 General workflow is to:
 1. [Export/prepare source XML metadata](#1-prepare-a-single-source-mods-xml-document)
 1. [Build a TSV file by evaluating the source metadata document against the field list](#2-build-a-tsv-file-of-the-metadata-evaluated-against-the-list-of-fields)
-1. [Use the output for automated and/or manual metadata reconciliation](#3-use-the-output-for-metadata-review-and-reconciliation)
+1. [Use the output for automated and/or manual metadata reconciliation](#3-use-the-output-for-metadata-cleanup-and-reconciliation)
 
 
 ### 1. Prepare a single source MODS XML document
@@ -82,4 +82,4 @@ First, be sure to have downloaded Saxon to your local machine. The example comma
  * `java -jar saxon9he.jar -s:sample_data/sample_xpaths.xml -xsl:field_list.xsl -o:sample_data/sample_fields.xml`
  * `java -jar saxon9he.jar -s:sample_data/sample_mods.xml -xsl:csv_maker.xsl -o:sample_data/sample_csv.csv headerFile=sample_data/sample_fields.xml`
 
-Saxon HE is on SourceForge, somewhere like this: https://sourceforge.net/projects/saxon/files/Saxon-HE/9.8/
+Saxon HE is on SourceForge: https://sourceforge.net/projects/saxon/files/Saxon-HE/9.8/
