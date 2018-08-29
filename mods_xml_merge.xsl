@@ -44,7 +44,7 @@
          -->
     <xsl:template match="mods/*[1]">
         <xsl:if test="contains(base-uri(.), '_MODS.xml')">
-            <identifier type="local" displayLabel="PID">
+            <identifier type="local" displayLabel="7.X PID">
                 <xsl:value-of
                     select="replace(replace(substring-after(base-uri(.), $directoryName), '_MODS.xml', ''), '_', ':')"
                 />

@@ -1109,7 +1109,6 @@ of 0.33%.</abstract>
       </location>
    </mods>
    <mods>
-      <identifier type="local" displayLabel="PID">wyu168835:brandingIron</identifier>
       <titleInfo>
          <nonSort>The</nonSort>
          <title>
@@ -1188,7 +1187,6 @@ of 0.33%.</abstract>
                        xlink:href="http://rightsstatements.org/vocab/UND/1.0/">Copyright Undetermined</accessCondition>
    </mods>
    <mods>
-      <identifier type="local" displayLabel="PID">wyu71880:WYO1914</identifier>
       <titleInfo>
          <title>Wyo senior class of 1914</title>
       </titleInfo>
@@ -1238,7 +1236,6 @@ of 0.33%.</abstract>
    </mods>
    <mods version="3.4"
          xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-      <identifier type="local" displayLabel="PID">wyu81104:RollFlower</identifier>
       <titleInfo>
          <title>Rolling Flower</title>
       </titleInfo>
