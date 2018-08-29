@@ -4,52 +4,52 @@
                 xmlns:mods="http://www.loc.gov/mods/v3"
                 xmlns="http://www.loc.gov/mods/v3">
    <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd">
-        <mods:titleInfo>
+      <mods:titleInfo>
             <mods:title>Ômi Province: Lake Biwa, Ishiyama Temple from the series Famous Places in the Sixty-odd Provinces, woodblock print, ink and color on paper</mods:title>
         </mods:titleInfo>
-        <mods:language>
-            <mods:languageTerm type="code" authority="iso639-2b">zxx</mods:languageTerm>
-            <mods:languageTerm type="text">Not applicable</mods:languageTerm>
-        </mods:language>
-        <mods:typeOfResource>still image</mods:typeOfResource>
-        <mods:originInfo>
-            <mods:dateCreated>circa 1853</mods:dateCreated>
-            <mods:dateCreated point="start">1848</mods:dateCreated>
-            <mods:dateCreated point="end">1858</mods:dateCreated>
-        </mods:originInfo>
-        <mods:name type="personal" authority="oclc_naf">
-            <mods:role>
-                <mods:roleTerm type="text" authority="marcrelator">creator</mods:roleTerm>
-                <mods:roleTerm type="code" authority="marcrelator">cre</mods:roleTerm>
-            </mods:role>
-            <mods:namePart type="family">Andō</mods:namePart>
-            <mods:namePart type="given">Hiroshige</mods:namePart>
-            <mods:namePart type="date">1797-1858</mods:namePart>
-            <mods:displayForm>Andō, Hiroshige, 1797-1858</mods:displayForm>
-        </mods:name>
-        <mods:physicalDescription>
-            <mods:note displayLabel="Physical Characteristics and Technical Requirements note">image/tiff</mods:note>
-            <mods:extent>1 file</mods:extent>
-            <mods:note displayLabel="Material Specific Details note">reformatted digital</mods:note>
-            <mods:note displayLabel="General Physical Description note">25 cm X 36.5 cm</mods:note>
-        </mods:physicalDescription>
-        <mods:accessCondition type="useAndReproduction" displayLabel="Conditions Governing Use note">These materials are made available for use in research, teaching and private study, pursuant to U.S. Copyright Law. The user must assume full responsibility for any use of the materials, including but not limited to, infringement of copyright and publication rights of reproduced materials. Any materials used for academic research or otherwise should be fully credited with the source. The original artists may retain copyright to the materials.</mods:accessCondition>
-        <mods:relatedItem type="host">
-            <mods:titleInfo>
-                <mods:title>Japanese prints collection</mods:title>
-            </mods:titleInfo>
-            <mods:originInfo>
-                <mods:dateCreated>circa 1765-1964 (bulk 1780-1860)</mods:dateCreated>
-                <mods:dateCreated point="start">1765</mods:dateCreated>
-                <mods:dateCreated point="end">1964</mods:dateCreated>
-            </mods:originInfo>
-            <mods:identifier type="local">MS.2013.043</mods:identifier>
-            <mods:location>
-                <mods:url>http://hdl.handle.net/2345/3820</mods:url>
-            </mods:location>
-        </mods:relatedItem>
-        <mods:note displayLabel="Digital object made available by ">Archives and Manuscripts Department, 140 Commonwealth Avenue, Chestnut Hill, MA, 02467, United States, (http://www.bc.edu/burns)</mods:note>
-    </mods:mods>
+      <mods:language>
+         <mods:languageTerm type="code" authority="iso639-2b">zxx</mods:languageTerm>
+         <mods:languageTerm type="text">Not applicable</mods:languageTerm>
+      </mods:language>
+      <mods:typeOfResource>still image</mods:typeOfResource>
+      <mods:originInfo>
+         <mods:dateCreated>circa 1853</mods:dateCreated>
+         <mods:dateCreated point="start">1848</mods:dateCreated>
+         <mods:dateCreated point="end">1858</mods:dateCreated>
+      </mods:originInfo>
+      <mods:name type="personal" authority="oclc_naf">
+         <mods:role>
+            <mods:roleTerm type="text" authority="marcrelator">creator</mods:roleTerm>
+            <mods:roleTerm type="code" authority="marcrelator">cre</mods:roleTerm>
+         </mods:role>
+         <mods:namePart type="family">Andō</mods:namePart>
+         <mods:namePart type="given">Hiroshige</mods:namePart>
+         <mods:namePart type="date">1797-1858</mods:namePart>
+         <mods:displayForm>Andō, Hiroshige, 1797-1858</mods:displayForm>
+      </mods:name>
+      <mods:physicalDescription>
+         <mods:note displayLabel="Physical Characteristics and Technical Requirements note">image/tiff</mods:note>
+         <mods:extent>1 file</mods:extent>
+         <mods:note displayLabel="Material Specific Details note">reformatted digital</mods:note>
+         <mods:note displayLabel="General Physical Description note">25 cm X 36.5 cm</mods:note>
+      </mods:physicalDescription>
+      <mods:accessCondition type="useAndReproduction" displayLabel="Conditions Governing Use note">These materials are made available for use in research, teaching and private study, pursuant to U.S. Copyright Law. The user must assume full responsibility for any use of the materials, including but not limited to, infringement of copyright and publication rights of reproduced materials. Any materials used for academic research or otherwise should be fully credited with the source. The original artists may retain copyright to the materials.</mods:accessCondition>
+      <mods:relatedItem type="host">
+         <mods:titleInfo>
+            <mods:title>Japanese prints collection</mods:title>
+         </mods:titleInfo>
+         <mods:originInfo>
+            <mods:dateCreated>circa 1765-1964 (bulk 1780-1860)</mods:dateCreated>
+            <mods:dateCreated point="start">1765</mods:dateCreated>
+            <mods:dateCreated point="end">1964</mods:dateCreated>
+         </mods:originInfo>
+         <mods:identifier type="local">MS.2013.043</mods:identifier>
+         <mods:location>
+            <mods:url>http://hdl.handle.net/2345/3820</mods:url>
+         </mods:location>
+      </mods:relatedItem>
+      <mods:note displayLabel="Digital object made available by ">Archives and Manuscripts Department, 140 Commonwealth Avenue, Chestnut Hill, MA, 02467, United States, (http://www.bc.edu/burns)</mods:note>
+   </mods:mods>
    <mods:mods version="3.6"
               xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd http://www.ndltd.org/standards/metadata/etdms/1.0/ http://www.ndltd.org/standards/metadata/etdms/1.0/etdms.xsd">
       <mods:titleInfo usage="primary">
@@ -65,7 +65,6 @@
             <mods:roleTerm authority="marcrelator" type="text">Author</mods:roleTerm>
             <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
          </mods:role>
-         <mods:nameIdentifier type="orcid"/>
       </mods:name>
       <mods:name type="personal">
          <mods:namePart type="family">Shakun</mods:namePart>
@@ -130,18 +129,11 @@
          <title>De symmetria partium in rectis formis humanorum</title>
          <subTitle/>
       </titleInfo>
-      <titleInfo type="alternative">
-         <title/>
-         <subTitle/>
-      </titleInfo>
       <titleInfo type="uniform">
-         <title/>
          <partNumber>Book 1-2. Latin</partNumber>
-         <subTitle/>
       </titleInfo>
       <name type="personal">
          <namePart>Albrecht Dürer</namePart>
-         <namePart type="date"/>
          <role>
             <roleTerm authority="marcrelator" type="text">creator</roleTerm>
          </role>
@@ -165,26 +157,16 @@
          </role>
       </name>
       <typeOfResource>text</typeOfResource>
-      <genre authority="gmgpc"/>
       <originInfo>
-         <place>
-            <placeTerm type="code" authority="marccountry"/>
-         </place>
          <place>
             <placeTerm type="text">Nuremberg (Germany)</placeTerm>
          </place>
          <publisher>Excudebatur ... In aedib. viduae Durerianae</publisher>
          <dateIssued>1532</dateIssued>
-         <dateIssued encoding="marc"/>
          <issuance>monographic</issuance>
-         <copyrightDate/>
-         <edition/>
       </originInfo>
       <language>
          <languageTerm authority="iso639-2b" type="code">Latin</languageTerm>
-      </language>
-      <language objectPart="translation">
-         <languageTerm authority="iso639-2b" type="code"/>
       </language>
       <physicalDescription>
          <form authority="marcform">print</form>
@@ -195,19 +177,10 @@
 &lt;p&gt;Verses by Eobanus Hessus on leaf A6.&lt;/p&gt;&#xD;
 &lt;p&gt;In Latin, translated from German, with Greek references; Fraktur script.&lt;/p&gt;&#xD;
 &lt;p&gt;&lt;a href="http://catalog.nyam.org/cgi-bin/koha/opac-detail.pl?biblionumber=262680"&gt;See catalog record for additional notes.&lt;/a&gt;&lt;/p&gt;</note>
-      <note/>
-      <note/>
-      <note/>
-      <note/>
-      <note/>
-      <note/>
-      <note/>
-      <note/>
       <note type="Height">31.8</note>
       <note type="Width">20.6</note>
       <note type="citation/reference">&lt;a href="http://catalog.nyam.org/cgi-bin/koha/opac-detail.pl?biblionumber=262680" target="_blank"&gt; Dürer, Albrecht, et al. &lt;em&gt;De symmetria partium in rectis formis humanorum&lt;/em&gt;. Nuremberg, 1532.</note>
       <subject authority="lcsh">
-         <topic/>
          <topic>Anatomy, Artistic</topic>
          <topic>Anthropometry</topic>
          <topic>Early works to 1800</topic>
@@ -217,22 +190,7 @@
          <topic>Proportion (Anthropometry)</topic>
          <topic>Proportion (Art)</topic>
          <topic>Wood-engraving—16th century</topic>
-         <geographic/>
-         <temporal/>
-         <hierarchicalGeographic>
-            <continent/>
-            <country/>
-            <province/>
-            <region/>
-            <county/>
-            <city/>
-            <citySection/>
-         </hierarchicalGeographic>
-         <cartographics>
-            <coordinates/>
-         </cartographics>
       </subject>
-      <classification authority="lcc"/>
       <relatedItem type="isReferencedBy">
          <note>Choulant, J.L. Anatomic ill., p. 145</note>
       </relatedItem>
@@ -248,7 +206,6 @@
       <relatedItem type="isReferencedBy">
          <note>Brunet, v. 2, column 914</note>
       </relatedItem>
-      <identifier type="lccn"/>
       <recordInfo>
          <recordContentSource authority="marcorg">ZCU</recordContentSource>
          <recordCreationDate encoding="marc">951113</recordCreationDate>
@@ -258,52 +215,23 @@
             <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
          </languageOfCataloging>
       </recordInfo>
-      <tableOfContents/>
       <abstract>Albrecht Dürer, printmaker and painter of the German Renaissance, was equally famous during his lifetime for contributions to the study of mathematics and proportion. In this text, Dürer treats the arithmetic and geometrical constructions of bodies, largely at rest.   Numerous woodcuts represent bodies male and female in various sizes and ages, and register their measurements. The ideas expressed in the De symmetria and the two complimentary volumes that followed, also on human proportion, were widely influential on artists and anatomists for centuries to come. This 1532 text in Latin contains the first two books of the results of this research, first published in German in 1528 as Vier Bücher von menschlicher Proportion (Four Books on Human Proportion.)   Dürer died shortly after receiving the first proofs of the German edition; the remaining publication details were completed by his friends. Our copy is bound in stamped pigskin, with a front panel illustrating Jacob’s ladder and a back panel depicting the baptism of Christ. The woodcut monogram Dürer developed in 1497 to protect his work from piracy is visible on the title page...&lt;a href="/Durer" class="purp" alt="Linked Read More text that goes to more information about De symmetria partium..."&gt;READ MORE&lt;/a&gt;</abstract>
-      <note type="statement of responsibility"/>
-      <classification edition="21" authority="ddc"/>
    </mods>
    <mods>
       <titleInfo>
          <title>MSC130-2256-01</title>
       </titleInfo>
       <name>
-         <namePart/>
          <role>
             <roleTerm type="text" authority="marcrelator">photographer</roleTerm>
             <roleTerm type="code" authority="marcrelator">pht</roleTerm>
          </role>
       </name>
-      <language>
-         <languageTerm type="text"/>
-      </language>
       <genre authority="gmgpc">Postcards</genre>
-      <identifier type="local"/>
-      <physicalDescription>
-         <extent/>
-      </physicalDescription>
-      <abstract/>
       <accessCondition type="use and reproduction">Images from the British Columbia Postcards Collection have been made available by Simon Fraser University Library   under a Creative Commons attribution, non-commercial license at http://creativecommons.org/licenses/by-nc/3.0/. A   full legal outline of the license can be viewed at: http://creativecommons.org/licenses/by-nc/3.0/legalcode &lt;BR&gt;&lt;BR&gt;We encourage the appropriate open use of images from this collection for educational and other not-for-profit   purposes. Attribution/citation should be provided as follows:  Image [insert image number here, eg. MSC130-2144-01]   courtesy of the British Columbia Postcards Collection, a digital initiative of Simon Fraser University Library.   [Please include the website url when images are used in an offline or print-based context]. &lt;BR&gt;&lt;BR&gt;Parties interested in using high-resolution versions of the images from the British Columbia Postcards   Collection for commercial purposes should contact Special Collections and Rare Books, SFU Library.</accessCondition>
       <typeOfResource>still image</typeOfResource>
       <identifier type="uuid">fa40ca69-70ee-42bc-bd00-b7cbc20a240f</identifier>
       <identifier type="uri" invalid="yes" displayLabel="Migrated From">http://content.lib.sfu.ca/cdm/ref/collection/bcp/id/7926</identifier>
-      <originInfo>
-         <publisher/>
-         <dateIssued encoding="w3cdtf" keyDate="yes"/>
-      </originInfo>
-      <originInfo eventType="manufacture">
-         <publisher/>
-      </originInfo>
-      <originInfo eventType="publication">
-         <dateIssued encoding="w3cdtf"/>
-      </originInfo>
-      <subject>
-         <topic/>
-         <geographic/>
-         <cartographics>
-            <coordinates/>
-         </cartographics>
-      </subject>
       <extension>
          <CONTENTdmData>
             <alias>bcp</alias>
@@ -315,12 +243,6 @@
                        mimetype="text/xml"
                        source="http://content.lib.sfu.ca:81/dmwebservices/index.php?q=GetParent/bcp/7926/xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;parent&gt;7928&lt;/parent&gt;</GetParent>
          </CONTENTdmData>
-         <to type="SFU custom metadata for the British Columbia Postcards Collection"/>
-         <from type="SFU custom metadata for the British Columbia Postcards Collection"/>
-         <on_front_and_back type="SFU custom metadata for the British Columbia Postcards Collection"/>
-         <handwritten_date type="SFU custom metadata for the British Columbia Postcards Collection"/>
-         <postmark type="SFU custom metadata for the British Columbia Postcards Collection"/>
-         <booklet_information type="SFU custom metadata for the British Columbia Postcards Collection"/>
       </extension>
    </mods>
    <mods>
@@ -328,7 +250,6 @@
          <title>Bill Miner, Train Robber, 1906</title>
       </titleInfo>
       <name>
-         <namePart/>
          <role>
             <roleTerm type="text" authority="marcrelator">photographer</roleTerm>
             <roleTerm type="code" authority="marcrelator">pht</roleTerm>
@@ -349,20 +270,12 @@
       <identifier type="uri" invalid="yes" displayLabel="Migrated From">http://content.lib.sfu.ca/cdm/ref/collection/bcp/id/7928</identifier>
       <originInfo>
          <publisher>Vernon News Limited, Vernon (B.C.)</publisher>
-         <dateIssued encoding="w3cdtf" keyDate="yes"/>
-      </originInfo>
-      <originInfo eventType="manufacture">
-         <publisher/>
       </originInfo>
       <originInfo eventType="publication">
          <dateIssued encoding="w3cdtf">1906</dateIssued>
       </originInfo>
       <subject>
          <topic>Criminals</topic>
-         <geographic/>
-         <cartographics>
-            <coordinates/>
-         </cartographics>
       </subject>
       <extension>
          <CONTENTdmData>
@@ -389,12 +302,7 @@
 &lt;/cpd&gt;
 </dmGetCompoundObjectInfo>
          </CONTENTdmData>
-         <to type="SFU custom metadata for the British Columbia Postcards Collection"/>
-         <from type="SFU custom metadata for the British Columbia Postcards Collection"/>
          <on_front_and_back type="SFU custom metadata for the British Columbia Postcards Collection">[Front[ Bill Miner, Train Robber, 1906. [Back] The Vernon News Limited, Vernon, B.C.; Post Card; Address; Canadian Postage</on_front_and_back>
-         <handwritten_date type="SFU custom metadata for the British Columbia Postcards Collection"/>
-         <postmark type="SFU custom metadata for the British Columbia Postcards Collection"/>
-         <booklet_information type="SFU custom metadata for the British Columbia Postcards Collection"/>
       </extension>
    </mods>
    <mods>
@@ -594,10 +502,8 @@
             <country>Canada</country>
             <province>Prince Edward Island</province>
             <county>Queens</county>
-            <region/>
             <city>French River</city>
             <area>Lot 21</area>
-            <citySection/>
          </hierarchicalGeographic>
          <geographic>French River, PE</geographic>
       </subject>
@@ -628,11 +534,11 @@
         </part>
       </relatedItem>
       <titleInfo>
-        <nonSort>The</nonSort>
-        <title>Charlottetown Guardian</title>
+         <nonSort>The</nonSort>
+         <title>Charlottetown Guardian</title>
       </titleInfo>
       <originInfo>
-        <dateIssued encoding="iso8601">1917-07-28T00:00:00.000Z</dateIssued>
+         <dateIssued encoding="iso8601">1917-07-28T00:00:00.000Z</dateIssued>
       </originInfo>
       <identifier type="PID">guardian:19170728</identifier>
       <note type="missing">missing page</note>
@@ -642,22 +548,19 @@
          <title>Page 2</title>
       </titleInfo>
       <part>
-        <extent unit="pages">
+         <extent unit="pages">
             <start>0188</start>
-        </extent>
-        <detail type="page number">
+         </extent>
+         <detail type="page number">
             <number>2</number>
-        </detail>
+         </detail>
       </part>
       <relatedItem type="original">
-        <physicalDescription>
-            <form type="microfilm"/>
-        </physicalDescription>
-        <identifier type="reel number">33</identifier>
-        <identifier type="reel sequence number">0188</identifier>
-        <location>
+         <identifier type="reel number">33</identifier>
+         <identifier type="reel sequence number">0188</identifier>
+         <location>
             <physicalLocation authority="marcorg" displayLabel="Source Repository">PCU</physicalLocation>
-        </location>
+         </location>
       </relatedItem>
       <identifier type="PID">guardian:19170728-002</identifier>
       <note type="agencyResponsibleForReproduction"
@@ -1109,6 +1012,7 @@ of 0.33%.</abstract>
       </location>
    </mods>
    <mods>
+      <identifier type="local" displayLabel="7.X PID">wyu168835:brandingIron</identifier>
       <titleInfo>
          <nonSort>The</nonSort>
          <title>
@@ -1187,6 +1091,7 @@ of 0.33%.</abstract>
                        xlink:href="http://rightsstatements.org/vocab/UND/1.0/">Copyright Undetermined</accessCondition>
    </mods>
    <mods>
+      <identifier type="local" displayLabel="7.X PID">wyu71880:WYO1914</identifier>
       <titleInfo>
          <title>Wyo senior class of 1914</title>
       </titleInfo>
@@ -1236,6 +1141,7 @@ of 0.33%.</abstract>
    </mods>
    <mods version="3.4"
          xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+      <identifier type="local" displayLabel="7.X PID">wyu81104:RollFlower</identifier>
       <titleInfo>
          <title>Rolling Flower</title>
       </titleInfo>
@@ -1296,7 +1202,7 @@ of 0.33%.</abstract>
       </physicalDescription>
       <accessCondition type="useAndReproduction">You may use the digital images and catalog records found on this website for private study, scholarship or research.</accessCondition>
       <location>
-        <url usage="primary display">http://hdl.handle.net/10176/wyu:81104</url>
+         <url usage="primary display">http://hdl.handle.net/10176/wyu:81104</url>
       </location>
    </mods>
 </modsCollection>

@@ -31,10 +31,11 @@
         </modsCollection>
     </xsl:template>
 
-    <!-- Identity transform to copy the contents of each MODS XML file -->
+    <!-- Identity transform to copy the contents of each MODS XML file;
+        Removes empty elements and attributes. -->
     <xsl:template match="@* | node()">
         <xsl:copy copy-namespaces="no">
-            <xsl:apply-templates select="@* | node()"/>
+            <xsl:apply-templates select="@*[normalize-space()] | node()[normalize-space()]"/>
         </xsl:copy>
     </xsl:template>
 
