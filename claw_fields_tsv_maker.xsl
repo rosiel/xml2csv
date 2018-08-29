@@ -36,6 +36,7 @@
         <xsl:text>name/namePart[not(@type)] or name/displayForm [[role]]</xsl:text>
         <xsl:value-of select="$separator"/>
         <xsl:text>name/namePart[@type] [[role]]</xsl:text>
+        <xsl:value-of select="$separator"/>
         <xsl:text>identifier</xsl:text>
         <xsl:value-of select="$separator"/>
         <xsl:text>accessCondition</xsl:text>
@@ -76,7 +77,7 @@
         <xsl:for-each select="titleInfo[@type='translated']">
             <xsl:value-of select="normalize-space(.)"/>
             <xsl:if test="@xml:lang">
-                <xsl:text> [[</xsl:text>
+                <xsl:text> [[xml:lang=</xsl:text>
                 <xsl:value-of select="@xml:lang"/>
                 <xsl:text>]]</xsl:text>
             </xsl:if>
@@ -92,23 +93,48 @@
         </xsl:for-each>
         <xsl:value-of select="$separator"/>
         
-        <!-- START AGENT WORK 
-        <xsl:text>name/namePart[not(@type)] or name/displayForm [[role]]</xsl:text>
+        <!-- Cell value for Un-Typed Name -->
+        <xsl:for-each select="name[displayForm or namePart[not(@type)]]">
+            <xsl:choose>
+                <xsl:when test="displayForm">
+                    <xsl:for-each select="displayForm">
+                        <xsl:value-of select="normalize-space(.)"/>
+                        <xsl:if test="position()!=last()">
+                            <xsl:text>; </xsl:text>
+                        </xsl:if>
+                    </xsl:for-each>
+                </xsl:when>
+                <xsl:when test="namePart[not(@type)]">
+                    <xsl:for-each select="namePart[not(@type)]">
+                        <xsl:value-of select="normalize-space(.)"/>
+                        <xsl:if test="position()!=last()">
+                            <xsl:text>; </xsl:text>
+                        </xsl:if>
+                    </xsl:for-each>
+                </xsl:when>
+            </xsl:choose>
+            <xsl:call-template name="role"/>
+            <xsl:if test="position()!=last()">
+                <xsl:text>||</xsl:text>
+            </xsl:if>
+        </xsl:for-each>
         <xsl:value-of select="$separator"/>
-        <xsl:text>name/namePart[@type] [[role]]</xsl:text>
-        -->
         
-        <!-- Cell value for Agent (with fields "Linked Agent" and "Role") -->
-        <xsl:for-each select="name[not(role/roleTerm)]">
-            <xsl:call-template name="agent"/>
-        </xsl:for-each>
-        <!-- Cell value for Agent (with Role of "Author") -->
-        <xsl:for-each select="name[role/roleTerm='aut']|name[role/roleTerm=lower-case('author')]">
-            <xsl:call-template name="agent"/>
-        </xsl:for-each>
-        <!-- Cell value for Agent (with Role of "Contributor") -->
-        <xsl:for-each select="name[role/roleTerm='ctb']|name[role/roleTerm=lower-case('contributor')]">
-            <xsl:call-template name="agent"/>
+        <!-- Cell value for Typed Name -->
+        <xsl:for-each select="name[namePart[@type]]">
+            <xsl:for-each select="namePart[@type]">
+                <xsl:value-of select="normalize-space(.)"/>
+                <xsl:text> [[type=</xsl:text>
+                <xsl:value-of select="@type"/>
+                <xsl:text>]]</xsl:text>
+                <xsl:if test="position()!=last()">
+                    <xsl:text>; </xsl:text>
+                </xsl:if>
+            </xsl:for-each>
+            <xsl:call-template name="role"/>
+            <xsl:if test="position()!=last()">
+                <xsl:text>||</xsl:text>
+            </xsl:if>
         </xsl:for-each>
         <xsl:value-of select="$separator"/>
         
@@ -172,8 +198,47 @@
         </xsl:if>
     </xsl:template>
     
-    <xsl:template name="agent">
+    <xsl:template name="role">
         <xsl:choose>
+            <xsl:when test="role">
+                <xsl:choose>
+                    <xsl:when test="role/roleTerm[@authority='marcrelator']">
+                        <xsl:text> [[marcrelators=</xsl:text>
+                        <xsl:choose>
+                            <xsl:when test="role/roleTerm[@authority='marcrelator'][@type='code']">
+                                <xsl:value-of select="role/roleTerm[@authority='marcrelator'][@type='code']"/>    
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:text>NULL</xsl:text>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                        <xsl:text>/</xsl:text>
+                        <xsl:choose>
+                            <xsl:when test="role/roleTerm[@authority='marcrelator'][@type='text']">
+                                <xsl:value-of select="role/roleTerm[@authority='marcrelator'][@type='text']"/>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:text>NULL</xsl:text>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                        <xsl:text>]]</xsl:text>
+                    </xsl:when>
+                    <!-- If the role does not have marcrelators as its authority, 
+                        then supply role of Contributor -->
+                    <xsl:otherwise>
+                        <xsl:text> [[marcrelators=ctb/Contributor]]</xsl:text>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:when>
+            <!-- If there is no role, then supply role of Contributor -->
+            <xsl:otherwise>
+                <xsl:text> [[marcrelators=ctb/Contributor]]</xsl:text>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    
+    <xsl:template name="agent">
+<!--        <xsl:choose>
             <xsl:when test="namePart[@type='family']">
                 <xsl:value-of select="namePart[@type='family']"/>
                 <xsl:if test="namePart[@type='given']">
@@ -190,7 +255,7 @@
         </xsl:choose>
         <xsl:if test="position()!=last()">
             <xsl:text>||</xsl:text>
-        </xsl:if>
+        </xsl:if>-->
     </xsl:template>
     
 </xsl:stylesheet>
