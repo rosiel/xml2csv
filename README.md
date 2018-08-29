@@ -4,7 +4,7 @@
 
 This repository includes several XSLT 2.0 stylesheets which combine to convert metadata records in XML format into a CSV / TSV document.
 
-The use case for which this was first developed was the export of MODS records from Islandora (specifically, the Louisiana Digital Library or LDL) and subsequent presentation of the metadata in spreadsheet format for sharing, editing, etc.
+The use case for which this was first developed was the export of MODS records from Islandora (specifically, the [Louisiana Digital Library](http://louisianadigitallibrary.org) or LDL) and subsequent presentation of the metadata in spreadsheet format for sharing, editing, etc.
 
 Current development is focused on Islandora 7.x to CLAW migration. Based on the [CLAW MIG Spring Prep Mapping spreadsheet](https://docs.google.com/spreadsheets/d/18u2qFJ014IIxlVpM3JXfDEFccwBZcoFsjbBGpvL0jJI/edit#gid=0) from the Islandora Metadata Interest Group, this tool uses the _Field Name in Drupal_ values to create column headers, and parses a given set of MODS XML records into a tab-separated table using the _xpath for MODS_ values.
 
@@ -12,8 +12,8 @@ The original "XPaths To CSV" process is a proof of concept only. It represents e
 
 ### Notes:  
 
-* In spite of the repository name, technically the output of the CLAW-focused branch of this project is in TSV (tab-separated) format. This is due to the higher frequency of commas in metadata fields versus tab characters.
-* Either XML editing/debugging software such as Oxygen or a command-line XSLT processor such as Saxon is required to run the transforms. Refer to the section on [Notes on Processing with Saxon](#notes-on-processing-with-saxon), below.
+* In spite of the repository name, technically the output of the CLAW-focused branch of this project is in TSV (tab-separated) format. This is due to the higher frequency of commas in metadata fields versus tab characters. Tab characters in fields are replaced with a single space using the [normalize-space()](http://www.xsltfunctions.com/xsl/fn_normalize-space.html) function, and therefore should not cause field misalignment problems in the resulting table.
+* Either XML editing/debugging software such as [Oxygen](https://www.oxygenxml.com/) or a command-line XSLT processor such as [Saxon](https://sourceforge.net/projects/saxon/files/Saxon-HE/9.8/) is required to run the transforms. Refer to the section on [Notes on Processing with Saxon](#notes-on-processing-with-saxon), below.
 
 ## Process
 
@@ -27,11 +27,11 @@ General workflow is to:
 
 **For exporting MODS XML records from Islandora 7.X**, we recommend [Islandora Datastream CRUD](https://github.com/SFULibrary/islandora_datastream_crud). This utility will produce one MODS XML file per PID.
 
-Merge the multiple MODS XML files into a single "MODS Collection" XML file with a `<modsCollection>` root element using **mods_xml_merge.xsl**.
+Merge the multiple MODS XML files into a single "MODS Collection" XML file with a `<modsCollection>` root element using **mods_xml_merge.xsl**. This stylesheet will remove empty elements and attributes from the source data.
 * _Usage:_ With the location of the XML files as the _directoryName_ parameter and the XSLT file itself as the source, run **mods_xml_merge.xsl** in Oxygen, or at the command line with Saxon:
   * `java -jar saxon9he.jar -s:mods_xml_merge.xsl -xsl:mods_xml_merge.xsl -o:MIG_sample_data/sample_mods.xml directoryName=MIG_sample_data/input_directory/`  
   * The input directory (with its path) is passed in as the 'directoryName' parameter, INCLUDING the trailing slash.  
-* This stylesheet also adds an `<identifier>` element to each MODS record, with the item's PID as its value, derived from the MODS XML filename as formatted by the Islandora Datastream CRUD output.
+* Where applicable, this stylesheet also adds an `<identifier>` element to each MODS record, with the item's PID as its value, derived from the MODS XML filename as formatted by the Islandora Datastream CRUD output.
 
 ![Screenshot of modsCollection document in Oxygen](assets/claw_modscollection_oxygen.png)
 
@@ -52,7 +52,9 @@ The resulting TSV file can be opened and edited with a regular spreadsheet-viewi
 
 Review, cleanup, and reconciliation is up to the user. For some purposes, a spreadsheet application may be sufficient.
 
-The CLAW Migration participants are interested in the application of [OpenRefine](http://openrefine.org/). To create an OpenRefine project based on the TSV output, use the following settings:
+The CLAW Migration participants are interested in the application of [OpenRefine](http://openrefine.org/), including the use of [Conciliator](https://github.com/codeforkjeff/conciliator) reconciliation services.
+
+To create an OpenRefine project based on the TSV output, use the following settings:
 * Select the TSV output file
 * For 'Parse the data as' select 'CSV / TSV / separator-based files'
 * For 'Character encoding' use 'UTF-8'
@@ -66,10 +68,6 @@ The CLAW Migration participants are interested in the application of [OpenRefine
 
 ## Known Issues & Intended Improvements
 
-* 'Agent' fields / name/* elements need additional logic
-* Pull out the added PID identifier as its own column
-* Handling of tab characters within cells (?)
-* Handling of empty elements (extra/leading/trailing delimiters in cells)
 * Handling of values stored in attributes instead of as text nodes
 * Develop additional stylesheet to identify XPaths in metadata set that are *not* included in output
 * Update in tandem with additional mapped elements
@@ -80,9 +78,7 @@ The CLAW Migration participants are interested in the application of [OpenRefine
 First, be sure to have downloaded Saxon to your local machine. The example commands here (copied from above) assume that it is available from the root of the directory created when you clone this repository. If you downloaded it here, great! Otherwise, it may be useful to make a symbolic link/shortcut from the downloaded unzipped .jar location (shown as /opt/saxon) to this directory, as shown in the first step:
 
 * `ln -s /opt/saxon/saxon9he.jar saxon9he.jar`
-* `java -jar saxon9he.jar -s:mods_xml_merge.xsl -xsl:mods_xml_merge.xsl -o:sample_data/sample_mods.xml directoryName=sample_data/input_directory/`
- * `java -jar saxon9he.jar -s:sample_data/sample_mods.xml -xsl:xpath_list.xsl -o:sample_data/sample_xpaths.xml`
- * `java -jar saxon9he.jar -s:sample_data/sample_xpaths.xml -xsl:field_list.xsl -o:sample_data/sample_fields.xml`
- * `java -jar saxon9he.jar -s:sample_data/sample_mods.xml -xsl:csv_maker.xsl -o:sample_data/sample_csv.csv headerFile=sample_data/sample_fields.xml`
+* `java -jar saxon9he.jar -s:mods_xml_merge.xsl -xsl:mods_xml_merge.xsl -o:MIG_sample_data/sample_mods.xml directoryName=MIG_sample_data/input_directory/`
+* `java -jar saxon9he.jar -s:MIG_sample_data/sample_mods.xml -xsl:claw_fields_tsv_maker.xsl -o:MIG_sample_data/sample_output.tsv`
 
 Saxon HE is on SourceForge: https://sourceforge.net/projects/saxon/files/Saxon-HE/9.8/
