@@ -17,13 +17,35 @@
     
     <!-- Begin header row -->
     <!-- 
-        Uses the Field Name in Drupal values from the CLAW MIG Spring Prep Mapping spreadsheet, at 
-        https://docs.google.com/spreadsheets/d/18u2qFJ014IIxlVpM3JXfDEFccwBZcoFsjbBGpvL0jJI/edit#gid=0 to create column headers.
-        
-        Note: mods/physicalDescription/extent and mods/typeOfResource had no value in this column, so their RDF mapping value was used instead. 
+        Uses the mappings from the CLAW MIG Spring Prep Mapping spreadsheet, at 
+        https://docs.google.com/spreadsheets/d/18u2qFJ014IIxlVpM3JXfDEFccwBZcoFsjbBGpvL0jJI/edit#gid=0.
+        The mapped XPaths are used to create column headers.
     -->
     <xsl:template name="headerRow">
-        <xsl:text>Title&#9;Title (in a different language)&#9;Alternative Title&#9;Agent (with fields &quot;Linked Agent&quot; and &quot;Role&quot;)&#9;Agent (with Role of &quot;Author&quot;)&#9;Agent (with Role of &quot;Contributor&quot;)&#9;Agent (with various Role values)&#9;Identifier&#9;Rights [multi-valued field]&#9;Date&#9;Date Issued&#9;Date Created&#9;dc:format&#9;dcterms:type&#9;Mime Type&#xa;</xsl:text>
+        <xsl:text>titleInfo[not(@type)]&#9;</xsl:text>
+        <xsl:text>titleInfo[@type='translated']</xsl:text>
+        <xsl:value-of select="$partition"/>
+        <xsl:text>titleInfo[@type='alternative' or @type='abbreviated' or @type='uniform']</xsl:text>
+        <xsl:value-of select="$partition"/>
+        <xsl:text>name</xsl:text>
+        <xsl:value-of select="$partition"/>
+        <xsl:text>identifier</xsl:text>
+        <xsl:value-of select="$partition"/>
+        <xsl:text>accessCondition</xsl:text>
+        <xsl:value-of select="$partition"/>
+        <xsl:text>originInfo/dateOther</xsl:text>
+        <xsl:value-of select="$partition"/>
+        <xsl:text>originInfo/dateIssued</xsl:text>
+        <xsl:value-of select="$partition"/>
+        <xsl:text>originInfo/dateCreated</xsl:text>
+        <xsl:value-of select="$partition"/>
+        <xsl:text>physicalDescription/extent</xsl:text>
+        <xsl:value-of select="$partition"/>
+        <xsl:text>typeOfResource</xsl:text>
+        <xsl:value-of select="$partition"/>
+        <xsl:text>physicalDescription/internetMediaType</xsl:text>
+        <!-- New line for next record -->
+        <xsl:text>&#xa;</xsl:text>
     </xsl:template>
     <!-- End header row -->
     
@@ -56,26 +78,20 @@
         </xsl:for-each>
         <xsl:value-of select="$partition"/>
         
+        <!-- START AGENT WORK -->
+        
         <!-- Cell value for Agent (with fields "Linked Agent" and "Role") -->
         <xsl:for-each select="name[not(role/roleTerm)]">
             <xsl:call-template name="agent"/>
         </xsl:for-each>
-        <xsl:value-of select="$partition"/>
-        
         <!-- Cell value for Agent (with Role of "Author") -->
         <xsl:for-each select="name[role/roleTerm='aut']|name[role/roleTerm=lower-case('author')]">
             <xsl:call-template name="agent"/>
         </xsl:for-each>
-        <xsl:value-of select="$partition"/>
-        
         <!-- Cell value for Agent (with Role of "Contributor") -->
         <xsl:for-each select="name[role/roleTerm='ctb']|name[role/roleTerm=lower-case('contributor')]">
             <xsl:call-template name="agent"/>
         </xsl:for-each>
-        <xsl:value-of select="$partition"/>
-        
-        <!-- Cell value for Agent (with various Role values) -->
-       
         <xsl:value-of select="$partition"/>
         
         <!-- Cell value for Identifier -->
