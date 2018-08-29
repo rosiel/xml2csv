@@ -68,14 +68,17 @@
         
         <!-- Cell value for Main Title -->
         <xsl:for-each select="titleInfo[not(@type)]">
-            <xsl:call-template name="cell"/>
+            <xsl:call-template name="titleInfo"/>
+            <xsl:if test="position()!=last()">
+                <xsl:text>||</xsl:text>
+            </xsl:if>
         </xsl:for-each>
         <xsl:value-of select="$separator"/>
         
         <!-- Cell value for Translated Title;
             Value of @xml:lang in double square brackets. -->
         <xsl:for-each select="titleInfo[@type='translated']">
-            <xsl:value-of select="normalize-space(.)"/>
+            <xsl:call-template name="titleInfo"/>
             <xsl:if test="@xml:lang">
                 <xsl:text> [[xml:lang=</xsl:text>
                 <xsl:value-of select="@xml:lang"/>
@@ -89,7 +92,10 @@
         
         <!-- Cell value for Alternative Title -->
         <xsl:for-each select="titleInfo[@type='alternative' or @type='abbreviated' or @type='uniform']">
-            <xsl:call-template name="cell"/>
+            <xsl:call-template name="titleInfo"/>
+            <xsl:if test="position()!=last()">
+                <xsl:text>||</xsl:text>
+            </xsl:if>
         </xsl:for-each>
         <xsl:value-of select="$separator"/>
         
@@ -237,25 +243,25 @@
         </xsl:choose>
     </xsl:template>
     
-    <xsl:template name="agent">
-<!--        <xsl:choose>
-            <xsl:when test="namePart[@type='family']">
-                <xsl:value-of select="namePart[@type='family']"/>
-                <xsl:if test="namePart[@type='given']">
-                    <xsl:text>,</xsl:text>
-                    <xsl:for-each select="namePart[@type='given']">
-                        <xsl:text> </xsl:text>
-                        <xsl:value-of select="."/>    
-                    </xsl:for-each>
-                </xsl:if>
-            </xsl:when>
-            <xsl:otherwise>
+    <xsl:template name="titleInfo">
+        <xsl:if test="nonSort">
+            <xsl:value-of select="normalize-space(nonSort)"/>
+            <xsl:text> </xsl:text>
+        </xsl:if>
+        <xsl:value-of select="normalize-space(title)"/>
+        <xsl:if test="subTitle">
+            <xsl:text>: </xsl:text>
+            <xsl:value-of select="normalize-space(subTitle)"/>
+        </xsl:if>
+        <xsl:if test="partName|partNumber">
+            <xsl:for-each select="partName|partNumber">
+                <xsl:text>. </xsl:text>
                 <xsl:value-of select="normalize-space(.)"/>
-            </xsl:otherwise>
-        </xsl:choose>
-        <xsl:if test="position()!=last()">
-            <xsl:text>||</xsl:text>
-        </xsl:if>-->
+                <xsl:if test="position()=last()">
+                    <xsl:text>.</xsl:text>
+                </xsl:if>
+            </xsl:for-each>
+        </xsl:if>
     </xsl:template>
     
 </xsl:stylesheet>
