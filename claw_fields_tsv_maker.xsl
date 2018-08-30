@@ -33,9 +33,25 @@
         <xsl:value-of select="$separator"/>
         <xsl:text>titleInfo[@type='alternative' or @type='abbreviated' or @type='uniform']</xsl:text>
         <xsl:value-of select="$separator"/>
-        <xsl:text>name/namePart[not(@type)] or name/displayForm [[role]]</xsl:text>
+        <xsl:text>personal name/namePart[not(@type)] or name/displayForm [[role]]</xsl:text>
         <xsl:value-of select="$separator"/>
-        <xsl:text>name/namePart[@type] [[role]]</xsl:text>
+        <xsl:text>personal name/namePart[@type] [[role]]</xsl:text>
+        <xsl:value-of select="$separator"/>
+        <xsl:text>corporate name/namePart[not(@type)] or name/displayForm [[role]]</xsl:text>
+        <xsl:value-of select="$separator"/>
+        <xsl:text>corporate name/namePart[@type] [[role]]</xsl:text>
+        <xsl:value-of select="$separator"/>
+        <xsl:text>conference name/namePart[not(@type)] or name/displayForm [[role]]</xsl:text>
+        <xsl:value-of select="$separator"/>
+        <xsl:text>conference name/namePart[@type] [[role]]</xsl:text>
+        <xsl:value-of select="$separator"/>
+        <xsl:text>family name/namePart[not(@type)] or name/displayForm [[role]]</xsl:text>
+        <xsl:value-of select="$separator"/>
+        <xsl:text>family name/namePart[@type] [[role]]</xsl:text>
+        <xsl:value-of select="$separator"/>
+        <xsl:text>untyped name/namePart[not(@type)] or name/displayForm [[role]]</xsl:text>
+        <xsl:value-of select="$separator"/>
+        <xsl:text>untyped name/namePart[@type] [[role]]</xsl:text>
         <xsl:value-of select="$separator"/>
         <xsl:text>identifier</xsl:text>
         <xsl:value-of select="$separator"/>
@@ -99,48 +115,63 @@
         </xsl:for-each>
         <xsl:value-of select="$separator"/>
         
-        <!-- Cell value for Un-Typed Name -->
-        <xsl:for-each select="name[displayForm or namePart[not(@type)]]">
-            <xsl:choose>
-                <xsl:when test="displayForm">
-                    <xsl:for-each select="displayForm">
-                        <xsl:value-of select="normalize-space(.)"/>
-                        <xsl:if test="position()!=last()">
-                            <xsl:text>; </xsl:text>
-                        </xsl:if>
-                    </xsl:for-each>
-                </xsl:when>
-                <xsl:when test="namePart[not(@type)]">
-                    <xsl:for-each select="namePart[not(@type)]">
-                        <xsl:value-of select="normalize-space(.)"/>
-                        <xsl:if test="position()!=last()">
-                            <xsl:text>; </xsl:text>
-                        </xsl:if>
-                    </xsl:for-each>
-                </xsl:when>
-            </xsl:choose>
-            <xsl:call-template name="role"/>
-            <xsl:if test="position()!=last()">
-                <xsl:text>||</xsl:text>
-            </xsl:if>
+        <!-- Cell value for Simple Personal Name -->
+        <xsl:for-each select="name[@type='personal'][displayForm or namePart[not(@type)]]">
+            <xsl:call-template name="simpleName"/>
         </xsl:for-each>
         <xsl:value-of select="$separator"/>
         
-        <!-- Cell value for Typed Name -->
-        <xsl:for-each select="name[namePart[@type]]">
-            <xsl:for-each select="namePart[@type]">
-                <xsl:value-of select="normalize-space(.)"/>
-                <xsl:text> [[type=</xsl:text>
-                <xsl:value-of select="@type"/>
-                <xsl:text>]]</xsl:text>
-                <xsl:if test="position()!=last()">
-                    <xsl:text>; </xsl:text>
-                </xsl:if>
-            </xsl:for-each>
-            <xsl:call-template name="role"/>
-            <xsl:if test="position()!=last()">
-                <xsl:text>||</xsl:text>
-            </xsl:if>
+        <!-- Cell value for Compound Personal Name -->
+        <xsl:for-each select="name[@type='personal'][namePart[@type]]">
+            <xsl:call-template name="compoundName"/>
+        </xsl:for-each>
+        <xsl:value-of select="$separator"/>
+        
+        <!-- Cell value for Simple Corporate Name -->
+        <xsl:for-each select="name[@type='corporate'][displayForm or namePart[not(@type)]]">
+            <xsl:call-template name="simpleName"/>
+        </xsl:for-each>
+        <xsl:value-of select="$separator"/>
+        
+        <!-- Cell value for Compound Corporate Name -->
+        <xsl:for-each select="name[@type='corporate'][namePart[@type]]">
+            <xsl:call-template name="compoundName"/>
+        </xsl:for-each>
+        <xsl:value-of select="$separator"/>
+        
+        <!-- Cell value for Simple Conference Name -->
+        <xsl:for-each select="name[@type='conference'][displayForm or namePart[not(@type)]]">
+            <xsl:call-template name="simpleName"/>
+        </xsl:for-each>
+        <xsl:value-of select="$separator"/>
+        
+        <!-- Cell value for Compound Conference Name -->
+        <xsl:for-each select="name[@type='conference'][namePart[@type]]">
+            <xsl:call-template name="compoundName"/>
+        </xsl:for-each>
+        <xsl:value-of select="$separator"/>
+        
+        <!-- Cell value for Simple Family Name -->
+        <xsl:for-each select="name[@type='family'][displayForm or namePart[not(@type)]]">
+            <xsl:call-template name="simpleName"/>
+        </xsl:for-each>
+        <xsl:value-of select="$separator"/>
+        
+        <!-- Cell value for Compound Family Name -->
+        <xsl:for-each select="name[@type='family'][namePart[@type]]">
+            <xsl:call-template name="compoundName"/>
+        </xsl:for-each>
+        <xsl:value-of select="$separator"/>
+        
+        <!-- Cell value for Simple Un-Typed Name -->
+        <xsl:for-each select="name[not(@type)][displayForm or namePart[not(@type)]]">
+            <xsl:call-template name="simpleName"/>
+        </xsl:for-each>
+        <xsl:value-of select="$separator"/>
+        
+        <!-- Cell value for Compound Un-Typed Name -->
+        <xsl:for-each select="name[not(@type)][namePart[@type]]">
+            <xsl:call-template name="compoundName"/>
         </xsl:for-each>
         <xsl:value-of select="$separator"/>
         
@@ -200,6 +231,47 @@
     <xsl:template name="cell">
         <xsl:value-of select="normalize-space(.)"/>
         <xsl:if test="position()!=last()">
+            <xsl:text>||</xsl:text>
+        </xsl:if>
+    </xsl:template>
+    
+    <xsl:template name="simpleName">
+        <xsl:choose>
+            <xsl:when test="displayForm">
+                <xsl:for-each select="displayForm">
+                    <xsl:value-of select="normalize-space(.)"/>
+                    <xsl:if test="position() != last()">
+                        <xsl:text>; </xsl:text>
+                    </xsl:if>
+                </xsl:for-each>
+            </xsl:when>
+            <xsl:when test="namePart[not(@type)]">
+                <xsl:for-each select="namePart[not(@type)]">
+                    <xsl:value-of select="normalize-space(.)"/>
+                    <xsl:if test="position() != last()">
+                        <xsl:text>. </xsl:text>
+                    </xsl:if>
+                </xsl:for-each>
+            </xsl:when>
+        </xsl:choose>
+        <xsl:call-template name="role"/>
+        <xsl:if test="position() != last()">
+            <xsl:text>||</xsl:text>
+        </xsl:if>
+    </xsl:template>
+    
+    <xsl:template name="compoundName">
+        <xsl:for-each select="namePart[@type]">
+            <xsl:value-of select="normalize-space(.)"/>
+            <xsl:text> [[type=</xsl:text>
+            <xsl:value-of select="@type"/>
+            <xsl:text>]]</xsl:text>
+            <xsl:if test="position() != last()">
+                <xsl:text>. </xsl:text>
+            </xsl:if>
+        </xsl:for-each>
+        <xsl:call-template name="role"/>
+        <xsl:if test="position() != last()">
             <xsl:text>||</xsl:text>
         </xsl:if>
     </xsl:template>
