@@ -241,7 +241,7 @@
                 <xsl:for-each select="displayForm">
                     <xsl:value-of select="normalize-space(.)"/>
                     <xsl:if test="position() != last()">
-                        <xsl:text>; </xsl:text>
+                        <xsl:text>. </xsl:text>
                     </xsl:if>
                 </xsl:for-each>
             </xsl:when>
@@ -266,9 +266,6 @@
             <xsl:text> [[type=</xsl:text>
             <xsl:value-of select="@type"/>
             <xsl:text>]]</xsl:text>
-            <xsl:if test="position() != last()">
-                <xsl:text>. </xsl:text>
-            </xsl:if>
         </xsl:for-each>
         <xsl:call-template name="role"/>
         <xsl:if test="position() != last()">
