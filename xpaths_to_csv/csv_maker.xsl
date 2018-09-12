@@ -103,11 +103,11 @@
             </xsl:variable>
 
             <xsl:choose>
-                <xsl:when test="contains($value, ',')">
-                    <xsl:value-of select="concat('&quot;', $value, '&quot;')"/>
+                <xsl:when test="(contains($value, ',') or contains($value, '&quot;'))">
+                    <xsl:value-of select="concat('&quot;', replace($value, '&quot;', '&quot;&quot;'), '&quot;')"/>
                 </xsl:when>
                 <xsl:otherwise>
-                    <xsl:value-of select="$value"/>
+                    <xsl:value-of select="replace($value, '&quot;', '&quot;&quot;')"/>
                 </xsl:otherwise>
             </xsl:choose>
 
